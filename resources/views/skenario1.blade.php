@@ -6,7 +6,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="js/360js/360changeImage.js"></script>
+    <script src="js/360js/gantiGambarPreview.js"></script>
     <script src="js/lightbox.js"></script>
+    <script src="js/pemesananKamar.js"></script>
+    <script src="js/detailPage.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -345,6 +348,21 @@
             <br>
             <br>
         </div>
+        <div id="detailKamar" style="font-size:36px;display:none;background-color:white;padding:10px;"class="contain">
+            Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum loremHotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum loremHotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum loremHotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+        </div>
     </div>
 <br>
 <br>
@@ -352,90 +370,34 @@
 <div id="myModal" class="modal">
     <span  class="close cursor" onclick="closeModal()">&times;</span>
     <div class="modal-content">
-
-      <div class="mySlides">
-        <div class="numbertext">1 / 2</div>
-        <iframe
-            width="100%" style="height:1000px;"
-            allowfullscreen="allowfullscreen"
+        <div class="mySlides">
+            <div id="textnum"class="numbertext" style="font-size:24px;">1 / 2</div>
+            <iframe id="gambarutama"
+                width="100%" style="height:1000px;"
+                allowfullscreen="allowfullscreen"
                 mozallowfullscreen="mozallowfullscreen"
                 msallowfullscreen="msallowfullscreen"
                 oallowfullscreen="oallowfullscreen"
                 webkitallowfullscreen="webkitallowfullscreen"
-            src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"></iframe>
-      </div>
+                src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75">
+            </iframe>
+        </div>
 
-      <div class="mySlides">
-        <div class="numbertext">2 / 2</div>
-        <iframe
-            width="100%" style="height:1000px;"
-            allowfullscreen="allowfullscreen"
-                mozallowfullscreen="mozallowfullscreen"
-                msallowfullscreen="msallowfullscreen"
-                oallowfullscreen="oallowfullscreen"
-                webkitallowfullscreen="webkitallowfullscreen"
-            src="https://momento360.com/e/u/3c26621f3fc74286a6c32dc0769e3ee7?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"></iframe>
-      </div>
+        <div class="caption-container">
+            <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>
+        </div>
 
+        <div class="rows">
 
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      <div class="caption-container">
-        <p id="caption"></p>
-      </div>
-      <div class="rows">
-      <div class="column">
-        <img class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;"  onclick="currentSlide(1)" alt="Kamar Tidur">
-      </div>
-      <div class="column" >
-        <img class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;" onclick="currentSlide(2)" alt="Kamar Mandi">
-      </div>
+            <div class="column">
+                <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;"   onclick="gantiGambar1()" >
+            </div>
+            <div class="column" >
+                <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar()" >
+            </div>
+        </div>
     </div>
-
-
-    </div>
-  </div>
-<script>
-function myFunction() {
-  var x = document.getElementById("mobile");
-  var y = document.getElementById("mobile2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    y.style.display ="none"
-  } else {
-    y.style.display = "block";
-    x.style.display = "none";
-
-  }
-}
-</script>
-<script>
-function seeDetail() {
-  var x = document.getElementById("back2");
-  var x1 = document.getElementById("headerdetail2");
-  var z=document.getElementById("infomenginap");
-  var z1=document.getElementById("listkamar");
-  var y = document.getElementById("back");
-  var y1 = document.getElementById("headerdetail")
-  if (x.style.display == "none" && x1.style.display =="none" ) {
-    x.style.display = "block";
-    x1.style.display = "block";
-    y.style.display ="none";
-    y1.style.display ="none";
-    z.style.display="none";
-    z1.style.display="none";
-  } else {
-    y.style.display = "block";
-    y1.style.display = "block";
-    x.style.display = "none";
-    x1.style.display = "none";
-    z.style.display="block";
-    z1.style.display="block";
-  }
-}
-</script>
+</div>
 </body>
 <br><br><br><br><br>
 </html>
