@@ -231,17 +231,26 @@
             <div class="container-fluid">
                 <div class="navbar-header" >
                     <div class="rows">
-                    <div class="col-sm-2" style="padding:15px;">
-                    <button onclick="myFunction()">
-                        <img src="https://imgur.com/aksZmFn.png" width="60px;">
-                    </button>
-                    </div>
-                    <div class="col-sm-10" style="padding:5px;">
+                        <div id="back"class="col-sm-2" style="padding:15px;">
+                            <button onclick="myFunction()">
+                                <img src="https://imgur.com/aksZmFn.png" width="60px;">
+                            </button>
+                        </div>
+                        <div id="headerdetail"class="col-sm-10" style="padding:5px;">
 
+                                <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
+                                <span style="font-size:32px;color:white;">Bekasi, Jawa Barat</span>
+
+                        </div>
+                        <div id="back2"class="col-sm-2" style="padding:15px;display:none;">
+                            <button onclick="seeDetail()">
+                                <img src="https://imgur.com/aksZmFn.png" width="60px;">
+                            </button>
+                        </div>
+                        <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">
                             <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
-                            <span style="font-size:32px;color:white;">Bekasi, Jawa Barat</span>
-
-                    </div>
+                            <span style="font-size:32px;color:white;">Deluxe Room</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -249,24 +258,24 @@
         <br>
 
         <!--INFORMASI SEPUTAR MENGINAP-->
-        <div class="rows" style="background-color:white;padding:15px;border-radius:10px;">
-            <div style="width:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
-            <span><b>Check-in:</b><br></span>
-            <span style="color:#3A7765;">{{  now()->toDateString('Y-m-d') }}</span>
-            </div>
-            <div style="bwidth:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
-                <span><b>Durasi:</b><br></span>
-                <span style="color:#3A7765;">2 Malam</span>
-            </div>
-            <div style="width:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding-bottom:15px;" class="column3">
-                <span><b>Jumlah Tamu:</b><br></span>
-                <span style="color:#3A7765;">2 Tamu</span>
+        <div id="infomenginap">
+            <div  class="rows" style="background-color:white;padding:5px;border-radius:10px;">
+                <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
+                    <span><b>Check-in:</b><br></span>
+                    <span style="color:#3A7765;">{{  now()->toDateString('Y-m-d') }}</span>
+                </div>
+                <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
+                    <span><b>Durasi:</b><br></span>
+                    <span style="color:#3A7765;">2 Malam</span>
+                </div>
+                <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding-bottom:15px;" class="column3">
+                    <span><b>Jumlah Tamu:</b><br></span>
+                    <span style="color:#3A7765;">2 Tamu</span>
+                </div>
             </div>
         </div>
-        <br>
 
-
-        <div class="contain" style="padding:25px;">
+        <div id="listkamar" class="contain" style="padding:25px;">
             <div style="background-color:white;border-radius:15px;">
                 <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -325,7 +334,7 @@
                 <br><br><br>
                 <div class="rows" >
                     <span style="font-size:36px;padding-left:4%;padding-top:2%">
-                        LIHAT DETAIL</span>
+                        <a onclick="seeDetail();" style="color:blue;"><u>LIHAT DETAIL</u></a></span>
                     </span>
                     <span style="margin-left:35%">
                         <button class="but"> Pesan Sekarang </button>
@@ -341,13 +350,13 @@
 <br>
 <!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <span  class="close cursor" onclick="closeModal()">&times;</span>
     <div class="modal-content">
 
       <div class="mySlides">
         <div class="numbertext">1 / 2</div>
         <iframe
-            width="100%" style="height:500px;"
+            width="100%" style="height:1000px;"
             allowfullscreen="allowfullscreen"
                 mozallowfullscreen="mozallowfullscreen"
                 msallowfullscreen="msallowfullscreen"
@@ -359,7 +368,7 @@
       <div class="mySlides">
         <div class="numbertext">2 / 2</div>
         <iframe
-            width="100%" style="height:500px;"
+            width="100%" style="height:1000px;"
             allowfullscreen="allowfullscreen"
                 mozallowfullscreen="mozallowfullscreen"
                 msallowfullscreen="msallowfullscreen"
@@ -399,6 +408,31 @@ function myFunction() {
     y.style.display = "block";
     x.style.display = "none";
 
+  }
+}
+</script>
+<script>
+function seeDetail() {
+  var x = document.getElementById("back2");
+  var x1 = document.getElementById("headerdetail2");
+  var z=document.getElementById("infomenginap");
+  var z1=document.getElementById("listkamar");
+  var y = document.getElementById("back");
+  var y1 = document.getElementById("headerdetail")
+  if (x.style.display == "none" && x1.style.display =="none" ) {
+    x.style.display = "block";
+    x1.style.display = "block";
+    y.style.display ="none";
+    y1.style.display ="none";
+    z.style.display="none";
+    z1.style.display="none";
+  } else {
+    y.style.display = "block";
+    y1.style.display = "block";
+    x.style.display = "none";
+    x1.style.display = "none";
+    z.style.display="block";
+    z1.style.display="block";
   }
 }
 </script>
