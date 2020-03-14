@@ -258,7 +258,7 @@
                 </div>
             </div>
         </nav>
-        <br>
+
 
         <!--INFORMASI SEPUTAR MENGINAP-->
         <div id="infomenginap">
@@ -348,21 +348,34 @@
             <br>
             <br>
         </div>
-        <div id="detailKamar" style="font-size:36px;display:none;background-color:white;padding:10px;"class="contain">
-            Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum loremHotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum loremHotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum loremHotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-                Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+        <div id="detailKamar" style="display:none;">
+            <div class="contain" style="font-size:36px;background-color:white">
+                <iframe id="gambarutama"
+                    width="100%" style="height:700px;"
+                    allowfullscreen="allowfullscreen"
+                    mozallowfullscreen="mozallowfullscreen"
+                    msallowfullscreen="msallowfullscreen"
+                    oallowfullscreen="oallowfullscreen"
+                    webkitallowfullscreen="webkitallowfullscreen"
+                    src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75">
+                </iframe>
+                <br>
+                <p style="font-size:38px;margin-top:3%;padding:20px;"><b>Deluxe Room</b> </span><br>
+                    <hr style="border: 1px solid gray;">
+                <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;padding-top:2%;"> <img src="https://imgur.com/K5sza9m.png" height="30px" width="30px"> Tamu 2 orang</span><br>
+                <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;"><span style="color:red;">Belum </span>termasuk sarapan!</span><br>
+                <hr style="border: 1px solid gray;">
+                <span style="font-size:28px;padding-left:2%;margin-top:20%;padding-bottom:2%"><img src="https://i.ibb.co/zhwNWVp/money-2.png" height="30px" width="30px"> Pesan sekarang dan dapatkan sebanyak <span style="color:#3A7765">103 poin </span></span>
+                <br><br>
+            </div>
+            <p style="font-size:32px;padding-left:4%;padding-top:4%;padding-bottom:2%;"><b> Room Overview </b> </p>
+            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;">
+                <p>acncwacnawnaacncwacnawnaacncwacnawnaacncwacnawnaacncwacnawna
+                acncwacnawnaacncwacnawnaacncwacnawnaacncwacnawnaacncwacnawna
+                acncwacnawnaacncwacnawnaacncwacnawnaacncwacnawna</p>
+            </div>
         </div>
+
     </div>
 <br>
 <br>
