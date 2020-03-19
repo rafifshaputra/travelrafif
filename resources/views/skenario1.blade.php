@@ -347,15 +347,8 @@
                 <br>
                 <span class="navbar-brand" href="#" style="font-size:32px;padding-left:4%;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span></span>
                 <br><br><br>
-                <div class="rows" >
-                    <span style="font-size:36px;padding-left:4%;padding-top:2%">
-                        <a onclick="seeDetail();" style="color:blue;"><u>LIHAT DETAIL</u></a></span>
-                    </span>
-                    <span style="margin-left:35%">
-                        <button class="but"> Pesan Sekarang </button>
-                    </span>
-                </div>
-                <br><br>
+                        <button class="but" style="width:80%;margin-left:10%"onclick="seeDetail();"> Lihat Detail</button>
+                <br><br><br>
             </div>
             <br>
             <br>
@@ -366,7 +359,7 @@
                     <button onclick="nextsImage();" style="position:absolute;top:27%;left:87%;width:80px;background-color:rgba(0,0,0,0.1);">
                         <img src="/img/next.png" style="width:60px;height:60px;">
                     </button>
-                    <button onclick="nextsImage();" style="position:absolute;top:27%;left:5%;width:80px;background-color:rgba(0,0,0,0.1);">
+                    <button onclick="nextsImage();" style="position:absolute;top:27%;left:8%;width:80px;background-color:rgba(0,0,0,0.1);">
                         <img src="/img/left-arrow.png" style="width:60px;height:60px;">
                     </button>
                 <iframe id="detailutama"
@@ -466,7 +459,7 @@
             <br>
             <!--STICKY BOTTOM NAVBAR-->
             <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-                    <button style="width:100%;"> Pilih Kamar</button>
+                    <button style="width:100%;"> Pesan Kamar ini</button>
                 </span><br></a>
             </nav>
         </div>
