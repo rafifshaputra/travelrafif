@@ -164,10 +164,18 @@
         <!--KONTEN UTAMA-->
         <div class="contain" style="background-color:white;">
             <!--GAMBAR UTAMA-->
-            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:5%;left:84%;">
-                <img src="/img/360-degree.png" style="width:150px;height:150px;opacity:0.7">
+            <img src="/img/right-360.png" style="position:absolute;width:120px;height:120px;top:28%;left:80%;">
+            <img src="/img/left-360.png" style="position:absolute;width:120px;height:120px;top:28%;left:5%;">
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:47%;left:0%;">
+                <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7">
             </div>
-            <iframe width="90%" height="500px" allowFullScreen="true" style="display:block;  border:0 none;width:100%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px, rgba(0, 0, 0, 0.23) 0px 3px 20px;" src="https://panoraven.com/embed/uEGOVOcAB5"></iframe>
+            <iframe id="myImage" width="100%"
+            allowfullscreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen"
+                msallowfullscreen="msallowfullscreen"
+                oallowfullscreen="oallowfullscreen"
+                webkitallowfullscreen="webkitallowfullscreen"
+            src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
 
             <br>
             <!--ROW GAMBAR THUMBNAIL-->
