@@ -164,10 +164,9 @@
         <!--KONTEN UTAMA-->
         <div class="contain" style="background-color:white;">
             <!--GAMBAR UTAMA-->
-            <img src="/img/right-360.png" style="position:absolute;width:120px;height:120px;top:28%;left:80%;">
-            <img src="/img/left-360.png" style="position:absolute;width:120px;height:120px;top:28%;left:5%;">
-            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:47%;left:0%;">
-                <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7">
+
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:46%;left:0%;">
+                <img src="/img/360-degree.png" style="width:150px;height:150px;opacity:0.7">
             </div>
             <iframe id="myImage" width="100%"
             allowfullscreen="allowfullscreen"
