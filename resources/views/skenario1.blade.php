@@ -164,16 +164,10 @@
         <!--KONTEN UTAMA-->
         <div class="contain" style="background-color:white;">
             <!--GAMBAR UTAMA-->
-            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:6%;left:84%;">
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:5%;left:84%;">
                 <img src="/img/360-degree.png" style="width:150px;height:150px;opacity:0.7">
             </div>
-            <iframe id="myImage" width="100%"
-            allowfullscreen="allowfullscreen"
-                mozallowfullscreen="mozallowfullscreen"
-                msallowfullscreen="msallowfullscreen"
-                oallowfullscreen="oallowfullscreen"
-                webkitallowfullscreen="webkitallowfullscreen"
-            src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
+            <iframe width="90%" height="500px" allowFullScreen="true" style="display:block;  border:0 none;width:100%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 20px, rgba(0, 0, 0, 0.23) 0px 3px 20px;" src="https://panoraven.com/embed/uEGOVOcAB5"></iframe>
 
             <br>
             <!--ROW GAMBAR THUMBNAIL-->
