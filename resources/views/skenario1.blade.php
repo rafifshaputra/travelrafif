@@ -239,7 +239,7 @@
     <!-- HALAMAN PEMESANAN KAMAR-->
 
     <div class="mobile2" id="mobile2" >
-        <nav class="navbar navbar-default" style="background-color:#3A7765;">
+        <nav class="navbar fixed-top navbar-default " style="background-color:#3A7765;">
             <div class="container-fluid">
                 <div class="navbar-header" >
                     <div class="rows">
@@ -270,7 +270,7 @@
 
 
         <!--INFORMASI SEPUTAR MENGINAP-->
-        <div id="infomenginap">
+        <div id="infomenginap" style="margin-top:15%;">
             <div  class="rows" style="background-color:white;padding:5px;border-radius:10px;">
                 <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
                     <span><b>Check-in:</b><br></span>
@@ -357,7 +357,7 @@
             <br>
             <br>
         </div>
-        <div id="detailKamar" style="display:none;">
+        <div id="detailKamar" style="display:none;margin-top:12%;">
             <div class="contain" style="font-size:36px;background-color:white">
                 <iframe
                     width="100%" style="height:700px;"
