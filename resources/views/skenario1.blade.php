@@ -164,6 +164,9 @@
         <!--KONTEN UTAMA-->
         <div class="contain" style="background-color:white;">
             <!--GAMBAR UTAMA-->
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:5%;left:84%;">
+                <img src="/img/360-degree.png" style="width:150px;height:150px;opacity:0.7">
+            </div>
             <iframe id="myImage" width="100%"
             allowfullscreen="allowfullscreen"
                 mozallowfullscreen="mozallowfullscreen"
@@ -239,7 +242,7 @@
     <!-- HALAMAN PEMESANAN KAMAR-->
 
     <div class="mobile2" id="mobile2" >
-        <nav class="navbar fixed-top navbar-default " style="background-color:#3A7765;">
+        <nav id="mynav"class="navbar navbar-default" style="background-color:#3A7765;">
             <div class="container-fluid">
                 <div class="navbar-header" >
                     <div class="rows">
@@ -270,7 +273,7 @@
 
 
         <!--INFORMASI SEPUTAR MENGINAP-->
-        <div id="infomenginap" style="margin-top:15%;">
+        <div id="infomenginap" >
             <div  class="rows" style="background-color:white;padding:5px;border-radius:10px;">
                 <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
                     <span><b>Check-in:</b><br></span>
@@ -357,9 +360,13 @@
             <br>
             <br>
         </div>
-        <div id="detailKamar" style="display:none;margin-top:12%;">
+        <div id="detailKamar" style="display:none;">
             <div class="contain" style="font-size:36px;background-color:white">
-                <iframe
+                <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7;background-color:rgba(0,0,0,0.3);position:absolute;top:8%;left:86%;">
+                    <button onclick="nextsImage();" style="position:absolute;top:27%;left:87%;width:80px;background-color:rgba(0,0,0,0.2);">
+                        <img src="/img/next.png" style="width:60px;height:60px;">
+                    </button>
+                <iframe id="detailutama"
                     width="100%" style="height:700px;"
                     allowfullscreen="allowfullscreen"
                     mozallowfullscreen="mozallowfullscreen"
@@ -415,7 +422,7 @@
             <br>
             <!-- BATHROOM AMINITIES -->
             <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Bathroom Aminities</b> </p>
-            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:550px;">
+            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:600px;">
                 <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                     <li style="font-size:32px;padding-bottom:2%;"><b> Hot Water</b> </li>
                     <hr style="border: 1px solid #D3D3D3;">
@@ -423,6 +430,7 @@
                     <hr style="border: 1px solid #D3D3D3;">
                     <li style="font-size:32px;padding-top:4%;"><b>Toiletries</b> </li><br>
                     <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b>Hair Dryer</b> </li><br>
                 </div>
             </div><br>
             <!--ROOM AMINITIES -->
@@ -466,8 +474,11 @@
 <!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
     <span  class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
+    <div class="modal-content" style="margin-top:5%;">
         <div class="mySlides">
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:1%;left:84%;">
+                <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7">
+            </div>
             <div id="textnum"class="numbertext" style="font-size:24px;">1 / 2</div>
             <iframe id="gambarutama"
                 width="100%" style="height:1000px;"
@@ -522,7 +533,18 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+function nextsImage(){
+        if(document.getElementById('detailutama').src=="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"){
+            document.getElementById('detailutama').src="https://momento360.com/e/u/3c26621f3fc74286a6c32dc0769e3ee7?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
+        }
+        else{
+            document.getElementById('detailutama').src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
+        }
+
+    }
 </script>
+
 </body>
 <br><br><br><br><br>
 </html>
