@@ -14,7 +14,16 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/360css.css">
+<style>
 
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    background-color:white;
+  display: none;
+  overflow: hidden;
+}
+</style>
 
 </head>
 
@@ -350,7 +359,7 @@
         </div>
         <div id="detailKamar" style="display:none;">
             <div class="contain" style="font-size:36px;background-color:white">
-                <iframe id="gambarutama"
+                <iframe
                     width="100%" style="height:700px;"
                     allowfullscreen="allowfullscreen"
                     mozallowfullscreen="mozallowfullscreen"
@@ -368,12 +377,87 @@
                 <span style="font-size:28px;padding-left:2%;margin-top:20%;padding-bottom:2%"><img src="https://i.ibb.co/zhwNWVp/money-2.png" height="30px" width="30px"> Pesan sekarang dan dapatkan sebanyak <span style="color:#3A7765">103 poin </span></span>
                 <br><br>
             </div>
-            <p style="font-size:32px;padding-left:4%;padding-top:4%;padding-bottom:2%;"><b> Room Overview </b> </p>
-            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;">
-                <p>acncwacnawnaacncwacnawnaacncwacnawnaacncwacnawnaacncwacnawna
-                acncwacnawnaacncwacnawnaacncwacnawnaacncwacnawnaacncwacnawna
-                acncwacnawnaacncwacnawnaacncwacnawnaacncwacnawna</p>
+            <p style="font-size:32px;padding-left:4%;padding-top:4%;padding-bottom:2%;" ><b> Room Overview </b> </p>
+            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:360px;">
+                <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                    <div style="float:left;">
+                        <img src="img/size.png" width="60px" height="80px">
+                    </div>
+                    <div style="float:left;padding-left:5%">
+                        <span style="font-size:32px;"> <b>Room size </b></span><br>
+                        <span style="font-size:28px;">  26.0  sqm </span>
+                    </div>
+                </div>
+                <hr style="border: 1px solid #D3D3D3;">
+                <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                    <div style="float:left;">
+                        <img src="img/bed.png" width="50px" height="70px">
+                    </div>
+                    <div style="float:left;padding-left:5%">
+                        <span style="font-size:32px;"> <b>Bed Type </b></span><br>
+                        <span style="font-size:28px;">  2 Single bed or 1 Double Bed </span>
+                    </div>
+                </div>
             </div>
+            <br>
+            <!--BASIC FACILITIES -->
+            <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Basic Facilities </b> </p>
+            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:120px;">
+                <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                    <div style="float:left;">
+                        <img src="img/wi-fi.png" width="50px" height="50px">
+                    </div>
+                    <div style="float:left;padding-left:5%">
+                        <span style="font-size:32px;"> <b>Wifi surcharge</b></span><br>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- BATHROOM AMINITIES -->
+            <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Bathroom Aminities</b> </p>
+            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:550px;">
+                <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                    <li style="font-size:32px;padding-bottom:2%;"><b> Hot Water</b> </li>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b> Shower</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b>Toiletries</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                </div>
+            </div><br>
+            <!--ROOM AMINITIES -->
+            <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Room Aminities</b> </p>
+            <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:550px;">
+                <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                    <li style="font-size:32px;padding-bottom:2%;"><b> Air Conditioning</b> </li>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b> Complimentary Bottled Water</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b> Coffee/Tea Maker</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                </div>
+                <a class="accordion" id="amt"style="color:#3A7765;padding-left:4%;" ><u>More Room Aminities</u></a>
+                <div class="panel" style="padding-left:4%;width:100%">
+                    <li style="font-size:32px;padding-top:4%;"><b> Regrigerator</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b> Television</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b> Desk</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b> In-room safe</b> </li><br>
+                    <hr style="border: 1px solid #D3D3D3;">
+                    <li style="font-size:32px;padding-top:4%;"><b> Blackout drapes/curtains</b> </li>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!--STICKY BOTTOM NAVBAR-->
+            <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
+                    <button style="width:100%;"> Pilih Kamar</button>
+                </span><br></a>
+            </nav>
         </div>
 
     </div>
@@ -411,6 +495,34 @@
         </div>
     </div>
 </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+      document.getElementById('amt').innerHTML= "More Room Aminities";
+      document.getElementById('amt').style.textDecoration = "underline";
+
+
+    } else {
+      panel.style.display = "block";
+      document.getElementById('amt').innerHTML= "Less Room Aminities";
+      document.getElementById('amt').style.textDecoration = "underline";
+
+
+    }
+  });
+}
+</script>
 </body>
 <br><br><br><br><br>
 </html>
