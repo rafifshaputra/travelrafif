@@ -164,7 +164,7 @@
         <!--KONTEN UTAMA-->
         <div class="contain" style="background-color:white;">
             <!--GAMBAR UTAMA-->
-            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:5%;left:84%;">
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:6%;left:84%;">
                 <img src="/img/360-degree.png" style="width:150px;height:150px;opacity:0.7">
             </div>
             <iframe id="myImage" width="100%"
@@ -363,8 +363,11 @@
         <div id="detailKamar" style="display:none;">
             <div class="contain" style="font-size:36px;background-color:white">
                 <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7;background-color:rgba(0,0,0,0.3);position:absolute;top:8%;left:86%;">
-                    <button onclick="nextsImage();" style="position:absolute;top:27%;left:87%;width:80px;background-color:rgba(0,0,0,0.2);">
+                    <button onclick="nextsImage();" style="position:absolute;top:27%;left:87%;width:80px;background-color:rgba(0,0,0,0.1);">
                         <img src="/img/next.png" style="width:60px;height:60px;">
+                    </button>
+                    <button onclick="nextsImage();" style="position:absolute;top:27%;left:5%;width:80px;background-color:rgba(0,0,0,0.1);">
+                        <img src="/img/left-arrow.png" style="width:60px;height:60px;">
                     </button>
                 <iframe id="detailutama"
                     width="100%" style="height:700px;"
