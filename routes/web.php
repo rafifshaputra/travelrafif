@@ -19,3 +19,7 @@ Route::get('/skenario1', function () {
     return view('skenario1');
 });
 
+Route::get('/skenario2', function () {
+    return view('skenario2');
+});
+

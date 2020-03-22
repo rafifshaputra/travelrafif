@@ -10,6 +10,7 @@
     <script src="js/lightbox.js"></script>
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
+    <script src="js/accordion.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -170,11 +171,7 @@
             </div>
             <iframe id="myImage" width="100%"
             allowfullscreen="allowfullscreen"
-                mozallowfullscreen="mozallowfullscreen"
-                msallowfullscreen="msallowfullscreen"
-                oallowfullscreen="oallowfullscreen"
-                webkitallowfullscreen="webkitallowfullscreen"
-            src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
+            src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=10&pitch=10&field-of-view=75"> </iframe>
 
             <br>
             <!--ROW GAMBAR THUMBNAIL-->
@@ -226,9 +223,7 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <hr>
+
 
             <!--STICKY BOTTOM NAVBAR-->
             <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
@@ -504,33 +499,6 @@
     </div>
 </div>
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-      document.getElementById('amt').innerHTML= "More Room Aminities";
-      document.getElementById('amt').style.textDecoration = "underline";
-
-
-    } else {
-      panel.style.display = "block";
-      document.getElementById('amt').innerHTML= "Less Room Aminities";
-      document.getElementById('amt').style.textDecoration = "underline";
-
-
-    }
-  });
-}
-
 function nextsImage(){
         if(document.getElementById('detailutama').src=="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"){
             document.getElementById('detailutama').src="https://momento360.com/e/u/3c26621f3fc74286a6c32dc0769e3ee7?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
