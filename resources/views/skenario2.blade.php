@@ -150,7 +150,7 @@
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
                 <div>
-                    <iframe data-u="image" id="myImage"src="http://extrazoom.com/image-109138.html?s=huln50x50" width="900" frameborder="0" scrolling="no" title="ExtraZoom high resolution image" allowfullscreen></iframe>
+                    <img data-u="image" id="myImage" src="/img/horison/lobi1.jpg" width="100%">
                     <img data-u="thumb" src="/img/horison/lobi1.jpg" />
 
                 </div>
