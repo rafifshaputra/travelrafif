@@ -1,240 +1,24 @@
 <html>
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
  <!-- #region Jssor Slider Begin -->
     <!-- Generator: Jssor Slider Composer -->
     <!-- Source: https://www.jssor.com/rafifshaputra/image-gallery.slider/=edit -->
     <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        window.jssor_1_slider_init = function() {
+    <script src="js/lightbox.js"></script>
+    <script src="js/pemesananKamar.js"></script>
+    <script src="js/detailPage.js"></script>
+    <script type="text/javascript" src="js/skenario2js/slider.js"></script>
 
-            var jssor_1_SlideshowTransitions = [
-              {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-              {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
-            ];
+    <link rel="stylesheet" href="/css/skenario2.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
 
-            var jssor_1_options = {
-              $SlideDuration: 2000,
-              $SlideshowOptions: {
-                $Class: $JssorSlideshowRunner$,
-                $Transitions: jssor_1_SlideshowTransitions,
-                $TransitionsOrder: 1
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $ThumbnailNavigatorOptions: {
-                $Class: $JssorThumbnailNavigator$,
-                $SpacingX: 5,
-                $SpacingY: 5
-              }
-            };
 
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*#region responsive code begin*/
-
-            var MAX_WIDTH = 980;
-
-            function ScaleSlider() {
-                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                var containerWidth = containerElement.clientWidth;
-
-                if (containerWidth) {
-
-                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-
-            ScaleSlider();
-
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
-        };
-    </script>
-<style>
-
-    body {
-        font-family: 'Poppins';
-    }
-    .column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-    }
-
-    /* Clear floats after image containers */
-    .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    }
-
-    .rows {
-    display: flex;
-    }
-
-    .column {
-    flex: 25%;
-    padding: 5px;
-    }
-
-    .contain{
-        margin:0px 300px;
-        padding:0px 15px;
-    }
-
-    button {
-    background-color: #3A7765; /* Green */
-    border: none;
-    color: white;
-    padding: 6px 15px;
-    width:200px;
-
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    }
-
-    span{
-        padding:10px;
-    }
-
-    iframe{
-        height:60%;
-    }
-
-    .mobile{
-        display:none
-    }
-
-    .mobile2{
-        display:none
-    }
-
-    @media screen and (max-width: 1000px) {
-        .column {
-            width: 100%;
-        }
-        .mobile{
-            display:block;
-        }
-
-        .desktop{
-            display:none;
-        }
-
-        .mobile2{
-            display:none;
-        }
-
-        .contain{
-            margin:0px 0px;
-            padding:2px;
-        }
-
-        iframe{
-            height:50%;
-        }
-
-        .column3{
-            flex: 30%;
-            padding: 5px;
-            float: left;
-            padding: 5px;
-            width:33.33%
-        }
-
-        .column4{
-            flex: 50%;
-            padding: 5px;
-            float: left;
-            padding: 5px;
-            width:60%;
-        }
-
-        ul.a {
-            list-style-position: outside;
-        }
-        button{
-            padding: 15px 15px;
-            width:50%;
-            font-size:32px;
-        }
-        button.but{
-            padding: 15px 15px;
-            width:100%;
-            font-size:32px;
-        }
-    }
-
-        /*jssor slider loading skin spin css*/
-        .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-009-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /*jssor slider arrow skin 106 css*/
-        .jssora106 {display:block;position:absolute;cursor:pointer;}
-        .jssora106 .c {fill:#fff;opacity:.3;}
-        .jssora106 .a {fill:none;stroke:#000;stroke-width:350;stroke-miterlimit:10;}
-        .jssora106:hover .c {opacity:.5;}
-        .jssora106:hover .a {opacity:.8;}
-        .jssora106.jssora106dn .c {opacity:.2;}
-        .jssora106.jssora106dn .a {opacity:1;}
-        .jssora106.jssora106ds {opacity:.3;pointer-events:none;}
-
-        /*jssor slider thumbnail skin 101 css*/
-        .jssort101 .p {position: absolute;top:0;left:0;box-sizing:border-box;background:#000;}
-        .jssort101 .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box;z-index:1;}
-        .jssort101 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}
-        .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {border:none;border-color:transparent;}
-        .jssort101 .p:hover{padding:2px;}
-        .jssort101 .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}
-        .jssort101 .p:hover.pdn{padding:0;}
-        .jssort101 .p:hover.pdn .cv {border:2px solid #fff;background:none;opacity:.35;}
-        .jssort101 .pav .cv {border-color:#fff;opacity:.35;}
-        .jssort101 .pav .a, .jssort101 .p:hover .a {visibility:visible;}
-        .jssort101 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}
-        .jssort101 .pav .t, .jssort101 .p:hover .t{opacity:1;}
-    </style>
 </head>
 <body style="background-color:#F3F6F5">
 <div class="desktop">
@@ -366,7 +150,7 @@
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/lobi1.jpg" width="100%">
+                    <iframe data-u="image" id="myImage"src="http://extrazoom.com/image-109138.html?s=huln50x50" width="900" frameborder="0" scrolling="no" title="ExtraZoom high resolution image" allowfullscreen></iframe>
                     <img data-u="thumb" src="/img/horison/lobi1.jpg" />
 
                 </div>
@@ -402,10 +186,7 @@
                     <img data-u="image" id="myImage" src="/img/horison/kamar1.jpg" width="100%">
                     <img data-u="thumb" src="/img/horison/kamar1.jpg" />
                 </div>
-                <div>
-                    <img data-u="image" id="myImage" src="/img/horison/kamar4.jpg" style="with:100p%">
-                    <img data-u="thumb" src="/img/horison/kamar4.jpg" />
-                </div>
+
                 <div>
                     <img data-u="image" id="myImage" src="/img/horison/kamar3.jpg" style="width:100%">
                     <img data-u="thumb" src="/img/horison/kamar3.jpg" />
@@ -490,48 +271,86 @@
 </div>
 
 
-<!-- HALAMAN PEMESANAN KAMAR-->
+ <!-- HALAMAN PEMESANAN KAMAR-->
 
-<div class="mobile2" id="mobile2" >
-    <nav class="navbar navbar-default" style="background-color:#3A7765;">
+ <div class="mobile2" id="mobile2" >
+    <nav id="mynav"class="navbar navbar-default" style="background-color:#3A7765;">
         <div class="container-fluid">
             <div class="navbar-header" >
                 <div class="rows">
-                <div class="col-sm-2" style="padding:15px;">
-                 <button onclick="myFunction()">
-                 <img src="https://imgur.com/aksZmFn.png" width="60px;">
-                 </button>
-                </div>
-                <div class="col-sm-10" style="padding:5px;">
+                    <div id="back"class="col-sm-2" style="padding:15px;">
+                        <button onclick="myFunction()">
+                            <img src="https://imgur.com/aksZmFn.png" width="60px;">
+                        </button>
+                    </div>
+                    <div id="headerdetail"class="col-sm-10" style="padding:5px;">
 
+                            <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
+                            <span style="font-size:32px;color:white;">Bekasi, Jawa Barat</span>
+
+                    </div>
+                    <div id="back2"class="col-sm-2" style="padding:15px;display:none;">
+                        <button onclick="seeDetail()">
+                            <img src="https://imgur.com/aksZmFn.png" width="60px;">
+                        </button>
+                    </div>
+                    <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">
                         <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
-                        <span style="font-size:32px;color:white;">Bekasi, Jawa Barat</span>
-
-                </div>
+                        <span style="font-size:32px;color:white;">Deluxe Room</span>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
-    <br>
 
-    <div class="rows" style="background-color:white;padding:15px;border-radius:10px;">
-        <div style="width:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
-        <span><b>Check-in:</b><br></span>
-        <span style="color:#3A7765;">{{  now()->toDateString('Y-m-d') }}</span>
-        </div>
-        <div style="bwidth:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
-            <span><b>Durasi:</b><br></span>
-            <span style="color:#3A7765;">2 Malam</span>
-        </div>
-        <div style="width:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding-bottom:15px;" class="column3">
-            <span><b>Jumlah Tamu:</b><br></span>
-            <span style="color:#3A7765;">2 Tamu</span>
+
+    <!--INFORMASI SEPUTAR MENGINAP-->
+    <div id="infomenginap" >
+        <div  class="rows" style="background-color:white;padding:5px;border-radius:10px;">
+            <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
+                <span><b>Check-in:</b><br></span>
+                <span style="color:#3A7765;">{{  now()->toDateString('Y-m-d') }}</span>
+            </div>
+            <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
+                <span><b>Durasi:</b><br></span>
+                <span style="color:#3A7765;">2 Malam</span>
+            </div>
+            <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding-bottom:15px;" class="column3">
+                <span><b>Jumlah Tamu:</b><br></span>
+                <span style="color:#3A7765;">2 Tamu</span>
+            </div>
         </div>
     </div>
-    <br>
-    <div class="contain" style="padding:25px;">
+
+    <div id="listkamar" class="contain" style="padding:25px;">
         <div style="background-color:white;border-radius:15px;">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Mountains" style="width:100%;height:300px">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal();currentSlide(1)" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="500" class="hover-shadow cursor">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
         </div>
 
         <div style="padding:10px;background-color:white;">
@@ -541,7 +360,6 @@
             <br>
         </div>
         <div style="padding:2px;background-color:white;">
-
             <div class="rows" style="width:100%;padding-left:4%;"  >
                 <div class="column4" style="font-size:34px;">
                     <b><p style="font-size:36px">Info Kamar </b> </p>
@@ -549,7 +367,6 @@
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                 </div>
-
                 <div class="column4" style="font-size:34px;">
                     <b><p style="font-size:36px">Layanan</b> </p>
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Without Breakfast <br>
@@ -559,47 +376,202 @@
             </div>
             <br>
             <br>
-
             <span class="navbar-brand" href="#" style="font-size:32px;padding-left:4%;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span></span>
             <br><br><br>
-            <div class="rows" >
-                <span style="font-size:36px;padding-left:4%;padding-top:2%">
-                    LIHAT DETAIL</span>
-                </span>
-                <span style="margin-left:35%">
-                    <button class="but"> Pesan Sekarang </button>
-                </span>
-
-            </div>
-        <BR>
-            <BR>
+                    <button class="but" style="width:80%;margin-left:10%"onclick="seeDetail();"> Lihat Detail</button>
+            <br><br><br>
         </div>
-<br>
-<br>
+        <br>
+        <br>
+    </div>
+    <div id="detailKamar" style="display:none;">
+        <div class="contain" style="font-size:36px;background-color:white">
+            <div style="background-color:white;border-radius:15px;height:600px;">
+                <div id="demos" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                      <li data-target="#demo" data-slide-to="3"></li>
+                      <li data-target="#demo" data-slide-to="4"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal();currentSlide(1)" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/img/Horison/kamar3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/img/Horison/kmrmndi2.png" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/img/Horison/kmrmndi3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                      </div>
+
+
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demos" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demos" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </div>
+
+            <br>
+            <p style="font-size:38px;margin-top:3%;padding:20px;"><b>Deluxe Room</b> </span><br>
+                <hr style="border: 1px solid gray;">
+            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;padding-top:2%;"> <img src="https://imgur.com/K5sza9m.png" height="30px" width="30px"> Tamu 2 orang</span><br>
+            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;"><span style="color:red;">Belum </span>termasuk sarapan!</span><br>
+            <hr style="border: 1px solid gray;">
+            <span style="font-size:28px;padding-left:2%;margin-top:20%;padding-bottom:2%"><img src="https://i.ibb.co/zhwNWVp/money-2.png" height="30px" width="30px"> Pesan sekarang dan dapatkan sebanyak <span style="color:#3A7765">103 poin </span></span>
+            <br><br>
+        </div>
+        <p style="font-size:32px;padding-left:4%;padding-top:4%;padding-bottom:2%;" ><b> Room Overview </b> </p>
+        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:360px;">
+            <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                <div style="float:left;">
+                    <img src="img/size.png" width="60px" height="80px">
+                </div>
+                <div style="float:left;padding-left:5%">
+                    <span style="font-size:32px;"> <b>Room size </b></span><br>
+                    <span style="font-size:28px;">  26.0  sqm </span>
+                </div>
+            </div>
+            <hr style="border: 1px solid #D3D3D3;">
+            <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                <div style="float:left;">
+                    <img src="img/bed.png" width="50px" height="70px">
+                </div>
+                <div style="float:left;padding-left:5%">
+                    <span style="font-size:32px;"> <b>Bed Type </b></span><br>
+                    <span style="font-size:28px;">  2 Single bed or 1 Double Bed </span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!--BASIC FACILITIES -->
+        <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Basic Facilities </b> </p>
+        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:120px;">
+            <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                <div style="float:left;">
+                    <img src="img/wi-fi.png" width="50px" height="50px">
+                </div>
+                <div style="float:left;padding-left:5%">
+                    <span style="font-size:32px;"> <b>Wifi surcharge</b></span><br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- BATHROOM AMINITIES -->
+        <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Bathroom Aminities</b> </p>
+        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:600px;">
+            <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                <li style="font-size:32px;padding-bottom:2%;"><b> Hot Water</b> </li>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b> Shower</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b>Toiletries</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b>Hair Dryer</b> </li><br>
+            </div>
+        </div><br>
+        <!--ROOM AMINITIES -->
+        <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Room Aminities</b> </p>
+        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:550px;">
+            <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
+                <li style="font-size:32px;padding-bottom:2%;"><b> Air Conditioning</b> </li>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b> Complimentary Bottled Water</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b> Coffee/Tea Maker</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+            </div>
+            <a class="accordion" id="amt"style="color:#3A7765;padding-left:4%;" ><u>More Room Aminities</u></a>
+            <div class="panel" style="padding-left:4%;width:100%">
+                <li style="font-size:32px;padding-top:4%;"><b> Regrigerator</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b> Television</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b> Desk</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b> In-room safe</b> </li><br>
+                <hr style="border: 1px solid #D3D3D3;">
+                <li style="font-size:32px;padding-top:4%;"><b> Blackout drapes/curtains</b> </li>
+                <br>
+                <br>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!--STICKY BOTTOM NAVBAR-->
+        <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
+                <button style="width:100%;"> Pesan Kamar ini</button>
+            </span><br></a>
+        </nav>
+    </div>
 
 </div>
 <br>
-
 <br>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-function myFunction() {
-  var x = document.getElementById("mobile");
-  var y = document.getElementById("mobile2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    y.style.display ="none"
-  } else {
-    y.style.display = "block";
-    x.style.display = "none";
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+<span  class="close cursor" onclick="closeModal()">&times;</span>
+<div class="modal-content" style="margin-top:5%;">
+    <div class="mySlides">
 
-  }
-}
-</script>
-<script type="text/javascript">jssor_1_slider_init();
-</script>
+        <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
+        <img id="gambarutama"
+            width="100%" style="height:800px;" src="https://i.ibb.co/Pchrm5P/gambar4.png">
+
+    </div>
+
+    <div class="caption-container">
+        <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>
+    </div>
+
+    <div class="rows">
+
+        <div class="column">
+            <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;"   onclick="gantiGambars()" >
+        </div>
+        <div class="column" >
+            <img id="kmrbiasa2"class="demo cursor" src="/img/Horison/kamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar()" >
+        </div>
+        <div class="column" >
+            <img id="kmrbiasa3"class="demo cursor" src="/img/Horison/kamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
+        </div>
+    </div>
+    <div class="rows">
+
+        <div class="column" >
+            <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar3()" >
+        </div>
+        <div class="column" >
+            <img id="kmrmandi2"class="demo cursor" src="img/Horison/kmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
+        </div>
+        <div class="column" >
+            <img id="kmrmandi3"class="demo cursor" src="img/Horison/kmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
+        </div>
+    </div>
+</div>
+</div>
+<script src="/js/skenario2js/gantiGambarPreview.js"></script>
+
+<script type="text/javascript">jssor_1_slider_init();</script>
+<script src="js/accordion.js"></script>
 </body>
 <br>
 <br>

@@ -23,7 +23,12 @@ body {
   padding: 5px;
 }
 
-
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    background-color:white;
+  display: none;
+  overflow: hidden;
+}
 
 .contain{
     margin:0px 300px;

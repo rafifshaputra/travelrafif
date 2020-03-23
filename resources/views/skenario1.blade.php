@@ -10,21 +10,10 @@
     <script src="js/lightbox.js"></script>
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
-    <script src="js/accordion.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/360css.css">
-<style>
-
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    background-color:white;
-  display: none;
-  overflow: hidden;
-}
-</style>
 
 </head>
 
@@ -498,17 +487,8 @@
         </div>
     </div>
 </div>
-<script>
-function nextsImage(){
-        if(document.getElementById('detailutama').src=="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"){
-            document.getElementById('detailutama').src="https://momento360.com/e/u/3c26621f3fc74286a6c32dc0769e3ee7?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
-        }
-        else{
-            document.getElementById('detailutama').src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
-        }
-
-    }
-</script>
+<script src="js/nextimage.js"></script>
+<script src="js/accordion.js"></script>
 
 </body>
 <br><br><br><br><br>
