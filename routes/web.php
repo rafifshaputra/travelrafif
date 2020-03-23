@@ -23,3 +23,7 @@ Route::get('/skenario2', function () {
     return view('skenario2');
 });
 
+Route::get('/skenario3', function () {
+    return view('skenario3');
+});
+
