@@ -14,38 +14,11 @@
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
     <script type="text/javascript" src="js/skenario2js/slider.js"></script>
+    <script src="https://scripts.sirv.com/sirv.js"></script>
 
     <link rel="stylesheet" href="/css/skenario2.css">
     <link rel="stylesheet" href="/css/lightbox.css">
-<style>
-* { box-sizing: border-box; }
 
-.image {
-  border: 1px #ddd solid;
-  margin: calc(50vh - 250px) auto 0; //to truly keep this is the center of the viewport, it would probably have to be done in javascript, because the height of this container could change
-  position: relative;
-  .buttons {
-    position: absolute;
-    right: 4px;
-    top: 8px;
-    button {
-      padding: 7px;
-      margin-bottom: 5px;
-      background-color: #444;
-      color: #fff;
-      border-style: none;
-      border: 1px solid #000;
-      &:hover {
-        cursor: pointer;
-      }
-    }
-    i {
-      font-size: 1.5em;
-    }
-  }
-}
-
-</style>
 
 </head>
 <body style="background-color:#F3F6F5">
@@ -58,6 +31,7 @@
 
     </div>
     </nav>
+
     <div class="contain" style="padding-top:2%;background-color:white;">
         <div class="head" style="padding-left:3%;">
             <div style="font-size:24px"><b> Klapa Resort</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
@@ -170,15 +144,7 @@
 
     </div>
     </nav>
-    <div class="wrapper">
-        <div class="image">
-          <div class="buttons">
-            <button  class="zoom"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
-            <br/>
-            <button class="reset"><i class="fa fa-search-minus" aria-hidden="true"></i></button>
-          </div>
-        </div>
-      </div>
+
     <div class="contain" style="background-color:white;">
         <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:900px;overflow:hidden;visibility:hidden;">
             <!-- Loading Screen -->
@@ -186,7 +152,8 @@
                 <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
-                <div >
+                <div>
+                    <div id="myImage" data-u="image" style="width:100%;height:800px;"></div>
 
                     <img data-u="thumb" src="/img/horison/lobi1.jpg" />
 
@@ -606,150 +573,21 @@
 </div>
 </div>
 <script src="/js/skenario2js/gantiGambarPreview.js"></script>
-<script>
-$(function() {
 
-  //function to get element's 'background-position-x' (no firefox support)
-  function getBackgroundX(elem) {
-    var vals = elem.css('background-position').split(' ');
-    return parseInt(vals[0], 10);
-  }
-
-  //function to get element's 'background-position-x' (no firefox support)
-  function getBackgroundY(elem) {
-    var vals = elem.css('background-position').split(' ');
-    return parseInt(vals[1], 10);
-  }
-
-  // define new function object
-  function ZoomImage(imageUrl, width, height) {
-
-  this.imageUrl = imageUrl;
-  this.width = width || 1000;
-  this.height = height || 1000;
-  this.zoomLeftEdge = 0;
-  this.zoomTopEdge = 0;
-  this.zoomRightEdge = -(this.width*2); // this is *3 *2/3 which equals *2
-  this.zoomBottomEdge = -(this.height*2);
-  this.zoomed; //stores if the image is zoomed
-
-  }
-
-
-  // add methods to the ZoomImage prototype
-  ZoomImage.prototype = {
-
-    getFullImageUrl: function(){
-      return this.imageUrl + '?w=' + this.width + '&h=' + this.height;
-    }, //getFullImageUrl
-
-    getZoomImageUrl: function(){
-      return this.imageUrl + '?w=' + (this.width*3) + '&h=' + (this.height*3);
-    }, //getZoomImageUrl
-
-    // render the image as a background
-    render: function(){
-      this.zoomed = false; //sets our zoomed state
-      return {
-        'background-image' : 'url(\'' + this.getFullImageUrl() + '\')',
-        'background-repeat': 'no-repeat',
-        'background-position' : '0 0',
-        'width' : this.width + 'px',
-        'height' : this.height + 'px',
-        'cursor' : 'default'
-      }
-    }, //render
-
-    //renders the zoomed version of the image, trying to save page load by not requesting a large image until the 'zoom' button is hit
-    renderZoom: function(){
-      this.zoomed = true; //sets our zoomed state
-      return {
-        'background-image' : 'url(\'' + this.getZoomImageUrl() + '\')',
-        'background-repeat': 'no-repeat',
-        'background-position' : -(this.width) + 'px ' + (-(this.width)) + 'px', // keeps the image centered
-        'width' : this.width + 'px',
-        'height' : this.height + 'px',
-        'cursor' : 'move'
-      }
-    }, //renderZoom
-
-    //funtion for panning, returns another function
-    pan: function(){
-      //pass the ZoomImage object into the nested function
-      var self = this;
-
-      return function(pos) {
-        // if the image is not zoomed, break out
-        if (!self.zoomed) {
-        return;
-        }
-
-        //collect some starting data, as we don't know where this image might be rendered
-        var startX = pos.pageX;
-        var startY = pos.pageY;
-
-        //find out where the image is, in case it has already been dragged
-        var initialX = getBackgroundX($(this));
-        var initialY = getBackgroundY($(this));
-
-        //this is the dragging part
-        $(this).mousemove(function(e){
-
-          //get the current position by taking the mouse position minus the starting postion of the render, then adding the initial background position
-          var currentX = (e.pageX - startX + initialX);
-          var currentY = (e.pageY - startY + initialY);
-
-          //console log for debugging
-          //console.log(currentX +' '+ currentY);
-
-          //limit the panning, by only continuing if it's within the edges of the viewport
-          if ((currentX <= self.zoomLeftEdge) && (currentX >= self.zoomRightEdge) && (currentY <= self.zoomTopEdge) && (currentY >= self.zoomBottomEdge)) {
-            $(this).css(
-              {
-                'background-position' : currentX + 'px ' + currentY + 'px'
-              });
-          }
-
-           //if the mouse button is raised or the mouse moves out of the viewport, then unbind the mousemove and stop panning
-        }).on('mouseup mouseout', function(){
-          $(this).unbind('mousemove');
-        })
-
-      }; //returned function
-
-    } //pan
-
-  } //ZoomImage.prototype
-
-
-  //create new ZoomImage object
-  var shortSleeveZebra = new ZoomImage('https://bonobos-prod-s3.imgix.net/products/18158/original/SHIRT_ShortSleeve_ZebraRun_JetBlack_hero1.jpg', 500, 500);
-
-  //log our new object for debugging
-  //console.log(shortSleeveZebra.renderZoom());
-
-  //render the image in our container
-  $('.image').css(shortSleeveZebra.render());
-
-  //render the zoomed iage when zoom button is clicked
-  $('.zoom').on('click', function(){
-    $('.image').css(shortSleeveZebra.renderZoom());
-  });
-
-  //render the zoomed out image when zoom out button is clicked
-  $('.reset').on('click', function(){
-    $('.image').css(shortSleeveZebra.render());
-  });
-
-  //start our pan function when zoomed image is clicked, and then fire the panning if dragged
-  $('.image').on('mousedown', shortSleeveZebra.pan());
-
-
-
-});
-</script>
 <script type="text/javascript">jssor_1_slider_init();</script>
 <script src="js/accordion.js"></script>
+<script src="js/openseadragon.min.js"></script>
+    <script>
+      var viewer = OpenSeadragon({
+        id:            'myImage',
+        prefixUrl:     '/img/images/',
+        tileSources:   {
+            type : 'image',
+            url : 'img/Horison/kolamrenang4.jpg',
+            buildPyramid: false
+        }
+      });
+    </script>
 </body>
 <br>
 <br>
