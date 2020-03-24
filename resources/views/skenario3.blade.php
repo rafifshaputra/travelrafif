@@ -159,8 +159,9 @@
 
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/lobi3.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/lobi3.jpg" />
+                    <img data-u="image" id="myImage" src="{{URL::asset('/img/horison/lobi3.jpg')}}" width="100%">
+                    <img data-u="thumb" src="{{URL::asset('/img/horison/lobi3.jpg')}}" />
+
                 </div>
                 <div>
                     <img data-u="image" id="myImage" src="/img/horison/lobi2.jpg" width="100%">
@@ -593,7 +594,6 @@
 <br>
 <br><br>
 <br>
-
 
 
 </html>
