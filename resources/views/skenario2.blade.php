@@ -150,13 +150,13 @@
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
                 <div>
-                    <img data-u="image" id="myImage" src="{{asset('public/img/horison/lobi1.jpg')}}" width="100%">
-                    <img data-u="thumb" src="{{asset('public/img/horison/lobi1.jpg')}}"  />
+                    <img data-u="image" id="myImage" src="{{asset('/img/horison/lobi1.jpg')}}" width="100%">
+                    <img data-u="thumb" src="{{asset('/img/horison/lobi1.jpg')}}"  />
 
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="public/img/horison/lobi3.jpg" width="100%">
-                    <img data-u="thumb" src="public/img/horison/lobi3.jpg" />
+                    <img data-u="image" id="myImage" src="lobi3.jpg" width="100%">
+                    <img data-u="thumb" src="lobi3.jpg" />
                 </div>
                 <div>
                     <img data-u="image" id="myImage" src="/img/horison/lobi2.jpg" width="100%">
