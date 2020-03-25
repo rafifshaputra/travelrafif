@@ -150,8 +150,8 @@
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/lobi1.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/lobi1.jpg" />
+                    <img data-u="image" id="myImage" src="{{URL::asset('img/horison/lobi1.jpg')}}" width="100%">
+                    <img data-u="thumb" src="{{URL::asset('img/horison/lobi1.jpg')}}"  />
 
                 </div>
                 <div>
