@@ -150,41 +150,41 @@
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
                 <div>
-                    <img data-u="image" id="myImage" src="{{asset('/img/horison/lobi1.jpg')}}" width="100%">
-                    <img data-u="thumb" src="{{asset('/img/horison/lobi1.jpg')}}"  />
+                    <img data-u="image" id="myImage" src="horisonlobi1.jpg" width="100%">
+                    <img data-u="thumb" src="horisonlobi1.jpg"  />
 
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="lobi3.jpg" width="100%">
-                    <img data-u="thumb" src="lobi3.jpg" />
+                    <img data-u="image" id="myImage" src="horisonlobi3.jpg" width="100%">
+                    <img data-u="thumb" src="horisonlobi3.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/lobi2.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/lobi2.jpg" />
+                    <img data-u="image" id="myImage" src="horisonlobi2.jpg" width="100%">
+                    <img data-u="thumb" src="horisonlobi2.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/liftlobi.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/liftlobi.jpg" />
+                    <img data-u="image" id="myImage" src="horisonliftlobi.jpg" width="100%">
+                    <img data-u="thumb" src="horisonliftlobi.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/kolamrenang1.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/kolamrenang1.jpg" />
+                    <img data-u="image" id="myImage" src="horisonkolamrenang1.jpg" width="100%">
+                    <img data-u="thumb" src="horisonkolamrenang1.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/kolamrenang2.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/kolamrenang2.jpg" />
+                    <img data-u="image" id="myImage" src="horisonkolamrenang2.jpg" width="100%">
+                    <img data-u="thumb" src="horisonkolamrenang2.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/kolamrenang3.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/kolamrenang3.jpg" />
+                    <img data-u="image" id="myImage" src="horisonkolamrenang3.jpg" width="100%">
+                    <img data-u="thumb" src="horisonkolamrenang3.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/kolamrenang4.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/kolamrenang4.jpg" />
+                    <img data-u="image" id="myImage" src="horisonkolamrenang4.jpg" width="100%">
+                    <img data-u="thumb" src="horisonkolamrenang4.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/kamar1.jpg" width="100%">
-                    <img data-u="thumb" src="/img/horison/kamar1.jpg" />
+                    <img data-u="image" id="myImage" src="horisonkamar1.jpg" width="100%">
+                    <img data-u="thumb" src="horisonkamar1.jpg" />
                 </div>
 
                 <div>
