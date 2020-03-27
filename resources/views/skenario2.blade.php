@@ -150,54 +150,54 @@
             </div>
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
                 <div>
-                    <img data-u="image" id="myImage" src="horisonlobi1.jpg" width="100%">
-                    <img data-u="thumb" src="horisonlobi1.jpg"  />
+                    <img data-u="image" id="myImage" src="hrlobi1.jpg" width="100%">
+                    <img data-u="thumb" src="hrlobi1.jpg"  />
 
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonlobi3.jpg" width="100%">
-                    <img data-u="thumb" src="horisonlobi3.jpg" />
+                    <img data-u="image" id="myImage" src="hrlobi3.jpg" width="100%">
+                    <img data-u="thumb" src="hrlobi3.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonlobi2.jpg" width="100%">
-                    <img data-u="thumb" src="horisonlobi2.jpg" />
+                    <img data-u="image" id="myImage" src="hrlobi2.jpg" width="100%">
+                    <img data-u="thumb" src="hrlobi2.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonliftlobi.jpg" width="100%">
-                    <img data-u="thumb" src="horisonliftlobi.jpg" />
+                    <img data-u="image" id="myImage" src="hrliftlobi.jpg" width="100%">
+                    <img data-u="thumb" src="hrliftlobi.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonkolamrenang1.jpg" width="100%">
-                    <img data-u="thumb" src="horisonkolamrenang1.jpg" />
+                    <img data-u="image" id="myImage" src="hrkolamrenang1.jpg" width="100%">
+                    <img data-u="thumb" src="hrkolamrenang1.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonkolamrenang2.jpg" width="100%">
-                    <img data-u="thumb" src="horisonkolamrenang2.jpg" />
+                    <img data-u="image" id="myImage" src="hrkolamrenang2.jpg" width="100%">
+                    <img data-u="thumb" src="hrkolamrenang2.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonkolamrenang3.jpg" width="100%">
-                    <img data-u="thumb" src="horisonkolamrenang3.jpg" />
+                    <img data-u="image" id="myImage" src="hrkolamrenang3.jpg" width="100%">
+                    <img data-u="thumb" src="hrkolamrenang3.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonkolamrenang4.jpg" width="100%">
-                    <img data-u="thumb" src="horisonkolamrenang4.jpg" />
+                    <img data-u="image" id="myImage" src="hrkolamrenang4.jpg" width="100%">
+                    <img data-u="thumb" src="hrkolamrenang4.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="horisonkamar1.jpg" width="100%">
-                    <img data-u="thumb" src="horisonkamar1.jpg" />
+                    <img data-u="image" id="myImage" src="hrkamar1.jpg" width="100%">
+                    <img data-u="thumb" src="hrkamar1.jpg" />
                 </div>
 
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/kamar3.jpg" style="width:100%">
-                    <img data-u="thumb" src="/img/horison/kamar3.jpg" />
+                    <img data-u="image" id="myImage" src="hrkamar3.jpg" style="width:100%">
+                    <img data-u="thumb" src="hrkamar3.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/restaurant1.jpg" style="width:100%">
-                    <img data-u="thumb" src="/img/horison/restaurant1.jpg" />
+                    <img data-u="image" id="myImage" src="hrrestaurant1.jpg" style="width:100%">
+                    <img data-u="thumb" src="hrrestaurant1.jpg" />
                 </div>
                 <div>
-                    <img data-u="image" id="myImage" src="/img/horison/restaurant2.jpg" style="width:100%">
-                    <img data-u="thumb" src="/img/horison/restaurant2.jpg" />
+                    <img data-u="image" id="myImage" src="hrrestaurant2.jpg" style="width:100%">
+                    <img data-u="thumb" src="hrrestaurant2.jpg" />
                 </div>
 
 
@@ -404,17 +404,17 @@
                         <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal();currentSlide(1)" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="/img/Horison/kamar3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="hrkamar3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
 
                       <div class="carousel-item">
                         <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="/img/Horison/kmrmndi2.png" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="hrkmrmndi2.png" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="/img/Horison/kmrmndi3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="hrkmrmndi3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
 
 
@@ -548,10 +548,10 @@
             <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;"   onclick="gantiGambars()" >
         </div>
         <div class="column" >
-            <img id="kmrbiasa2"class="demo cursor" src="/img/Horison/kamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar()" >
+            <img id="kmrbiasa2"class="demo cursor" src="hrkamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar()" >
         </div>
         <div class="column" >
-            <img id="kmrbiasa3"class="demo cursor" src="/img/Horison/kamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
+            <img id="kmrbiasa3"class="demo cursor" src="hrkamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
         </div>
     </div>
     <div class="rows">
@@ -560,10 +560,10 @@
             <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar3()" >
         </div>
         <div class="column" >
-            <img id="kmrmandi2"class="demo cursor" src="img/Horison/kmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
+            <img id="kmrmandi2"class="demo cursor" src="hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
         </div>
         <div class="column" >
-            <img id="kmrmandi3"class="demo cursor" src="img/Horison/kmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
+            <img id="kmrmandi3"class="demo cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
         </div>
     </div>
 </div>
