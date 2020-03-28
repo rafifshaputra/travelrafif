@@ -27,7 +27,8 @@ function gambarGanti3(){
 }
 
 function gambarGanti4(){
-    y="hrrestaurant1.jpg";
+    y="https://s5.gifyu.com/images/restaurant1.gif";
+    document.getElementById('myImage').src="";
     document.getElementById('myImage').src=y;
     document.getElementById('imgcol1').style.opacity = "0.6";
     document.getElementById('imgcol2').style.opacity = "0.6";
