@@ -163,13 +163,13 @@
                 <img id="imgcol1"onclick="gambarGanti1()" src="hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
             </div>
             <div class="column">
-                <img id="imgcol2" onclick="gambarGanti2();" src="hrkolamrenang1.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol2" onclick="gambarGanti2();" src="hrkolamrenang1r.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div class="column">
-                <img id="imgcol3" onclick="gambarGanti3();"src="hrkamar1.png" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol3" onclick="gambarGanti3();"src="hrkamar1r.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div class="column">
-                <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div onclick="openModals()"class="column" style=" position: relative;text-align: center;color: white;">
                 <img id="imgcol5" onclick=""src="hrrestaurant3.png" alt="Forest" style="width:100%;height:150px;">
@@ -481,7 +481,7 @@
     <span  class="close cursor" onclick="closeModal()">&times;</span>
     <div class="modal-content" style="margin-top:5%;">
             <img id="gambarutama"
-                width="100%" style="height:800px;" src="hrkamar1.png">
+                width="100%" style="height:800px;" src="hrkamar1.jpg">
             <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
 
         <div class="caption-container">
@@ -548,7 +548,7 @@
         </div>
         <div class="rows">
             <div class="column" >
-                <img id="kolamrenang1"class="demos cursor" src="hrkolamrenang1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome5()" >
+                <img id="kolamrenang1"class="demos cursor" src="hrkolamrenang1r.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome5()" >
             </div>
             <div class="column" >
                 <img id="kolamrenang2"class="demos cursor" src="hrkolamrenang2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome6()" >
@@ -582,7 +582,7 @@
         </div>
         <div class="rows">
             <div class="column" >
-                <img id="kamar1"class="demos cursor" src="hrkamar1.png" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome12()" >
+                <img id="kamar1"class="demos cursor" src="hrkamar1r.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome12()" >
             </div>
             <div class="column" >
                 <img id="kamar2"class="demos cursor" src="hrkamar3.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome13()" >
