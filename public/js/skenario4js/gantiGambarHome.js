@@ -18,7 +18,8 @@ function gambarGanti2(){
 }
 
 function gambarGanti3(){
-    y="hrkamar1.png";
+    y="https://s5.gifyu.com/images/kamar.gif";
+    document.getElementById('myImage').src="";
     document.getElementById('myImage').src=y;
     document.getElementById('imgcol1').style.opacity = "0.6";
     document.getElementById('imgcol2').style.opacity = "0.6";
