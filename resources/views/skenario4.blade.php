@@ -154,7 +154,7 @@
     </nav>
     <div class="contain" style="background-color:white;">
 
-        <img id="myImage" width="100%" height="700px"src="https://s5.gifyu.com/images/hrrestaurantgif.gif">
+        <img id="myImage" width="100%" height="700px"src="hrkolamrenang1.gif">
         <br>
         <br>
         <!--ROW GAMBAR THUMBNAIL-->
@@ -596,7 +596,7 @@
     <br>
 </div>
 <script src="/js/skenario2js/gantiGambarPreview.js"></script>
-<script src="/js/skenario2js/gantiGambarHome.js"></script>
+<script src="/js/skenario4js/gantiGambarHome.js"></script>
 <script src="js/accordion.js"></script>
 </body>
 <br>
