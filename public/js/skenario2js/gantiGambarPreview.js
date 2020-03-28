@@ -1,5 +1,5 @@
 function gantiGambar(){
-    y="/img/Horison/kamar3.jpg";
+    y="hrkamar3.jpg";
     var captionText = document.getElementById("caption");
     document.getElementById('gambarutama').src=y;
     document.getElementById('textnums').innerHTML="2 / 6";
@@ -13,7 +13,7 @@ function gantiGambar(){
 }
 
 function gantiGambars(){
-    y="https://i.ibb.co/Pchrm5P/gambar4.png";
+    y="hrkamar1.png";
     document.getElementById('gambarutama').src=y;
     document.getElementById('textnums').innerHTML="1 / 6";
     document.getElementById('caption').innerHTML= "Kamar Tidur";
@@ -26,7 +26,7 @@ function gantiGambars(){
 }
 
 function gantiGambar2(){
-    y="/img/Horison/kamar4.jpg";
+    y="hrkamar4.jpg";
     var captionText = document.getElementById("caption");
     document.getElementById('gambarutama').src=y;
     document.getElementById('textnums').innerHTML="3 / 6";
@@ -56,7 +56,7 @@ function gantiGambar3(){
 }
 
 function gantiGambar4(){
-    y="img/Horison/kmrmndi2.png";
+    y="hrkmrmndi2.png";
     var captionText = document.getElementById("caption");
     document.getElementById('gambarutama').src=y;
     document.getElementById('textnums').innerHTML="5 / 6";
@@ -72,7 +72,7 @@ function gantiGambar4(){
 }
 
 function gantiGambar5(){
-    y="img/Horison/kmrmndi3.jpg";
+    y="hrkmrmndi3.jpg";
     var captionText = document.getElementById("caption");
     document.getElementById('gambarutama').src=y;
     document.getElementById('textnums').innerHTML="6 / 6";

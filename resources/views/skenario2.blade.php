@@ -11,7 +11,9 @@
     <!-- Source: https://www.jssor.com/rafifshaputra/image-gallery.slider/=edit -->
     <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
     <script src="js/lightbox.js"></script>
+    <script src="js/lightboxhome.js"></script>
     <script src="js/pemesananKamar.js"></script>
+    <script src="js/skenario2js/previewHome.js"></script>
     <script src="js/detailPage.js"></script>
     <script type="text/javascript" src="js/skenario2js/slider.js"></script>
 
@@ -19,6 +21,14 @@
     <link rel="stylesheet" href="/css/lightbox.css">
 
 
+    <style>
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    </style>
 </head>
 <body style="background-color:#F3F6F5">
 <div class="desktop">
@@ -143,90 +153,30 @@
     </div>
     </nav>
     <div class="contain" style="background-color:white;">
-        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:900px;overflow:hidden;visibility:hidden;">
-            <!-- Loading Screen -->
-            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+
+        <img id="myImage" width="100%" height="700px"src="hrlobi1.jpg">
+        <br>
+        <br>
+        <!--ROW GAMBAR THUMBNAIL-->
+        <div class="rows" >
+            <div class="column">
+                <img id="imgcol1"onclick="gambarGanti1()" src="hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
             </div>
-            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
-                <div>
-                    <img data-u="image" id="myImage" src="hrlobi1.jpg" width="100%">
-                    <img data-u="thumb" src="hrlobi1.jpg"  />
-
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrlobi3.jpg" width="100%">
-                    <img data-u="thumb" src="hrlobi3.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrlobi2.jpg" width="100%">
-                    <img data-u="thumb" src="hrlobi2.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrliftlobi.jpg" width="100%">
-                    <img data-u="thumb" src="hrliftlobi.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrkolamrenang1.jpg" width="100%">
-                    <img data-u="thumb" src="hrkolamrenang1.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrkolamrenang2.jpg" width="100%">
-                    <img data-u="thumb" src="hrkolamrenang2.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrkolamrenang3.jpg" width="100%">
-                    <img data-u="thumb" src="hrkolamrenang3.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrkolamrenang4.jpg" width="100%">
-                    <img data-u="thumb" src="hrkolamrenang4.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrkamar1.jpg" width="100%">
-                    <img data-u="thumb" src="hrkamar1.jpg" />
-                </div>
-
-                <div>
-                    <img data-u="image" id="myImage" src="hrkamar3.jpg" style="width:100%">
-                    <img data-u="thumb" src="hrkamar3.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrrestaurant1.jpg" style="width:100%">
-                    <img data-u="thumb" src="hrrestaurant1.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" id="myImage" src="hrrestaurant2.jpg" style="width:100%">
-                    <img data-u="thumb" src="hrrestaurant2.jpg" />
-                </div>
-
-
-
-
-
-            </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slideshow html</a>
-            <!-- Thumbnail Navigator -->
-            <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:140px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
-                <div data-u="slides">
-                    <div data-u="prototype" class="p" style="width:250px;height:130px;">
-                        <div data-u="thumbnailtemplate" class="t"></div>
-                        <svg viewbox="0 0 16000 16000" class="cv">
-                            <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
-                            <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
-                            <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
-                        </svg>
-                    </div>
-                </div>
+            <div class="column">
+                <img id="imgcol2" onclick="gambarGanti2();" src="hrkolamrenang1.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
-            <!-- Arrow Navigator -->
-            <div data-u="arrowleft" class="jssora106" style="width:55px;height:55px;top:162px;left:30px;" data-scale="0.75">
-
+            <div class="column">
+                <img id="imgcol3" onclick="gambarGanti3();"src="hrkamar1.png" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
-            <div data-u="arrowright" class="jssora106" style="width:55px;height:55px;top:162px;right:30px;" data-scale="0.75">
-
+            <div class="column">
+                <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+            </div>
+            <div onclick="openModals()"class="column" style=" position: relative;text-align: center;color: white;">
+                <img id="imgcol5" onclick=""src="hrrestaurant3.png" alt="Forest" style="width:100%;height:150px;">
+                <div class="centered" style="font-size:28px;"><u>Lihat Semua </u></div>
             </div>
         </div>
-
+        <br>
     <br>
 
     <div class="head" style="padding-left:3%;">
@@ -262,7 +212,7 @@
     <br>
     <hr>
 
-    <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
+    <nav id="navhomebawah"class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
         <a class="navbar-brand" href="#" style="font-size:32px;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span><span style="padding-left:15%;">
             <button onclick="myFunction();"> Lihat Kamar </button>
         </span><br></a>
@@ -335,11 +285,11 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal();currentSlide(1)" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
+                    <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="seeDetail();" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
                   </div>
 
                   <div class="carousel-item">
-                    <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="500" class="hover-shadow cursor">
+                    <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="seeDetail();"alt="Chicago" width="1100" height="500" class="hover-shadow cursor">
                   </div>
                 </div>
 
@@ -401,20 +351,20 @@
                     <!-- The slideshow -->
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal();currentSlide(1)" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal()" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkamar3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="hrkamar3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
 
                       <div class="carousel-item">
-                        <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkmrmndi2.png" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="hrkmrmndi2.png" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkmrmndi3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="hrkmrmndi3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
 
 
@@ -517,7 +467,7 @@
         <br>
         <br>
         <!--STICKY BOTTOM NAVBAR-->
-        <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
+        <nav id="navdetailbawah" class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
                 <button style="width:100%;"> Pesan Kamar ini</button>
             </span><br></a>
         </nav>
@@ -528,49 +478,125 @@
 <br>
 <!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
-<span  class="close cursor" onclick="closeModal()">&times;</span>
-<div class="modal-content" style="margin-top:5%;">
-    <div class="mySlides">
+    <span  class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content" style="margin-top:5%;">
+            <img id="gambarutama"
+                width="100%" style="height:800px;" src="hrkamar1.png">
+            <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
 
-        <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
-        <img id="gambarutama"
-            width="100%" style="height:800px;" src="https://i.ibb.co/Pchrm5P/gambar4.png">
-
-    </div>
-
-    <div class="caption-container">
-        <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>
-    </div>
-
-    <div class="rows">
-
-        <div class="column">
-            <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;"   onclick="gantiGambars()" >
+        <div class="caption-container">
+            <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>
         </div>
-        <div class="column" >
-            <img id="kmrbiasa2"class="demo cursor" src="hrkamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar()" >
-        </div>
-        <div class="column" >
-            <img id="kmrbiasa3"class="demo cursor" src="hrkamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
-        </div>
-    </div>
-    <div class="rows">
 
-        <div class="column" >
-            <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar3()" >
+        <div class="rows">
+            <div class="column">
+                <img id="kmrbiasa"class="demo cursor" src="hrkamar1.png" style="width:100%;height:200px;opacity:1;"   onclick="gantiGambars()" >
+            </div>
+            <div class="column" >
+                <img id="kmrbiasa2"class="demo cursor" src="hrkamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar()" >
+            </div>
+            <div class="column" >
+                <img id="kmrbiasa3"class="demo cursor" src="hrkamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
+            </div>
+            <div class="column" >
+                <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar3()" >
+            </div>
         </div>
-        <div class="column" >
-            <img id="kmrmandi2"class="demo cursor" src="hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
-        </div>
-        <div class="column" >
-            <img id="kmrmandi3"class="demo cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
+        <div class="rows">
+            <div class="column" >
+                <img id="kmrmandi2"class="demo cursor" src="hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
+            </div>
+            <div class="column" >
+                <img id="kmrmandi3"class="demo cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
+            </div>
         </div>
     </div>
 </div>
+
+<div id="myModals" class="modal">
+    <span  class="close cursor" onclick="closeModals()">&times;</span>
+    <div class="modal-content" style="margin-top:5%;">
+        <div class="mySlides2">
+
+            <img id="gambarutamas"
+                width="100%" style="height:800px;" src="hrlobi1.jpg">
+        </div>
+
+
+        <div class="caption-container">
+            <br>
+            <p id="caption" style="color:white;font-size:24px;">Lobi Hotel</p>
+        </div>
+        <div class="rows">
+            <div class="column">
+                <img id="lobi1"class="demos cursor" src="hrlobi1.jpg" style="width:100%;height:200px;opacity:1;"   onclick="previewHome1()" >
+            </div>
+            <div class="column" >
+                <img id="lobi2"class="demos cursor" src="hrlobi2.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome2()" >
+            </div>
+            <div class="column" >
+                <img id="lobi3"class="demos cursor" src="hrlobi3.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome3()" >
+            </div>
+            <div class="column" >
+                <img id="lobi4"class="demos cursor" src="hrliftlobi.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome4()" >
+            </div>
+        </div>
+
+        <div class="caption-container">
+            <br>
+            <p id="caption" style="color:white;font-size:24px;">Kolam Renang</p>
+        </div>
+        <div class="rows">
+            <div class="column" >
+                <img id="kolamrenang1"class="demos cursor" src="hrkolamrenang1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome5()" >
+            </div>
+            <div class="column" >
+                <img id="kolamrenang2"class="demos cursor" src="hrkolamrenang2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome6()" >
+            </div>
+            <div class="column" >
+                <img id="kolamrenang3"class="demos cursor" src="hrkolamrenang3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome7()" >
+            </div>
+            <div class="column" >
+                <img id="kolamrenang4"class="demos cursor" src="hrkolamrenang4.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome8()" >
+            </div>
+        </div>
+
+        <div class="caption-container">
+            <br>
+            <p id="caption" style="color:white;font-size:24px;">Restaurant</p>
+        </div>
+        <div class="rows">
+            <div class="column" >
+                <img id="restaurant1"class="demos cursor" src="hrrestaurant1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome9()" >
+            </div>
+            <div class="column" >
+                <img id="restaurant2"class="demos cursor" src="hrrestaurant2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome10()" >
+            </div>
+            <div class="column" >
+                <img id="restaurant3"class="demos cursor" src="hrrestaurant3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome11()" >
+            </div>
+        </div>
+        <div class="caption-container">
+            <br>
+            <p id="caption" style="color:white;font-size:24px;">Kamar</p>
+        </div>
+        <div class="rows">
+            <div class="column" >
+                <img id="kamar1"class="demos cursor" src="hrkamar1.png" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome12()" >
+            </div>
+            <div class="column" >
+                <img id="kamar2"class="demos cursor" src="hrkamar3.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome13()" >
+            </div>
+            <div class="column" >
+                <img id="kamar3"class="demos cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome14()" >
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
 </div>
 <script src="/js/skenario2js/gantiGambarPreview.js"></script>
-
-<script type="text/javascript">jssor_1_slider_init();</script>
+<script src="/js/skenario2js/gantiGambarHome.js"></script>
 <script src="js/accordion.js"></script>
 </body>
 <br>
