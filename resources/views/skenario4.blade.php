@@ -172,7 +172,7 @@
                 <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div onclick="openModals()"class="column" style=" position: relative;text-align: center;color: white;">
-                <img id="imgcol5" onclick=""src="hrrestaurant3.png" alt="Forest" style="width:100%;height:150px;">
+                <img id="imgcol5" onclick=""src="hrrestaurant3r.jpg" alt="Forest" style="width:100%;height:150px;">
                 <div class="centered" style="font-size:28px;"><u>Lihat Semua </u></div>
             </div>
         </div>
