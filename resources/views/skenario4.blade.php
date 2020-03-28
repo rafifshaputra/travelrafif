@@ -172,7 +172,7 @@
                 <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div class="column">
-                <img id="imgcol5" onclick="gambarGanti5();"src="hrrestaurant2.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol5" onclick="gambarGanti5();"src="hrrestaurant2r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
 
         </div>
