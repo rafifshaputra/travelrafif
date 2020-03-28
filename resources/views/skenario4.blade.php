@@ -154,7 +154,7 @@
     </nav>
     <div class="contain" style="background-color:white;">
 
-        <img id="myImage" width="100%" height="700px"src="hrrestaurantgif.gif">
+        <img id="myImage" width="100%" height="700px"src="https://s5.gifyu.com/images/hrrestaurantgif.gif">
         <br>
         <br>
         <!--ROW GAMBAR THUMBNAIL-->
