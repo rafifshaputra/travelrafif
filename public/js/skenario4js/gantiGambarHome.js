@@ -1,5 +1,5 @@
 function gambarGanti1(){
-    y="hrlobi1.jpg";
+    y="hrlobi1.gif";
     document.getElementById('myImage').src=y;
     document.getElementById('imgcol1').style.opacity = "1";
     document.getElementById('imgcol2').style.opacity = "0.6";
