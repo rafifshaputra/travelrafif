@@ -13,7 +13,7 @@
     <script src="js/lightbox.js"></script>
     <script src="js/lightboxhome.js"></script>
     <script src="js/pemesananKamar.js"></script>
-    <script src="js/skenario2js/previewHome.js"></script>
+    <script src="js/skenario4js/previewHome.js"></script>
     <script src="js/detailPage.js"></script>
     <script type="text/javascript" src="js/skenario2js/slider.js"></script>
 
@@ -171,10 +171,10 @@
             <div class="column">
                 <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
-            <div onclick="openModals()"class="column" style=" position: relative;text-align: center;color: white;">
-                <img id="imgcol5" onclick=""src="hrrestaurant3r.jpg" alt="Forest" style="width:100%;height:150px;">
-                <div class="centered" style="font-size:28px;"><u>Lihat Semua </u></div>
+            <div class="column">
+                <img id="imgcol5" onclick="gambarGanti5();"src="hrrestaurant2.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
+
         </div>
         <br>
     <br>
@@ -513,88 +513,10 @@
     </div>
 </div>
 
-<div id="myModals" class="modal">
-    <span  class="close cursor" onclick="closeModals()">&times;</span>
-    <div class="modal-content" style="margin-top:5%;">
-        <div class="mySlides2">
 
-            <img id="gambarutamas"
-                width="100%" style="height:800px;" src="hrlobi1.jpg">
-        </div>
-
-
-        <div class="caption-container">
-            <br>
-            <p id="caption" style="color:white;font-size:24px;">Lobi Hotel</p>
-        </div>
-        <div class="rows">
-            <div class="column">
-                <img id="lobi1"class="demos cursor" src="hrlobi1.jpg" style="width:100%;height:200px;opacity:1;"   onclick="previewHome1()" >
-            </div>
-            <div class="column" >
-                <img id="lobi2"class="demos cursor" src="hrlobi2.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome2()" >
-            </div>
-            <div class="column" >
-                <img id="lobi3"class="demos cursor" src="hrlobi3.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome3()" >
-            </div>
-            <div class="column" >
-                <img id="lobi4"class="demos cursor" src="hrliftlobi.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome4()" >
-            </div>
-        </div>
-
-        <div class="caption-container">
-            <br>
-            <p id="caption" style="color:white;font-size:24px;">Kolam Renang</p>
-        </div>
-        <div class="rows">
-            <div class="column" >
-                <img id="kolamrenang1"class="demos cursor" src="hrkolamrenang1r.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome5()" >
-            </div>
-            <div class="column" >
-                <img id="kolamrenang2"class="demos cursor" src="hrkolamrenang2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome6()" >
-            </div>
-            <div class="column" >
-                <img id="kolamrenang3"class="demos cursor" src="hrkolamrenang3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome7()" >
-            </div>
-            <div class="column" >
-                <img id="kolamrenang4"class="demos cursor" src="hrkolamrenang4.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome8()" >
-            </div>
-        </div>
-
-        <div class="caption-container">
-            <br>
-            <p id="caption" style="color:white;font-size:24px;">Restaurant</p>
-        </div>
-        <div class="rows">
-            <div class="column" >
-                <img id="restaurant1"class="demos cursor" src="hrrestaurant1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome9()" >
-            </div>
-            <div class="column" >
-                <img id="restaurant2"class="demos cursor" src="hrrestaurant2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome10()" >
-            </div>
-            <div class="column" >
-                <img id="restaurant3"class="demos cursor" src="hrrestaurant3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome11()" >
-            </div>
-        </div>
-        <div class="caption-container">
-            <br>
-            <p id="caption" style="color:white;font-size:24px;">Kamar</p>
-        </div>
-        <div class="rows">
-            <div class="column" >
-                <img id="kamar1"class="demos cursor" src="hrkamar1r.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome12()" >
-            </div>
-            <div class="column" >
-                <img id="kamar2"class="demos cursor" src="hrkamar3.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome13()" >
-            </div>
-            <div class="column" >
-                <img id="kamar3"class="demos cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome14()" >
-            </div>
-        </div>
-    </div>
     <br>
     <br>
-</div>
+
 <script src="/js/skenario2js/gantiGambarPreview.js"></script>
 <script src="/js/skenario4js/gantiGambarHome.js"></script>
 <script src="js/accordion.js"></script>
