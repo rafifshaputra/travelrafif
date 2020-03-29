@@ -241,7 +241,7 @@
                     </div>
                     <div id="back2"class="col-sm-2" style="padding:15px;display:none;">
                         <button onclick="seeDetail()">
-                            <img src="https://imgur.com/aksZmFn.png" width="60px;">
+                            <img src="backk.png" width="60px;">
                         </button>
                     </div>
                     <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">
@@ -285,7 +285,7 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="seeDetail();" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
+                    <img src="hrkamardet.jpg" onclick="seeDetail();" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
                   </div>
 
                   <div class="carousel-item">
@@ -344,27 +344,18 @@
                       <li data-target="#demo" data-slide-to="0" class="active"></li>
                       <li data-target="#demo" data-slide-to="1"></li>
                       <li data-target="#demo" data-slide-to="2"></li>
-                      <li data-target="#demo" data-slide-to="3"></li>
-                      <li data-target="#demo" data-slide-to="4"></li>
-                    </ul>
 
+                    </ul>
                     <!-- The slideshow -->
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal()" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="https://s5.gifyu.com/images/kamar.gif" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkamar3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
-                      </div>
-
-                      <div class="carousel-item">
-                        <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="https://s5.gifyu.com/images/kamarmandi.gif"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkmrmndi2.png" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="hrkmrmndi3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="https://s5.gifyu.com/images/kamarmandi2.gif" alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
 
 

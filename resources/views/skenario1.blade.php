@@ -10,6 +10,7 @@
     <script src="js/lightbox.js"></script>
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
+    <script src="/js/360js/gantiGambarHome.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -166,16 +167,19 @@
             <!--ROW GAMBAR THUMBNAIL-->
             <div class="rows" >
                 <div class="column">
-                    <img id="imgcol1"onclick="imageChange()" src="https://i.ibb.co/gtKZs6z/gambar.png" alt="Snow" style="width:100%;height:180px;">
+                    <img id="imgcol1"onclick="gambarGanti1()" src="hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
                 </div>
                 <div class="column">
-                    <img id="imgcol3" onclick="imageChange3()" src="https://i.ibb.co/0hgFCQ7/gambar3.png" alt="Mountains" style="width:100%;height:180px;">
+                    <img id="imgcol2" onclick="gambarGanti2();" src="hrkolamrenang1r.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
                 </div>
                 <div class="column">
-                    <img id="imgcol4" onclick="imageChange4()"src="https://i.ibb.co/Pchrm5P/gambar4.png" alt="Mountains" style="width:100%;height:180px;">
+                    <img id="imgcol3" onclick="gambarGanti3();"src="hrkamar1.png" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
                 </div>
                 <div class="column">
-                    <img id="imgcol2" onclick="imageChange2()"src="https://i.ibb.co/FJcb7zV/gambar2.png" alt="Forest" style="width:100%;height:180px;">
+                    <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+                </div>
+                <div class="column">
+                    <img id="imgcol5" onclick="gambarGanti5();"src="hrrestaurant2r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
                 </div>
             </div>
             <br>
@@ -456,7 +460,7 @@
 <div id="myModal" class="modal">
     <span  class="close cursor" onclick="closeModal()">&times;</span>
     <div class="modal-content" style="margin-top:5%;">
-        <div class="mySlides">
+
             <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:1%;left:84%;">
                 <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7">
             </div>
@@ -470,7 +474,7 @@
                 webkitallowfullscreen="webkitallowfullscreen"
                 src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75">
             </iframe>
-        </div>
+
 
         <div class="caption-container">
             <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>

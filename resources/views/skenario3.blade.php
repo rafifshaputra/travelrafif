@@ -584,7 +584,7 @@
         prefixUrl:     '/img/images/',
         tileSources:   {
             type : 'image',
-            url : 'img/Horison/kolamrenang4.jpg',
+            url : '/img/Horison/hrkolamrenang1.jpg',
             buildPyramid: false
         }
       });
