@@ -157,12 +157,18 @@
     </nav>
 
     <div class="contain" style="background-color:white;">
-        <div id="myImage" data-u="image" style="width:100%;height:800px;"></div>
+
+        <div id="myImage" data-u="image" style="width:100%;height:800px;">        </div>
         <div id="myImage2" data-u="image" style="width:100%;height:800px;display:none;" ></div>
         <div id="myImage3" data-u="image" style="width:100%;height:800px;display:none;" ></div>
         <div id="myImage4" data-u="image" style="width:100%;height:800px;display:none;" ></div>
         <div id="myImage5" data-u="image" style="width:100%;height:800px;display:none;" ></div>
-
+        <div id ="aa"style="background-color:rgba(0,0,0,0.3);position:absolute;top:7%;left:15%;;transform: translate(-50%, -50%);">
+            <a><img src="zoom-in.png" id="zoom-in"style="padding:10px;width:70px;height:70px;"></a>
+            <img src="zoom-out.png" id="zoom-out"style="padding:10px;width:70px;height:70px;">
+            <img src="homes.png" id="home" class="fullscreen" style="padding:10px;width:70px;height:70px;">
+            <img src="fullscreen.png" id="full-page"style="padding:10px;width:70px;height:70px;">
+        </div>
 
 
         <!--ROW GAMBAR THUMBNAIL-->
@@ -617,6 +623,16 @@
 <script src="js/openseadragon.min.js"></script>
     <script>
       var viewer = OpenSeadragon({
+        visibilityRatio: 1.0,
+
+        maxZoomPixelRatio:10,
+        defaultZoomLevel:1.5,
+        zoomInButton:   "zoom-in",
+        zoomOutButton:   "zoom-out",
+        homeButton: "home",
+fullPageButton: "full-page",
+        constrainDuringPan: true,
+        showNavigator:true,
         id:            'myImage',
         prefixUrl:     '/img/images/',
         tileSources:   {
@@ -624,6 +640,7 @@
             url : '/hrlobi1.jpg',
             buildPyramid: false
         }
+
       });
 
       var viewer2= OpenSeadragon({
@@ -665,6 +682,8 @@
             buildPyramid: false
         }
       });
+
+
 
     </script>
 </body>
