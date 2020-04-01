@@ -15,7 +15,7 @@
 
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
-    <script src="js/skenario3js/previewHome.js"></script>
+
 
     <script src="https://scripts.sirv.com/sirv.js"></script>
 
@@ -682,7 +682,7 @@
     <br>
     <br>
 </div>
-<script src="js/skenario3js/previewChangeImage.js"></script>
+<script src="/js/skenario3js/previewChangeImage.js"></script>
 <script src="/js/skenario3js/gantiGambarHome.js"></script>
 
 <script type="text/javascript">jssor_1_slider_init();</script>
@@ -693,6 +693,7 @@
 <script src="js/skenario3js/previewchangeosd.js"></script>
 <script src="js/skenario3js/detailOsd.js"></script>
 <script src="js/skenario3js/previewDetOsd.js"></script>
+<script src="js/skenario3js/previewHome.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function() {
