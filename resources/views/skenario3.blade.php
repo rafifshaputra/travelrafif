@@ -690,7 +690,7 @@
 <script src="js/skenario3js/previewchangeosd.js"></script>
 <script src="js/skenario3js/detailOsd.js"></script>
 <script src="js/skenario3js/previewDetOsd.js"></script>
-<script src="js/skenario3js/previewHome.js"></script>
+
 
 <script type="text/javascript">
   $(document).ready(function() {
