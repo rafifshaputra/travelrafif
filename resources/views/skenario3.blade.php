@@ -16,9 +16,6 @@
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
 
-
-    <script src="https://scripts.sirv.com/sirv.js"></script>
-
     <link rel="stylesheet" href="/css/skenario2.css">
     <link rel="stylesheet" href="/css/lightbox.css">
 
@@ -544,7 +541,7 @@
 <div id="myModal" class="modal">
 <span  class="close cursor" onclick="closeModal()">&times;</span>
 <div class="modal-content" style="margin-top:5%;">
-    <div class="mySlide">
+
 
         <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
         <div id="previewImage" data-u="image"width="100%" style="height:800px;" ></div>
@@ -554,7 +551,7 @@
         <div id="previewImage5" data-u="image"width="100%" style="height:800px;display:none;" ></div>
         <div id="previewImage6" data-u="image"width="100%" style="height:800px;display:none;" ></div>
 
-    </div>
+
 
     <div class="caption-container">
         <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>
@@ -701,12 +698,6 @@
       interval: 30000
     })
   });
-
-function clickColor(){
-    document.getElementById('zoom-in').style.backgroundColor="red";
-
-}
-
 
 </script>
 
