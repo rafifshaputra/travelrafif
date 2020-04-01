@@ -87,7 +87,7 @@
 
     </div>
     <div class="contain" style="padding-top:2%;background-color:#F3F6F5;">
-        <span style="font-size:22px;"><b>Kamar di Hotel Horison Ultima Bekasi</b> </span>
+        <span style="font-size:22px;"><b>Kamar di Hotel Arison</b> </span>
     </div>
     <br>
     <div class="contain" style="background-color:white;">
@@ -180,22 +180,57 @@
     <br>
 
     <div class="head" style="padding-left:3%;">
-        <div style="font-size:42px"><b>Horison Ultima Bekasi</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
+        <div style="font-size:42px"><b>Hotel Arison</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
         <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
             Lokasi</b></span>
-        <div style="padding-top:1%; font-size:32px;"> Jalan Uluwatu 123. Bekasi Utara. Jakarta. 17610 </div><br>
+        <div style="padding-top:1%; font-size:32px;"> Jalan Bogor 123. Bogor Barat. 321 </div><br>
     </div>
     <hr>
     <br>
     <b><span style="font-size:36px">Deskripsi </span><br></b>
-      <p style="padding:15px;font-size:32px;" align="justify">  Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-        Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-        Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-        Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+      <p style="padding:15px;font-size:32px;" align="justify">
+        Hotel Arison merupakan hotel bintang 4. Nuansa klasik dan mewah menjadi ciri khas penginapan ini. <br>
+        <br>
+        Fasilitas unggulan yang bisa dinikmati adalah Sky Dine and Longe. Selain itu, terdapat kamar-kamar dengan fasilitas mumpuni, kolam renang,
+        fasilitas khusus penyandang disabilitas, dan lainnya.<br>
+        <br>
+        Para tamu Arison Hotel yang menginginkan ketenangan, dapat memesan kamar kedap suara. Kamar ini juga cocok untuk Anda yang membawa bayi dan enggan terganggu kenyamanannya.
+      </p>
+    <hr>
+    <br>
+    <b><span style="font-size:36px">Fasilitas Umum</span><br></b>
+      <p style="padding:15px;font-size:32px;" align="justify">
+        <div class="row" style="padding-left:25px;" >
+            <div class="column" style="flex:20%;width:16.5%;" >
+                <span><img src="food.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;">Restoran </span>
+            </div>
+            <div class="column" align="center"  style="flex:20%;width:20%;" >
+                <span><img src="ladder.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Kolam Renang</span>
+
+            </div>
+            <div class="column"   align="center"style="flex:20%;width:20%;">
+                <span><img src="24-hours.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Resepsionis 24 Jam</span>
+
+            </div>
+            <div class="column"   style="flex:20%;width:20%;" >
+                <span><img src="barbel.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Mini Gym</span>
+
+            </div>
+            <div class="column"   style="flex:20%;width:20%;" >
+                <span><img src="elevator.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Elevator</span>
+            </div>
+
+        </div>
       </p>
     <hr>
     <br>
     <b><span style="font-size:36px">Kebijakan Hotel</span><br></b>
+    <br>
     <ul class="a">
         <li  style="padding:5px;font-size:32px;"> Check-in mulai dari jam 14.00</li>
         <li  style="padding:5px;font-size:32px;"> Check-out maksimal jam 12.00</li>
@@ -235,8 +270,8 @@
                     </div>
                     <div id="headerdetail"class="col-sm-10" style="padding:5px;">
 
-                            <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
-                            <span style="font-size:32px;color:white;">Bekasi, Jawa Barat</span>
+                            <span style="color:white;font-size:38px;"><b>Hotel Arison</b></span><br>
+                            <span style="font-size:32px;color:white;">Bogor, Jawa Barat</span>
 
                     </div>
                     <div id="back2"class="col-sm-2" style="padding:15px;display:none;">
@@ -245,7 +280,7 @@
                         </button>
                     </div>
                     <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">
-                        <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
+                        <span style="color:white;font-size:38px;"><b>Hotel Arison</b></span><br>
                         <span style="font-size:32px;color:white;">Deluxe Room</span>
                     </div>
                 </div>
