@@ -17,7 +17,6 @@
     <script src="js/detailPage.js"></script>
     <script src="js/skenario3js/previewHome.js"></script>
 
-    <script type="text/javascript" src="js/skenario2js/slider.js"></script>
     <script src="https://scripts.sirv.com/sirv.js"></script>
 
     <link rel="stylesheet" href="/css/skenario2.css">
@@ -30,6 +29,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#zoom-in:active{
+    background-color:#E36B38;
+}
+
+#zoom-out:active{
+    background-color:#E36B38;
+}
+
+#home:active{
+    background-color:#E36B38;
+}
+
+#fullscreen:active{
+    background-color:#E36B38;
+}
+
 </style>
 </head>
 <body style="background-color:#F3F6F5">
@@ -90,7 +106,7 @@
 
     </div>
     <div class="contain" style="padding-top:2%;background-color:#F3F6F5;">
-        <span style="font-size:22px;"><b>Kamar di Hotel Horison Ultima Bekasi</b> </span>
+        <span style="font-size:22px;"><b>Kamar di Hotel Arison</b> </span>
     </div>
     <br>
     <div class="contain" style="background-color:white;">
@@ -145,6 +161,9 @@
     </div>
 </div>
 
+
+<!-- POP UP INFO -->
+
 <!-- DATA UNTUK MOBILE HALAMAN AWAL -->
 <div class="mobile" id="mobile" >
     <nav class="navbar navbar-default" style="background-color:#3A7765;">
@@ -163,8 +182,6 @@
         <div id="myImage3" data-u="image" style="width:100%;height:800px;display:none;" ></div>
         <div id="myImage4" data-u="image" style="width:100%;height:800px;display:none;" ></div>
         <div id="myImage5" data-u="image" style="width:100%;height:800px;display:none;" ></div>
-
-
 
         <!--ROW GAMBAR THUMBNAIL-->
         <div class="rows" >
@@ -189,22 +206,57 @@
     <br>
 
     <div class="head" style="padding-left:3%;">
-        <div style="font-size:42px"><b>Horison Ultima Bekasi</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
+        <div style="font-size:42px"><b>Hotel Arison</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
         <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
             Lokasi</b></span>
-        <div style="padding-top:1%; font-size:32px;"> Jalan Uluwatu 123. Bekasi Utara. Jakarta. 17610 </div><br>
+        <div style="padding-top:1%; font-size:32px;"> Jalan Bogor 123. Bogor Barat. 321 </div><br>
     </div>
     <hr>
     <br>
     <b><span style="font-size:36px">Deskripsi </span><br></b>
-      <p style="padding:15px;font-size:32px;" align="justify">  Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-        Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-        Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
-        Hotel ini merupakan hotel yang terdiri dari lorem ipsum sum lorem
+      <p style="padding:15px;font-size:32px;" align="justify">
+        Hotel Arison merupakan hotel bintang 4. Nuansa klasik dan mewah menjadi ciri khas penginapan ini. <br>
+        <br>
+        Fasilitas unggulan yang bisa dinikmati adalah Sky Dine and Longe. Selain itu, terdapat kamar-kamar dengan fasilitas mumpuni, kolam renang,
+        fasilitas khusus penyandang disabilitas, dan lainnya.<br>
+        <br>
+        Para tamu Arison Hotel yang menginginkan ketenangan, dapat memesan kamar kedap suara. Kamar ini juga cocok untuk Anda yang membawa bayi dan enggan terganggu kenyamanannya.
+      </p>
+    <hr>
+    <br>
+    <b><span style="font-size:36px">Fasilitas Umum</span><br></b>
+      <p style="padding:15px;font-size:32px;" align="justify">
+        <div class="row" style="padding-left:25px;" >
+            <div class="column" style="flex:20%;width:16.5%;" >
+                <span><img src="food.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;">Restoran </span>
+            </div>
+            <div class="column" align="center"  style="flex:20%;width:20%;" >
+                <span><img src="ladder.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Kolam Renang</span>
+
+            </div>
+            <div class="column"   align="center"style="flex:20%;width:20%;">
+                <span><img src="24-hours.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Resepsionis 24 Jam</span>
+
+            </div>
+            <div class="column"   style="flex:20%;width:20%;" >
+                <span><img src="barbel.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Mini Gym</span>
+
+            </div>
+            <div class="column"   style="flex:20%;width:20%;" >
+                <span><img src="elevator.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Elevator</span>
+            </div>
+
+        </div>
       </p>
     <hr>
     <br>
     <b><span style="font-size:36px">Kebijakan Hotel</span><br></b>
+    <br>
     <ul class="a">
         <li  style="padding:5px;font-size:32px;"> Check-in mulai dari jam 14.00</li>
         <li  style="padding:5px;font-size:32px;"> Check-out maksimal jam 12.00</li>
@@ -213,12 +265,7 @@
     </ul>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <hr>
 
     <nav id="navhomebawah"class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
@@ -244,8 +291,8 @@
                     </div>
                     <div id="headerdetail"class="col-sm-10" style="padding:5px;">
 
-                            <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
-                            <span style="font-size:32px;color:white;">Bekasi, Jawa Barat</span>
+                            <span style="color:white;font-size:38px;"><b>Hotel Arison</b></span><br>
+                            <span style="font-size:32px;color:white;">Bogor, Jawa Barat</span>
 
                     </div>
                     <div id="back2"class="col-sm-2" style="padding:15px;display:none;">
@@ -254,7 +301,7 @@
                         </button>
                     </div>
                     <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">
-                        <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
+                        <span style="color:white;font-size:38px;"><b>Horison Arison</b></span><br>
                         <span style="font-size:32px;color:white;">Deluxe Room</span>
                     </div>
                 </div>
@@ -294,11 +341,11 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal();currentSlide(1)" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
+                    <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="seeDetail();" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
                   </div>
 
                   <div class="carousel-item">
-                    <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="500" class="hover-shadow cursor">
+                    <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="seeDetail();"alt="Chicago" width="1100" height="500" class="hover-shadow cursor">
                   </div>
                 </div>
 
@@ -360,20 +407,20 @@
                     <!-- The slideshow -->
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal();currentSlide(1)" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
+                        <div id="detailImage"   data-u="image" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor"></div>
                       </div>
                       <div class="carousel-item">
-                        <img src="/img/Horison/kamar3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <div id ="detailImage2" data-u="image"alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
                       </div>
 
                       <div class="carousel-item">
-                        <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <div id="detailImage3" alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
                       </div>
                       <div class="carousel-item">
-                        <img src="/img/Horison/kmrmndi2.png" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <div id="detailImage4"  alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
                       </div>
                       <div class="carousel-item">
-                        <img src="/img/Horison/kmrmndi3.jpg" onclick="openModal();currentSlide(2)"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <div id="detailImage5" alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
                       </div>
 
 
@@ -387,6 +434,14 @@
                       <span class="carousel-control-next-icon"></span>
                     </a>
                   </div>
+
+                  <div style="background-color:#4a4a4a;padding-top:10px;padding-bottom:10px;">
+                    <span id="zoom-in" ><img src="zoom-in.png"  width="40" height="40"></span>
+                    <span id="zoom-out" ><img src="zoom-out.png"  width="40" height="40"> </span>
+                    <span id="home" ><img src="homes.png"  width="40" height="40"> </span>
+                    <span id="expand" onclick="openModal();"style="float:right;" ><img src="fullscreen.png"  width="40" height="40" > </span>
+                  </div>
+
             </div>
 
             <br>
@@ -489,11 +544,15 @@
 <div id="myModal" class="modal">
 <span  class="close cursor" onclick="closeModal()">&times;</span>
 <div class="modal-content" style="margin-top:5%;">
-    <div class="mySlides">
+    <div class="mySlide">
 
         <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
-        <img id="gambarutama"
-            width="100%" style="height:800px;" src="https://i.ibb.co/Pchrm5P/gambar4.png">
+        <div id="previewImage" data-u="image"width="100%" style="height:800px;" ></div>
+        <div id="previewImage2" data-u="image"width="100%" style="height:800px;display:none;" ></div>
+        <div id="previewImage3" data-u="image"width="100%" style="height:800px;display:none;" ></div>
+        <div id="previewImage4" data-u="image"width="100%" style="height:800px;display:none;" ></div>
+        <div id="previewImage5" data-u="image"width="100%" style="height:800px;display:none;" ></div>
+        <div id="previewImage6" data-u="image"width="100%" style="height:800px;display:none;" ></div>
 
     </div>
 
@@ -504,25 +563,24 @@
     <div class="rows">
 
         <div class="column">
-            <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;"   onclick="gantiGambars()" >
+            <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;opacity:1;"   onclick="gantiGambar()" >
         </div>
         <div class="column" >
-            <img id="kmrbiasa2"class="demo cursor" src="/img/Horison/kamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar()" >
+            <img id="kmrbiasa2"class="demo cursor" src="hrkamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
         </div>
         <div class="column" >
-            <img id="kmrbiasa3"class="demo cursor" src="/img/Horison/kamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
+            <img id="kmrbiasa3"class="demo cursor" src="hrkamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar3()" >
+        </div>
+        <div class="column" >
+            <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
         </div>
     </div>
     <div class="rows">
-
         <div class="column" >
-            <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar3()" >
+            <img id="kmrmandi2"class="demo cursor" src="hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar5()" >
         </div>
         <div class="column" >
-            <img id="kmrmandi2"class="demo cursor" src="img/Horison/kmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
-        </div>
-        <div class="column" >
-            <img id="kmrmandi3"class="demo cursor" src="img/Horison/kmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
+            <img id="kmrmandi3"class="demo cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar6()" >
         </div>
     </div>
 </div>
@@ -533,8 +591,22 @@
     <div class="modal-content" style="margin-top:5%;">
         <div class="mySlides2">
 
-            <img id="gambarutamas"
-                width="100%" style="height:800px;" src="hrlobi1.jpg">
+            <div id="gambarutamas" data-u="image" style="width:100%;height:800px;"> </div>
+            <div id="gambarutamas2" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas3" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas4" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas5" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas6" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas7" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas8" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas9" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas10" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas11" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas12" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas13" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas14" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+
+
         </div>
 
 
@@ -610,73 +682,33 @@
     <br>
     <br>
 </div>
-<script src="/js/skenario2js/gantiGambarPreview.js"></script>
+<script src="js/skenario3js/previewChangeImage.js"></script>
 <script src="/js/skenario3js/gantiGambarHome.js"></script>
 
 <script type="text/javascript">jssor_1_slider_init();</script>
 <script src="js/accordion.js"></script>
 <script src="js/openseadragon.min.js"></script>
-    <script>
-      var viewer = OpenSeadragon({
-        visibilityRatio: 1.0,
-        maxZoomPixelRatio:10,
-        defaultZoomLevel:1.5,
-        constrainDuringPan: true,
-        showNavigator:true,
+<script src="js/skenario3js/homeosd.js"></script>
+<script src="js/skenario3js/previewosd.js"></script>
+<script src="js/skenario3js/previewchangeosd.js"></script>
+<script src="js/skenario3js/detailOsd.js"></script>
+<script src="js/skenario3js/previewDetOsd.js"></script>
 
-        id:            'myImage',
-        prefixUrl:     '/img/images/',
-        tileSources:   {
-            type : 'image',
-            url : '/hrlobi1.jpg',
-            buildPyramid: false
-        }
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 30000
+    })
+  });
 
-      });
+function clickColor(){
+    document.getElementById('zoom-in').style.backgroundColor="red";
 
-      var viewer2= OpenSeadragon({
-        id:            'myImage2',
-        prefixUrl:     '/img/images/',
-        tileSources:   {
-            type : 'image',
-            url : '/hrkolamrenang1.jpg',
-            buildPyramid: false
-        }
-      });
-
-      var viewer3= OpenSeadragon({
-        id:            'myImage3',
-        prefixUrl:     '/img/images/',
-        tileSources:   {
-            type : 'image',
-            url : '/hrkamardet.jpg',
-            buildPyramid: false
-        }
-      });
-
-      var viewer4= OpenSeadragon({
-        id:            'myImage4',
-        prefixUrl:     '/img/images/',
-        tileSources:   {
-            type : 'image',
-            url : '/hrrestaurant1.jpg',
-            buildPyramid: false
-        }
-    });
-
-        var viewer5= OpenSeadragon({
-        id:            'myImage5',
-        prefixUrl:     '/img/images/',
-        tileSources:   {
-            type : 'image',
-            url : '/hrrestaurant2.jpg',
-            buildPyramid: false
-        }
-      });
+}
 
 
+</script>
 
-    </script>
 </body>
 <br>
 <br>
