@@ -12,6 +12,7 @@
     <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
     <script src="js/lightbox.js"></script>
     <script src="js/lightboxhome.js"></script>
+    <script src="js/confirmationModal.js"></script>
 
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
@@ -293,10 +294,12 @@
 
                     </div>
                     <div id="back2"class="col-sm-2" style="padding:15px;display:none;">
-                        <button onclick="seeDetail()">
+                        <button id="back21"onclick="seeDetail()">
                             <img src="https://imgur.com/aksZmFn.png" width="60px;">
                         </button>
+                        <span id="back22"style="font-size:36px;color:white;display:none;">TRAVELRAFIF</p>
                     </div>
+
                     <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">
                         <span style="color:white;font-size:38px;"><b>Horison Arison</b></span><br>
                         <span style="font-size:32px;color:white;">Deluxe Room</span>
@@ -529,7 +532,7 @@
         <br>
         <!--STICKY BOTTOM NAVBAR-->
         <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-                <button style="width:100%;"> Pesan Kamar ini</button>
+                <button style="width:100%;" onclick="openModal2();"> Pesan Kamar ini</button>
             </span><br></a>
         </nav>
     </div>
@@ -679,6 +682,43 @@
     <br>
     <br>
 </div>
+
+<div id="myModal2" class="modal" >
+    <span  class="close cursor" onclick="closeModal2()">&times;</span>
+    <div class="modal-dialog modal-lg"  role="document">
+        <div class="modal-content" style="width:100%">
+        <div class="modal-header">
+            <h2 class="modal-title">Konfirmasi Pemesanan</h5>
+
+            </button>
+        </div>
+        <div class="modal-body" >
+            <br>
+            <p style="font-size:28px;">Apakah anda telah selesai melihat-melihat detail seperti foto atau lainnya dan ingin melanjutkan memesan hotel ini?</p>
+        </div>
+        <div class="modal-footer">
+
+
+            <button type="button" class="btn btn-secondary" onclick="closeModal2();" style="float:left;width:120px;" >Kembali</button>
+
+
+            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick=pesan();>Iya, Pesan Hotel</button>
+
+
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contain" id="backto" style="padding:15px;background-color:white;display:none;">
+    <p style="font-size:36px;" align="center">Pada titik ini, anda diasumsikan sudah melakukan pemesanan hotel. <br><br>
+        Tahap selanjutnya, anda <b><span style="color:blue ;">dapat  kembali </span> ke <span style="color:blue ;">survei google form</span></b> yang sedang anda isinya sebelumnya
+        untuk <b> menyelesaikan beberapa pertanyaan kembali. </b>
+        <br><br> Terima kasih atas partisipasinya!.
+    </p>
+</div>
+
 <script src="js/skenario3js/previewChangeImage.js"></script>
 <script src="js/skenario3js/gantiGambarHome.js"></script>
 

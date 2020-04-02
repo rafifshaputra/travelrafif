@@ -16,6 +16,8 @@
     <script src="js/skenario4js/previewHome.js"></script>
     <script src="js/detailPage.js"></script>
     <script type="text/javascript" src="js/skenario2js/slider.js"></script>
+    <script src="js/confirmationModal.js"></script>
+
 
     <link rel="stylesheet" href="/css/skenario2.css">
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -275,9 +277,10 @@
 
                     </div>
                     <div id="back2"class="col-sm-2" style="padding:15px;display:none;">
-                        <button onclick="seeDetail()">
-                            <img src="backk.png" width="60px;">
+                        <button id="back21"onclick="seeDetail()">
+                            <img src="https://imgur.com/aksZmFn.png" width="60px;">
                         </button>
+                        <span id="back22"style="font-size:36px;color:white;display:none;">TRAVELRAFIF</p>
                     </div>
                     <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">
                         <span style="color:white;font-size:38px;"><b>Hotel Arison</b></span><br>
@@ -375,7 +378,7 @@
                 <div id="demos" class="carousel slide" data-ride="carousel">
 
                     <!-- Indicators -->
-                    <ul class="carousel-indicators">
+                    <ul id="indikator2"class="carousel-indicators">
                       <li data-target="#demo" data-slide-to="0" class="active"></li>
                       <li data-target="#demo" data-slide-to="1"></li>
                       <li data-target="#demo" data-slide-to="2"></li>
@@ -494,7 +497,7 @@
         <br>
         <!--STICKY BOTTOM NAVBAR-->
         <nav id="navdetailbawah" class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-                <button style="width:100%;"> Pesan Kamar ini</button>
+                <button style="width:100%;" onclick="openModal2();"> Pesan Kamar ini</button>
             </span><br></a>
         </nav>
     </div>
@@ -540,8 +543,42 @@
 </div>
 
 
-    <br>
-    <br>
+<div id="myModal2" class="modal" >
+    <span  class="close cursor" onclick="closeModal2()">&times;</span>
+    <div class="modal-dialog modal-lg"  role="document">
+        <div class="modal-content" style="width:100%">
+        <div class="modal-header">
+            <h2 class="modal-title">Konfirmasi Pemesanan</h5>
+
+            </button>
+        </div>
+        <div class="modal-body" >
+            <br>
+            <p style="font-size:28px;">Apakah anda telah selesai melihat-melihat detail seperti foto atau lainnya dan ingin melanjutkan memesan hotel ini?</p>
+        </div>
+        <div class="modal-footer">
+
+
+            <button type="button" class="btn btn-secondary" onclick="closeModal2();" style="float:left;width:120px;" >Kembali</button>
+
+
+            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick=pesan();>Iya, Pesan Hotel</button>
+
+
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contain" id="backto" style="padding:15px;background-color:white;display:none;">
+    <p style="font-size:36px;" align="center">Pada titik ini, anda diasumsikan sudah melakukan pemesanan hotel. <br><br>
+    Tahap selanjutnya, anda <b><span style="color:blue ;">dapat  kembali </span> ke <span style="color:blue ;">survei google form</span></b> yang sedang anda isinya sebelumnya
+    untuk <b> menyelesaikan beberapa pertanyaan kembali. </b>
+    <br><br> Terima kasih atas partisipasinya!.
+    </p>
+
+</div>
 
 <script src="/js/skenario2js/gantiGambarPreview.js"></script>
 <script src="/js/skenario4js/gantiGambarHome.js"></script>
