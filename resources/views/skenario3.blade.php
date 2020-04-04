@@ -51,7 +51,7 @@
     <nav class="navbar navbar-default" style="background-color:#3A7765;">
     <div class="container-fluid">
         <div class="navbar-header">
-        <a class="navbar-brand" href="#" style="color:white;font-size:20px;">TRAVELRAFIF</a>
+        <a class="navbar-brand" href="#" style="color:white;font-size:20px;">TRAVELRAF</a>
         </div>
 
     </div>
@@ -167,7 +167,7 @@
     <nav class="navbar navbar-default" style="background-color:#3A7765;">
     <div class="container-fluid">
         <div class="navbar-header">
-        <a class="navbar-brand" href="#" style="color:white;font-size:36px;">TRAVELRAFIF</a>
+        <a class="navbar-brand" href="#" style="color:white;font-size:36px;">TRAVELRAF</a>
         </div>
 
     </div>
@@ -297,7 +297,7 @@
                         <button id="back21"onclick="seeDetail()">
                             <img src="https://imgur.com/aksZmFn.png" width="60px;">
                         </button>
-                        <span id="back22"style="font-size:36px;color:white;display:none;">TRAVELRAFIF</p>
+                        <span id="back22"style="font-size:36px;color:white;display:none;">TRAVELRAF</p>
                     </div>
 
                     <div id="headerdetail2"class="col-sm-10" style="padding:5px;display:none;">

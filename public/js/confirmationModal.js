@@ -14,6 +14,7 @@ function openModal2() {
 
   function pesan(){
     document.getElementById("myModal2").style.display = "none";
+    document.getElementById("desktop").style.display = "none";
     document.getElementById("detailKamar").style.display="none";
     document.getElementById("headerdetail2").style.display="none";
     document.getElementById("back21").style.display="none";
