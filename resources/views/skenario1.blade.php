@@ -280,16 +280,16 @@
                         <img src="https://i.ibb.co/Pchrm5P/gambar4.png"onclick="openModalz()" alt="Snow" style="width:100%;height:200px;"><br>
                         <div class="rows" style="width:100%;padding-top:2%" >
                             <div class="column">
-                                <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModalz()"alt="Snow" style="width:100%;height:40px;">
+                                <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModalz()"alt="Snow" style="width:100%;height:60px;">
                             </div>
                             <div class="column">
-                                <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:40px;">
+                                <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
                             </div>
                             <div class="column">
-                                <img src="noimage.png" alt="Mountains"onclick="openModalz()" style="width:100%">
+                                <img src="noimage.png" alt="Mountains"onclick="openModalz()" style="width:100%;height:60px;">
                             </div>
                             <div class="column">
-                                <img src="noimage.png" alt="Mountains" onclick="openModalz()"style="width:100%">
+                                <img src="noimage.png" alt="Mountains" onclick="openModalz()"style="width:100%;height:60px;">
                             </div>
                         </div>
                     </div>
