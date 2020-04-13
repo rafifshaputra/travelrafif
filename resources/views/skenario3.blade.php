@@ -16,10 +16,7 @@
 
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
-    <script src="js/skenario3js/modalDetailDesktop.js"></script>
-    <script src="js/skenario3js/filterPreview.js"></script>
 
-    <script src="js/confirmationModalDesk.js"></script>
 
     <link rel="stylesheet" href="/css/skenario3.css">
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -718,30 +715,18 @@
 
 
 <script src="js/skenario3js/previewChangeImage.js"></script>
-<script src="js/skenario3js/previewChangeImageDesktop.js"></script>
 <script src="js/skenario3js/gantiGambarHome.js"></script>
-<script src="js/skenario3js/gantiGambarHomeDesktop.js"></script>
 
 <script type="text/javascript">jssor_1_slider_init();</script>
 <script src="js/accordion.js"></script>
 <script src="js/openseadragon.min.js"></script>
 <script src="js/skenario3js/homeosd.js"></script>
-<script src="js/skenario3js/homeosdDesktop.js"></script>
 <script src="js/skenario3js/previewosd.js"></script>
-<script src="js/skenario3js/previewosdDesktop.js"></script>
 <script src="js/skenario3js/previewChangeosd.js"></script>
-<script src="js/skenario3js/previewChangeosdDesktop.js"></script>
 <script src="js/skenario3js/detailOsd.js"></script>
 <script src="js/skenario3js/previewDetOsd.js"></script>
-<script src="js/skenario3js/previewDetOsdDesktop.js"></script>
 
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 30000
-    })
-  });
 
 </script>
 
