@@ -15,7 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/skenario1', function () {
+Route::get('/desk-hrsk1-20616', function () {
+    return view('skenario1-desktop');
+});
+
+Route::get('/mob-hrsk1-20516', function () {
     return view('skenario1');
 });
 
@@ -23,8 +27,16 @@ Route::get('/skenario2', function () {
     return view('skenario2');
 });
 
-Route::get('/skenario3', function () {
+Route::get('/mob-hrsk3-94314', function () {
     return view('skenario3');
+});
+
+Route::get('/mob-hrsk3d-94314', function () {
+    return view('skenario3Detail');
+});
+
+Route::get('/desk-hrsk3-94914', function () {
+    return view('skenario3-desktop');
 });
 
 Route::get('/skenario4', function () {

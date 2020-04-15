@@ -15,10 +15,7 @@
 
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
-    <script src="js/skenario3js/modalDetailDesktop.js"></script>
-    <script src="js/skenario3js/filterPreview.js"></script>
 
-    <script src="js/confirmationModalDesk.js"></script>
 
     <link rel="stylesheet" href="/css/skenario3.css">
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -30,26 +27,23 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 #zoom-in:active{
     background-color:#E36B38;
 }
-
 #zoom-out:active{
     background-color:#E36B38;
 }
-
 #home:active{
     background-color:#E36B38;
 }
-
 #fullscreen:active{
     background-color:#E36B38;
 }
-
 </style>
 </head>
 <body style="background-color:#F3F6F5">
+<!--INI HALAMAN DESKTOP-->
+
 
 <!-- DATA UNTUK MOBILE HALAMAN AWAL -->
 <div class="mobile" id="mobile" >
@@ -73,16 +67,16 @@
         <!--ROW GAMBAR THUMBNAIL-->
         <div class="rows" >
             <div class="column">
-                <img id="imgcol1"onclick="gambarGanti1()" src="hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
+                <img id="imgcol1"onclick="gambarGanti1()" src="https://i.ibb.co/TLjvM8Q/hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
             </div>
             <div class="column">
-                <img id="imgcol2" onclick="gambarGanti2();" src="hrkolamrenang1.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol2" onclick="gambarGanti2();" src="https://i.ibb.co/d5xMZWb/hrkolamrenang1r.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div class="column">
-                <img id="imgcol3" onclick="gambarGanti3();"src="hrkamardet.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol3" onclick="gambarGanti3();"src="https://i.ibb.co/C8Y6HKS/hrrkamar1.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div class="column">
-                <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol4" onclick="gambarGanti4();"src="https://i.ibb.co/X72Dj0X/hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div onclick="openModals();"class="column" style=" position: relative;text-align: center;color: white;">
                 <img id="imgcol5" onclick=""src="hrrestaurant3r.jpg" alt="Forest" style="width:100%;height:150px;">
@@ -273,235 +267,116 @@
             <br>
             <span class="navbar-brand" href="#" style="font-size:32px;padding-left:4%;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span></span>
             <br><br><br>
-                    <button class="but" style="width:80%;margin-left:10%"onclick="seeDetail();"> Lihat Detail</button>
+                    <a href="/mob-hrsk3d-94314"><button class="but" style="width:80%;margin-left:10%"> Lihat Detail</button></a>
             <br><br><br>
         </div>
         <br>
         <br>
     </div>
-    <div id="detailKamar" style="display:none;">
-        <div class="contain" style="font-size:36px;background-color:white">
-            <div style="background-color:white;border-radius:15px;height:600px;">
-                <div id="demos" class="carousel slide" data-ride="carousel">
 
-                    <!-- Indicators -->
-                    <ul class="carousel-indicators">
-                      <li data-target="#demo" data-slide-to="0" class="active"></li>
-                      <li data-target="#demo" data-slide-to="1"></li>
-                      <li data-target="#demo" data-slide-to="2"></li>
-                      <li data-target="#demo" data-slide-to="3"></li>
-                      <li data-target="#demo" data-slide-to="4"></li>
-                    </ul>
-
-                    <!-- The slideshow -->
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div id="detailImage"   data-u="image" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor"></div>
-                      </div>
-                      <div class="carousel-item">
-                        <div id ="detailImage2" data-u="image"alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
-                      </div>
-
-                      <div class="carousel-item">
-                        <div id="detailImage3" alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
-                      </div>
-                      <div class="carousel-item">
-                        <div id="detailImage4"  alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
-                      </div>
-                      <div class="carousel-item">
-                        <div id="detailImage5" alt="Chicago" width="1100" height="680" class="hover-shadow cursor"></div>
-                      </div>
-
-
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev" href="#demos" data-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demos" data-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                    </a>
-                  </div>
-
-                  <div style="background-color:#4a4a4a;padding-top:10px;padding-bottom:10px;">
-                    <span id="zoom-in" ><img src="zoom-in.png"  width="40" height="40"></span>
-                    <span id="zoom-out" ><img src="zoom-out.png"  width="40" height="40"> </span>
-                    <span id="home" ><img src="homes.png"  width="40" height="40"> </span>
-                    <span id="expand" onclick="openModal();"style="float:right;" ><img src="fullscreen.png"  width="40" height="40" > </span>
-                  </div>
-
-            </div>
-
-            <br>
-            <p style="font-size:38px;margin-top:3%;padding:20px;"><b>Deluxe Room</b> </span><br>
-                <hr style="border: 1px solid gray;">
-            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;padding-top:2%;"> <img src="https://imgur.com/K5sza9m.png" height="30px" width="30px"> Tamu 2 orang</span><br>
-            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;"><span style="color:red;">Belum </span>termasuk sarapan!</span><br>
-            <hr style="border: 1px solid gray;">
-            <span style="font-size:28px;padding-left:2%;margin-top:20%;padding-bottom:2%"><img src="https://i.ibb.co/zhwNWVp/money-2.png" height="30px" width="30px"> Pesan sekarang dan dapatkan sebanyak <span style="color:#3A7765">103 poin </span></span>
-            <br><br>
-        </div>
-        <p style="font-size:32px;padding-left:4%;padding-top:4%;padding-bottom:2%;" ><b> Room Overview </b> </p>
-        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:360px;">
-            <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
-                <div style="float:left;">
-                    <img src="img/size.png" width="60px" height="80px">
-                </div>
-                <div style="float:left;padding-left:5%">
-                    <span style="font-size:32px;"> <b>Room size </b></span><br>
-                    <span style="font-size:28px;">  26.0  sqm </span>
-                </div>
-            </div>
-            <hr style="border: 1px solid #D3D3D3;">
-            <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
-                <div style="float:left;">
-                    <img src="img/bed.png" width="50px" height="70px">
-                </div>
-                <div style="float:left;padding-left:5%">
-                    <span style="font-size:32px;"> <b>Bed Type </b></span><br>
-                    <span style="font-size:28px;">  2 Single bed or 1 Double Bed </span>
-                </div>
-            </div>
-        </div>
-        <br>
-        <!--BASIC FACILITIES -->
-        <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Basic Facilities </b> </p>
-        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:120px;">
-            <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
-                <div style="float:left;">
-                    <img src="img/wi-fi.png" width="50px" height="50px">
-                </div>
-                <div style="float:left;padding-left:5%">
-                    <span style="font-size:32px;"> <b>Wifi surcharge</b></span><br>
-                </div>
-            </div>
-        </div>
-        <br>
-        <!-- BATHROOM AMINITIES -->
-        <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Bathroom Aminities</b> </p>
-        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:600px;">
-            <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
-                <li style="font-size:32px;padding-bottom:2%;"><b> Hot Water</b> </li>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b> Shower</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b>Toiletries</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b>Hair Dryer</b> </li><br>
-            </div>
-        </div><br>
-        <!--ROOM AMINITIES -->
-        <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Room Aminities</b> </p>
-        <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:550px;">
-            <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
-                <li style="font-size:32px;padding-bottom:2%;"><b> Air Conditioning</b> </li>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b> Complimentary Bottled Water</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b> Coffee/Tea Maker</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-            </div>
-            <a class="accordion" id="amt"style="color:#3A7765;padding-left:4%;" ><u>More Room Aminities</u></a>
-            <div class="panel" style="padding-left:4%;width:100%">
-                <li style="font-size:32px;padding-top:4%;"><b> Regrigerator</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b> Television</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b> Desk</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b> In-room safe</b> </li><br>
-                <hr style="border: 1px solid #D3D3D3;">
-                <li style="font-size:32px;padding-top:4%;"><b> Blackout drapes/curtains</b> </li>
-                <br>
-                <br>
-            </div>
-        </div>
-        <br>
-        <br>
-        <!--STICKY BOTTOM NAVBAR-->
-        <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-                <button style="width:100%;" onclick="openModal2();"> Pesan Kamar ini</button>
-            </span><br></a>
-        </nav>
-    </div>
 
 </div>
 <br>
 <br>
-<!-- The Modal/Lightbox -->
-<div id="myModal" class="modal">
-<span  class="close cursor" onclick="closeModal()">&times;</span>
-<div class="modal-content" style="margin-top:5%;">
+
+<div id="myModals" class="modal">
+    <span  class="close cursor" onclick="closeModals()">&times;</span>
+    <div class="modal-content" style="margin-top:5%;">
+        <div class="mySlides2">
+
+            <div id="gambarutamas" data-u="image" style="width:100%;height:800px;"> </div>
+            <div id="gambarutamas2" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas3" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas4" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas5" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas6" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas7" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas8" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas9" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas10" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas11" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas12" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas13" data-u="image" style="width:100%;height:800px;display:none;"> </div>
+            <div id="gambarutamas14" data-u="image" style="width:100%;height:800px;display:none;"> </div>
 
 
-        <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
-        <div id="previewImage" data-u="image"width="100%" style="height:800px;" ></div>
-        <div id="previewImage2" data-u="image"width="100%" style="height:800px;display:none;" ></div>
-        <div id="previewImage3" data-u="image"width="100%" style="height:800px;display:none;" ></div>
-        <div id="previewImage4" data-u="image"width="100%" style="height:800px;display:none;" ></div>
-        <div id="previewImage5" data-u="image"width="100%" style="height:800px;display:none;" ></div>
-        <div id="previewImage6" data-u="image"width="100%" style="height:800px;display:none;" ></div>
-
-
-
-    <div class="caption-container">
-        <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>
-    </div>
-
-    <div class="rows">
-
-        <div class="column">
-            <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;opacity:1;"   onclick="gantiGambar()" >
-        </div>
-        <div class="column" >
-            <img id="kmrbiasa2"class="demo cursor" src="hrkamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
-        </div>
-        <div class="column" >
-            <img id="kmrbiasa3"class="demo cursor" src="hrkamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar3()" >
         </div>
 
-    </div>
-    <div class="rows">
-        <div class="column" >
-            <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
-        </div>
-        <div class="column" >
-            <img id="kmrmandi2"class="demo cursor" src="hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar5()" >
-        </div>
-        <div class="column" >
-            <img id="kmrmandi3"class="demo cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar6()" >
-        </div>
-    </div>
-</div>
-</div>
 
-<div id="myModal2" class="modal" >
-    <span  class="close cursor" onclick="closeModal2()">&times;</span>
-    <div class="modal-dialog modal-lg"  role="document">
-        <div class="modal-content" style="width:100%">
-        <div class="modal-header">
-            <h2 class="modal-title">Konfirmasi Pemesanan</h5>
-
-            </button>
-        </div>
-        <div class="modal-body" >
+        <div class="caption-container">
             <br>
-            <p style="font-size:28px;">Apakah anda telah selesai melihat-melihat detail seperti foto atau lainnya dan ingin melanjutkan memesan hotel ini?</p>
+            <p id="caption" style="color:white;font-size:24px;">Lobi Hotel</p>
         </div>
-        <div class="modal-footer">
-
-
-            <button type="button" class="btn btn-secondary" onclick="closeModal2();" style="float:left;width:120px;" >Kembali</button>
-
-
-            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick=pesan();>Iya, Pesan Hotel</button>
-
-
+        <div class="rows">
+            <div class="column">
+                <img id="lobi1"class="demos cursor" src="https://i.ibb.co/TLjvM8Q/hrlobi1.jpg" style="width:100%;height:200px;opacity:1;"   onclick="previewHome1()" >
+            </div>
+            <div class="column" >
+                <img id="lobi2"class="demos cursor" src="https://i.ibb.co/2NfQXVd/hrlobi2.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome2()" >
+            </div>
+            <div class="column" >
+                <img id="lobi3"class="demos cursor" src="https://i.ibb.co/k9jjg9q/hrlobi3.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome3()" >
+            </div>
+            <div class="column" >
+                <img id="lobi4"class="demos cursor" src="https://i.ibb.co/f14sswg/hrliftlobi.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome4()" >
+            </div>
         </div>
+
+        <div class="caption-container">
+            <br>
+            <p id="caption" style="color:white;font-size:24px;">Kolam Renang</p>
+        </div>
+        <div class="rows">
+            <div class="column" >
+                <img id="kolamrenang1"class="demos cursor" src="https://i.ibb.co/d5xMZWb/hrkolamrenang1r.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome5()" >
+            </div>
+            <div class="column" >
+                <img id="kolamrenang2"class="demos cursor" src="https://i.ibb.co/YfDXkgQ/hrkolamrenang2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome6()" >
+            </div>
+            <div class="column" >
+                <img id="kolamrenang3"class="demos cursor" src="https://i.ibb.co/VStfVqk/hrkolamrenang3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome7()" >
+            </div>
+            <div class="column" >
+                <img id="kolamrenang4"class="demos cursor" src="https://i.ibb.co/rGRVNvd/hrkolamrenang4.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome8()" >
+            </div>
+        </div>
+
+        <div class="caption-container">
+            <br>
+            <p id="caption" style="color:white;font-size:24px;">Restaurant</p>
+        </div>
+        <div class="rows">
+            <div class="column" >
+                <img id="restaurant1"class="demos cursor" src="https://i.ibb.co/X72Dj0X/hrrestaurant1r.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome9()" >
+            </div>
+            <div class="column" >
+                <img id="restaurant2"class="demos cursor" src="https://i.ibb.co/Dw0WdN9/hrrestaurant2r.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome10()" >
+            </div>
+            <div class="column" >
+                <img id="restaurant3"class="demos cursor" src="https://i.ibb.co/zQVJCCj/hrrestaurant3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome11()" >
+            </div>
+        </div>
+        <div class="caption-container">
+            <br>
+            <p id="caption" style="color:white;font-size:24px;">Kamar</p>
+        </div>
+        <div class="rows">
+            <div class="column" >
+                <img id="kamar1"class="demos cursor" src="https://i.ibb.co/C8Y6HKS/hrrkamar1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome12()" >
+            </div>
+            <div class="column" >
+                <img id="kamar2"class="demos cursor" src="https://i.ibb.co/NTngH3s/hrkmrmndi2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome13()" >
+            </div>
+            <div class="column" >
+                <img id="kamar3"class="demos cursor" src="https://i.ibb.co/Ry7N77J/hrkmrmndi3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome14()" >
+            </div>
         </div>
     </div>
+    <br>
+    <br>
 </div>
+
+
 
 
 <div class="contain" id="backto" style="padding:15px;background-color:white;display:none;">
@@ -512,135 +387,20 @@
     </p>
 </div>
 
-<div id="myModal3" class="modals">
 
-    <!-- Modal content -->
-    <div class="modals-content">
-      <span class="close" id="closed">&times;</span>
-      <div class="row">
-        <div class="col-sm-8" style="padding:30px;">
-            <div id="previewImaged" data-u="image"width="100%" style="height:400px;" ></div>
-            <div id="previewImaged2" data-u="image"width="100%" style="height:400px;display:none;" ></div>
-            <div id="previewImaged3" data-u="image"width="100%" style="height:400px;display:none;" ></div>
-            <div id="previewImaged4" data-u="image"width="100%" style="height:400px;display:none;" ></div>
-            <div id="previewImaged5" data-u="image"width="100%" style="height:400px;display:none;" ></div>
-            <div id="previewImaged6" data-u="image"width="100%" style="height:400px;display:none;" ></div>
-
-            <div class="rows" style="padding-top:2%;">
-                <br>
-                <br>
-                <div class="column">
-                    <img id="kmrmodal" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="border-style:solid;width:100%;height:100px;" onclick="gantiGambard();" >
-                </div>
-                <div class="column" >
-                    <img id="kmrmodal2"src="hrkamar3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gantiGambard2();"  >
-                </div>
-                <div class="column" >
-                    <img id="kmrmodal3"src="hrkamar4.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gantiGambard3();"  >
-                </div>
-            </div>
-            <div class="rows" style="padding-top:2%;">
-                <br>
-                <br>
-                <div class="column">
-                    <img id="kmrmandimodal" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:100px;opacity:0.4;" onclick="gantiGambard4();" >
-                </div>
-                <div class="column" >
-                    <img id="kmrmandimodal2"src="hrkmrmndi2.png" style="opacity:0.4;width:100%;height:100px;"onclick="gantiGambard5();"  >
-                </div>
-                <div class="column" >
-                    <img id="kmrmandimodal3"src="hrkmrmndi3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gantiGambard6();"  >
-                </div>
-
-            </div>
-      </div>
-            <br>
-            <br>
-            <br>
-
-
-
-
-        <div class="col-sm-4" style="height:675px;background-color: white;width:10px;padding:15px;">
-           <span style="font-size:14px;"> <b> Room Information </b> </span><br>
-           <div style="font-size:12px;padding-left:2%;padding-top:3%;padding-right:2%;"><img src="img/size.png" width="14px" height="20px"> 26.0 sqm</div>
-           <div style="font-size:12px;padding-left:2%;padding-top:2%;padding-right:2%;"><img src="https://imgur.com/K5sza9m.png" width="15px" height="15px"> 2 Tamu</div>
-
-           <hr>
-           <span style="font-size:14px;"> <b> Fasilitas Kamar</b> </span><br>
-           <div class="row">
-                <div class="column" style="padding-top:2%">
-                    <li style="font-size:12px;padding-bottom:2%;"> Air Conditioning</li>
-                    <li style="font-size:12px;padding-top:4%;">Bottled Water</li>
-                    <li style="font-size:12px;padding-top:4%;">Coffee/Tea Maker</li>
-                    <li style="font-size:12px;padding-top:4%;">Regrigerator </li>
-                    <li style="font-size:12px;padding-top:4%;">Television</li>
-                </div>
-
-                <div class="column">
-                    <li style="font-size:12px;padding-top:4%;">Desk</li>
-                    <li style="font-size:12px;padding-top:4%;">In-room safe </li>
-                    <li style="font-size:12px;padding-top:4%;">Blackout drapes/curtains </li>
-                </div>
-           </div>
-           <hr>
-           <span style="font-size:14px;"> <b> Bathroom Amenities</b> </span><br>
-
-           <div class="row">
-            <div class="column" style="padding-top:2%">
-                <li style="font-size:12px;padding-bottom:2%;">Hot Water</li>
-                <li style="font-size:12px;padding-top:4%;">Toiletries</li>
-            </div>
-
-            <div class="column">
-                <li style="font-size:12px;padding-top:4%;">Shower</li>
-                <li style="font-size:12px;padding-top:4%;">Hair Dryer </li>
-            </div>
-         </div>
-         <hr>
-           <span style="font-size:14px;"> <b> Deskripsi Kamar</b> </span><br>
-           <div style="font-size:12px;padding-top:2%">  Kamar Deluxe termasuk sarapan pagi 2 orang dan tersedia welcome drink. Jika melakukan
-        Check-out lebih dari jam 1 akan dikenakan charge tiap jamnya.<br><br>
-        Anda akan menerima welcome drink pada saat check-in dihotel.</div>
-         <br>
-         <br>
-         <br>
-
-            <button style="width:100%;font-size:16px;" onclick="openModal3();"> Pesan Kamar ini</button>
-
-        </div>
-      </div>
-    </div>
-
-  </div>
 
 
 <script src="js/skenario3js/previewChangeImage.js"></script>
-<script src="js/skenario3js/previewChangeImageDesktop.js"></script>
 <script src="js/skenario3js/gantiGambarHome.js"></script>
-<script src="js/skenario3js/gantiGambarHomeDesktop.js"></script>
-
 <script src="js/accordion.js"></script>
 <script src="js/openseadragon.min.js"></script>
 <script src="js/skenario3js/homeosd.js"></script>
-<script src="js/skenario3js/homeosdDesktop.js"></script>
 <script src="js/skenario3js/previewosd.js"></script>
-<script src="js/skenario3js/previewosdDesktop.js"></script>
 <script src="js/skenario3js/previewChangeosd.js"></script>
-<script src="js/skenario3js/previewChangeosdDesktop.js"></script>
 <script src="js/skenario3js/detailOsd.js"></script>
 <script src="js/skenario3js/previewDetOsd.js"></script>
-<script src="js/skenario3js/previewDetOsdDesktop.js"></script>
 
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 30000
-    })
-  });
-
-</script>
 
 </body>
 <br>

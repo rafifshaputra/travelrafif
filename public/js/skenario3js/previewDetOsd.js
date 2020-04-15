@@ -10,7 +10,7 @@ var prev = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : "https://i.ibb.co/Pchrm5P/gambar4.png" ,
+        url : "hrkamar1.png" ,
         buildPyramid: false
     }
 

@@ -2,7 +2,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -10,7 +10,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrlobi1.jpg',
+        url : 'https://i.ibb.co/TLjvM8Q/hrlobi1.jpg',
         buildPyramid: false
     }
 
@@ -20,7 +20,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -32,7 +32,7 @@ var viewerz = OpenSeadragon({
         Overlap: "2",
     TileSize: "256",
         type : 'image',
-        url : '/hrlobi2.jpg',
+        url : 'https://i.ibb.co/2NfQXVd/hrlobi2.jpg',
 
     }
 
@@ -42,7 +42,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -50,7 +50,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrlobi3.jpg',
+        url : 'https://i.ibb.co/k9jjg9q/hrlobi3.jpg',
         buildPyramid: false
     }
 
@@ -60,7 +60,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -68,7 +68,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrliftlobi.jpg',
+        url : 'https://i.ibb.co/f14sswg/hrliftlobi.jpg',
         buildPyramid: false
     }
 
@@ -78,7 +78,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -86,7 +86,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrkolamrenang1.jpg',
+        url : 'hrkolamrenang1.jpg',
         buildPyramid: false
     }
 
@@ -95,7 +95,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -103,7 +103,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrkolamrenang2.jpg',
+        url : 'https://i.ibb.co/YfDXkgQ/hrkolamrenang2.jpg',
         buildPyramid: false
     }
 
@@ -112,7 +112,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -120,7 +120,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrkolamrenang3.jpg',
+        url : 'https://i.ibb.co/VStfVqk/hrkolamrenang3.jpg',
         buildPyramid: false
     }
 
@@ -129,7 +129,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -137,7 +137,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrkolamrenang4.jpg',
+        url : 'https://i.ibb.co/rGRVNvd/hrkolamrenang4.jpg',
         buildPyramid: false
     }
 
@@ -155,7 +155,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrrestaurant1.jpg',
+        url : 'hrrestaurant1.jpg',
         buildPyramid: false
     }
 
@@ -165,7 +165,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -173,7 +173,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrrestaurant2.jpg',
+        url : 'https://i.ibb.co/Dw0WdN9/hrrestaurant2r.jpg',
         buildPyramid: false
     }
 
@@ -183,7 +183,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -191,7 +191,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrrestaurant3.jpg',
+        url : 'https://i.ibb.co/zQVJCCj/hrrestaurant3.jpg',
         buildPyramid: false
     }
 
@@ -201,7 +201,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:1.2,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -209,7 +209,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrkamardet.jpg',
+        url : 'hrkamar1.png',
         buildPyramid: false
     }
 
@@ -218,7 +218,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.5,
+    defaultZoomLevel:0.8,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -226,7 +226,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrkmrmndi2.jpg',
+        url : 'https://i.ibb.co/NTngH3s/hrkmrmndi2.jpg',
         buildPyramid: false
     }
 
@@ -236,7 +236,7 @@ var viewerz = OpenSeadragon({
     visibilityRatio: 1.0,
     maxZoomPixelRatio:10,
     minZoomImageRatio:1,
-    defaultZoomLevel:1.2,
+    defaultZoomLevel:0.8,
     constrainDuringPan: true,
     showNavigator:true,
     navigatorAutoFade:  false,
@@ -244,7 +244,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : '/hrkmrmndi3.jpg',
+        url : 'https://i.ibb.co/Ry7N77J/hrkmrmndi3.jpg',
         buildPyramid: false
     }
 
