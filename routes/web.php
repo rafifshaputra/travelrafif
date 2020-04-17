@@ -39,7 +39,7 @@ Route::get('/desk-hrsk3-94914', function () {
     return view('skenario3-desktop');
 });
 
-Route::get('/skenario4', function () {
+Route::get('/hrsk4-30918', function () {
     return view('skenario4');
 });
 
