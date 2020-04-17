@@ -23,7 +23,7 @@ Route::get('/mob-hrsk1-20516', function () {
     return view('skenario1');
 });
 
-Route::get('/skenario2', function () {
+Route::get('/hrsk2-14818', function () {
     return view('skenario2');
 });
 
