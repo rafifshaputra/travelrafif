@@ -43,3 +43,11 @@ Route::get('/hrsk4-30918', function () {
     return view('skenario4');
 });
 
+Route::get('/mob-h8sk5-73917', function () {
+    return view('skenario5');
+});
+
+Route::get('/desk-h8sk5-23621', function () {
+    return view('skenario5-desktop');
+});
+

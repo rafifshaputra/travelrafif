@@ -5,13 +5,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="js/360js/360changeImage.js"></script>
-    <script src="js/360js/gantiGambarPreview.js"></script>
+    <script src="js/skenario1js/360changeImage.js"></script>
+    <script src="js/skenario1js/gantiGambarPreview.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="js/pemesananKamar.js"></script>
     <script src="js/detailPage.js"></script>
-    <script src="/js/360js/gantiGambarHome.js"></script>
-    <script src="/js/360js/gantiGambarModal.js"></script>
+    <script src="/js/skenario1js/gantiGambarHome.js"></script>
+    <script src="/js/skenario1js/gantiGambarModal.js"></script>
 
     <script src="js/confirmationModal.js"></script>
 
@@ -41,7 +41,7 @@
             <!--GAMBAR UTAMA-->
 
             <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:46%;left:0%;">
-                <img src="/img/360-degree.png" style="width:150px;height:150px;opacity:0.7">
+                <img src="/img/icon/360-degree.png" style="width:150px;height:150px;opacity:0.7">
             </div>
             <iframe id="myImage" width="100%"
             allowfullscreen="allowfullscreen"
@@ -51,26 +51,26 @@
             <!--ROW GAMBAR THUMBNAIL-->
             <div class="rows" >
                 <div class="column">
-                    <img id="imgcol1"onclick="gambarGanti1()" src="hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
+                    <img id="imgcol1"onclick="gambarGanti1()" src="img/hr/hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
                 </div>
                 <div class="column">
-                    <img id="imgcol2" onclick="gambarGanti2();" src="hrkolamrenang1r.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                    <img id="imgcol2" onclick="gambarGanti2();" src="img/hr/hrkolamrenang1r.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
                 </div>
                 <div class="column">
-                    <img id="imgcol3" onclick="gambarGanti3();"src="hrkamar1.png" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                    <img id="imgcol3" onclick="gambarGanti3();"src="img/hr/hrkamar1.png" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
                 </div>
                 <div class="column">
-                    <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+                    <img id="imgcol4" onclick="gambarGanti4();"src="img/hr/hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
                 </div>
                 <div class="column">
-                    <img id="imgcol5" onclick="gambarGanti5();"src="hrrestaurant2r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+                    <img id="imgcol5" onclick="gambarGanti5();"src="img/hr/hrrestaurant2r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
                 </div>
             </div>
             <br>
 
             <!--INFORMASI HOTEL-->
             <div class="head" style="padding-left:3%;">
-                <div style="float:right;padding-right:35px;"> <img src="luxury.png" width="300" height="90"> </div>
+                <div style="float:right;padding-right:35px;"> <img src="img/icon/luxury.png" width="300" height="90"> </div>
                 <div style="font-size:42px"><b>Hotel Arison</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
                 <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
                     Lokasi</b></span>
@@ -93,26 +93,26 @@
               <p style="padding:15px;font-size:32px;" align="justify">
                 <div class="row" style="padding-left:25px;" >
                     <div class="column" style="flex:20%;width:16.5%;" >
-                        <span><img src="food.png" width="100" height="100"></span><br><br>
+                        <span><img src="img/icon/food.png" width="100" height="100"></span><br><br>
                         <span style="font-size:24px;">Restoran </span>
                     </div>
                     <div class="column" align="center"  style="flex:20%;width:20%;" >
-                        <span><img src="ladder.png" width="100" height="100"></span><br><br>
+                        <span><img src="img/icon/ladder.png" width="100" height="100"></span><br><br>
                         <span style="font-size:24px;align-items:center;" >Kolam Renang</span>
 
                     </div>
                     <div class="column"   align="center"style="flex:20%;width:20%;">
-                        <span><img src="24-hours.png" width="100" height="100"></span><br><br>
+                        <span><img src="img/icon/24-hours.png" width="100" height="100"></span><br><br>
                         <span style="font-size:24px;align-items:center;" >Resepsionis 24 Jam</span>
 
                     </div>
                     <div class="column"   style="flex:20%;width:20%;" >
-                        <span><img src="barbel.png" width="100" height="100"></span><br><br>
+                        <span><img src="img/icon/barbel.png" width="100" height="100"></span><br><br>
                         <span style="font-size:24px;align-items:center;" >Mini Gym</span>
 
                     </div>
                     <div class="column"   style="flex:20%;width:20%;" >
-                        <span><img src="elevator.png" width="100" height="100"></span><br><br>
+                        <span><img src="img/icon/elevator.png" width="100" height="100"></span><br><br>
                         <span style="font-size:24px;align-items:center;" >Elevator</span>
                     </div>
 
@@ -263,12 +263,12 @@
         </div>
         <div id="detailKamar" style="display:none;">
             <div class="contain" style="font-size:36px;background-color:white">
-                <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7;background-color:rgba(0,0,0,0.3);position:absolute;top:8%;left:86%;">
+                <img src="/img/icon/360-degree.png" style="width:130px;height:130px;opacity:0.7;background-color:rgba(0,0,0,0.3);position:absolute;top:8%;left:86%;">
                     <button onclick="nextsImage();" style="position:absolute;top:27%;left:87%;width:80px;background-color:rgba(0,0,0,0.1);">
-                        <img src="/img/next.png" style="width:60px;height:60px;">
+                        <img src="/img/icon/next.png" style="width:60px;height:60px;">
                     </button>
                     <button onclick="nextsImage();" style="position:absolute;top:27%;left:8%;width:80px;background-color:rgba(0,0,0,0.1);">
-                        <img src="/img/left-arrow.png" style="width:60px;height:60px;">
+                        <img src="/img/icon/left-arrow.png" style="width:60px;height:60px;">
                     </button>
                 <iframe id="detailutama"
                     width="100%" style="height:700px;"
@@ -292,7 +292,7 @@
             <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:360px;">
                 <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                     <div style="float:left;">
-                        <img src="img/size.png" width="60px" height="80px">
+                        <img src="img/icon/size.png" width="60px" height="80px">
                     </div>
                     <div style="float:left;padding-left:5%">
                         <span style="font-size:32px;"> <b>Room size </b></span><br>
@@ -302,7 +302,7 @@
                 <hr style="border: 1px solid #D3D3D3;">
                 <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                     <div style="float:left;">
-                        <img src="img/bed.png" width="50px" height="70px">
+                        <img src="img/icon/bed.png" width="50px" height="70px">
                     </div>
                     <div style="float:left;padding-left:5%">
                         <span style="font-size:32px;"> <b>Bed Type </b></span><br>
@@ -316,7 +316,7 @@
             <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:120px;">
                 <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                     <div style="float:left;">
-                        <img src="img/wi-fi.png" width="50px" height="50px">
+                        <img src="img/icon/wi-fi.png" width="50px" height="50px">
                     </div>
                     <div style="float:left;padding-left:5%">
                         <span style="font-size:32px;"> <b>Wifi surcharge</b></span><br>
@@ -381,7 +381,7 @@
     <div class="modal-content" style="margin-top:5%;">
 
             <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:1%;left:84%;">
-                <img src="/img/360-degree.png" style="width:130px;height:130px;opacity:0.7">
+                <img src="/img/icon/360-degree.png" style="width:130px;height:130px;opacity:0.7">
             </div>
             <div id="textnum"class="numbertext" style="font-size:24px;">1 / 2</div>
             <iframe id="gambarutama"
@@ -449,6 +449,12 @@
 
 <script src="js/nextimage.js"></script>
 <script src="js/accordion.js"></script>
+<script>
+    $(document).ready(function(){
+        alert("Mohon Untuk kembali ke halaman survei google form sebelumnya setelah melihat-lihat halaman website ini. Terima kasih atas partisipasinya, semoga hari Anda menyenangkan!");
+    });
+</script>
 </body>
+
 <br><br><br>
 </html>
