@@ -42,7 +42,7 @@
             <!--HEADER HOTEL INFO-->
             <div class="head" style="padding-left:3%;">
                 <div style="float:right;"> <img src="img/icon/luxury.png" width="180" height="50"> </div>
-                <div style="font-size:20px"><b> Hotel Arison</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
+                <div style="font-size:20px"><b> Arison Hotel</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
 
                 <div style="padding-top:1%; font-size:16px;">Bogor 123 Street. Bogor Barat. 321 </div><br>
             </div>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="column"align="center" style="font-size:10px;">
                     <img src="img/icon/24-hours.png" width="60" height="60"><br><br>
-                    <span  style="font-size:14px;">Room Service 24 Hour </span>
+                    <span  style="font-size:14px;">24 Hour Room Service </span>
                 </div>
                 <div class="column" align="center"style="font-size:10px;">
                     <img src="img/icon/barbel.png" width="60" height="60"><br><br>
@@ -132,7 +132,7 @@
                 <div class="column">
             <span style="font-size:16px;"><b>Hotel Description</b></span>
             <p style="padding:15px;font-size:14px;" align="justify">
-                Hotel Arison is a 4-star hotel. Classic and luxurious nuances characterize this inn. <br>
+                Arison Hotel is a 4-star hotel. Classic and luxurious nuances characterize this inn. <br>
                 <br>
                 Excellent facilities that can be enjoyed are Sky Dine and Longe. In addition, there are rooms with qualified facilities, swimming pools, special facilities for people with disabilities, and others.<br>
                 <br>
@@ -421,7 +421,7 @@
 <script src="js/accordion.js"></script>
 <script>
     $(document).ready(function(){
-        alert("Mohon Untuk kembali ke halaman survei google form sebelumnya setelah melihat-lihat halaman website ini. Terima kasih atas partisipasinya, semoga hari Anda menyenangkan!");
+        alert("Please return to the previous google form survey page after browsing this website. Thank you for participating, have a nice day!");
     });
    </script>
 </body>
