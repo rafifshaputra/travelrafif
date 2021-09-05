@@ -16,12 +16,12 @@ prefixUrl:     '/img/images/',
 tileSources:[
     {
         type : 'image',
-    url : 'hrkamar1.png',
+    url : '/img/hr/hrkamar1.png',
     buildPyramid: false
 },
  {
     type : 'image',
-    url : 'hrkmrmndi2.png',
+    url : '/img/hr/hrkmrmndi2.png',
     buildPyramid: false
  }
 

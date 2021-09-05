@@ -1,5 +1,5 @@
 function gambarGanti1(){
-    y="hrlobi1.jpg";
+    y="img/hr/hrlobi1.jpg";
     document.getElementById('myImage').src=y;
     document.getElementById('imgcol1').style.opacity = "1";
     document.getElementById('imgcol2').style.opacity = "0.6";
@@ -9,7 +9,7 @@ function gambarGanti1(){
 
 
 function gambarGanti2(){
-    y="hrkolamrenang1.jpg";
+    y="img/hr/hrkolamrenang1.jpg";
     document.getElementById('myImage').src=y;
     document.getElementById('imgcol1').style.opacity = "0.6";
     document.getElementById('imgcol2').style.opacity = "1";
@@ -18,7 +18,7 @@ function gambarGanti2(){
 }
 
 function gambarGanti3(){
-    y="hrkamar1.png";
+    y="img/hr/hrkamar1.png";
     document.getElementById('myImage').src=y;
     document.getElementById('imgcol1').style.opacity = "0.6";
     document.getElementById('imgcol2').style.opacity = "0.6";
@@ -27,7 +27,7 @@ function gambarGanti3(){
 }
 
 function gambarGanti4(){
-    y="hrrestaurant1.jpg";
+    y="/img/hr/hrrestaurant1.jpg";
     document.getElementById('myImage').src=y;
     document.getElementById('imgcol1').style.opacity = "0.6";
     document.getElementById('imgcol2').style.opacity = "0.6";

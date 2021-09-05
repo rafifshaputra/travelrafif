@@ -1,0 +1,216 @@
+
+    body {
+        font-family: 'Poppins';
+
+    }
+    .column {
+    float: left;
+    width: 25%;
+    padding:2px;
+    }
+
+    .panel {
+        background-color:white;
+      display: none;
+      overflow: hidden;
+    }
+    /* Clear floats after image containers */
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    .rows {
+    display: flex;
+    }
+
+
+
+    .contain{
+        margin:0px 300px;
+        padding:0px 15px;
+    }
+
+    button {
+    background-color: #3A7765; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    width:200px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    }
+
+    span{
+        padding:10px;
+    }
+
+    iframe{
+        height:60%;
+    }
+
+    .mobile{
+        display:none
+    }
+
+    .mobile2{
+        display:none
+    }
+    .column {
+        flex: 25%;
+        padding: 5px;
+      }
+
+    /*LIHAT SEMUA*/
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+    /*CSS MODAL*/
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+    /* The Modal (background) */
+    .modals {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modals-content {
+      background-color: #4A4A4A;
+      margin: auto;
+    height:580px;
+      border: 1px solid #888;
+      width: 60%;
+    }
+
+    /* The Close Button */
+    #closed {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    #close:hover,
+    #close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+     /*CSS MODAL*/
+     body {font-family: Arial, Helvetica, sans-serif;}
+
+     /* The Modal (background) */
+     .modalss {
+       display: none; /* Hidden by default */
+       position: fixed; /* Stay in place */
+       z-index: 1; /* Sit on top */
+       padding-top: 100px; /* Location of the box */
+       left: 0;
+       top: 0;
+       width: 100%; /* Full width */
+       height: 100%; /* Full height */
+       overflow: auto; /* Enable scroll if needed */
+       background-color: rgb(0,0,0); /* Fallback color */
+       background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+     }
+
+     /* Modal Content */
+     .modalss-content {
+       background-color: #4A4A4A;
+       margin: auto;
+     height:630px;
+       border: 1px solid #888;
+       width: 60%;
+     }
+
+     /* The Close Button */
+     #closedd {
+       color: #aaaaaa;
+       float: right;
+       font-size: 28px;
+       font-weight: bold;
+     }
+
+     #closedd:hover,
+     #closedd:focus {
+       color: #000;
+       text-decoration: none;
+       cursor: pointer;
+     }
+
+    @media screen and (max-width: 1000px) {
+        .column {
+            width: 100%;
+        }
+        .mobile{
+            display:block;
+        }
+
+        .desktop{
+            display:none;
+        }
+
+        .mobile2{
+            display:none;
+        }
+
+        .contain{
+            margin:0px 0px;
+            padding:2px;
+        }
+
+        iframe{
+            height:50%;
+        }
+
+        .column3{
+            flex: 30%;
+            padding: 5px;
+            float: left;
+            padding: 5px;
+            width:33.33%
+        }
+
+        .column4{
+            flex: 50%;
+            padding: 5px;
+            float: left;
+            padding: 5px;
+            width:60%;
+        }
+
+        ul.a {
+            list-style-position: outside;
+        }
+        button{
+            padding: 15px 15px;
+            width:50%;
+            font-size:32px;
+        }
+        button.but{
+            padding: 15px 15px;
+            width:100%;
+            font-size:32px;
+        }
+    }
+
+

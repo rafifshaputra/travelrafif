@@ -206,14 +206,14 @@
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Info Kamar </b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 1 Double Bed<br>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 21 sqm<br>
                             </div>
 
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Layanan</b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 1 Double Bed<br>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 21 sqm<br>
                             </div>
                         </div>
@@ -261,14 +261,14 @@
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Info Kamar </b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 1 Double Bed<br>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 21 sqm<br>
                             </div>
 
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Layanan</b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 1 Double Bed<br>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 21 sqm<br>
                             </div>
                         </div>
@@ -331,6 +331,9 @@
       <span class="close" id="closed">&times;</span>
       <div class="row">
         <div class="col-sm-8" style="padding:30px;">
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:54%;left:5%;">
+                <img src="/img/icon/360-degree.png" style="width:95px;height:95px;">
+            </div>
             <iframe
             width="100%" style="height:400px;" id="deskModalImage"
             allowfullscreen="allowfullscreen"
@@ -400,7 +403,7 @@
 
   </div>
 
-<script src="js/nextimage.js"></script>
+<script src="js/skenario5js/nextimages.js"></script>
 <script src="js/accordion.js"></script>
 <script>
     $(document).ready(function(){

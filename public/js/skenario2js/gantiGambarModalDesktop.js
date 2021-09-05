@@ -1,5 +1,5 @@
 function gambarModal(){
-    y="hrkamar1.png";
+    y="img/hr/hrkamar1.png";
     document.getElementById('deskModalImage').src="";
     document.getElementById('deskModalImage').src=y;
     document.getElementById('kmrmodal').style.opacity = "1";
@@ -17,7 +17,7 @@ function gambarModal(){
 }
 
 function gambarModal2(){
-    y="hrkamar3.jpg";
+    y="img/hr/hrkamar3.jpg";
     document.getElementById('deskModalImage').src="";
     document.getElementById('deskModalImage').src=y;
     document.getElementById('kmrmodal').style.opacity = "0.6";
@@ -35,7 +35,7 @@ function gambarModal2(){
 }
 
 function gambarModal3(){
-    y="hrkamar4.jpg";
+    y="img/hr/hrkamar4.jpg";
     document.getElementById('deskModalImage').src="";
     document.getElementById('deskModalImage').src=y;
     document.getElementById('kmrmodal').style.opacity = "0.6";
@@ -71,7 +71,7 @@ function gambarModal4(){
 }
 
 function gambarModal5(){
-    y="hrkmrmndi2.png";
+    y="img/hr/hrkmrmndi2.png";
     document.getElementById('deskModalImage').src="";
     document.getElementById('deskModalImage').src=y;
     document.getElementById('kmrmodal').style.opacity = "0.6";
@@ -89,7 +89,7 @@ function gambarModal5(){
 }
 
 function gambarModal6(){
-    y="hrkmrmndi3.jpg";
+    y="img/hr/hrkmrmndi3.jpg";
     document.getElementById('deskModalImage').src="";
     document.getElementById('deskModalImage').src=y;
     document.getElementById('kmrmodal').style.opacity = "0.6";

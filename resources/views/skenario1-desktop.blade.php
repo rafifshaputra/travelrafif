@@ -44,10 +44,10 @@
                 <div style="float:right;"> <img src="img/icon/luxury.png" width="180" height="50"> </div>
                 <div style="font-size:20px"><b> Hotel Arison</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
 
-                <div style="padding-top:1%; font-size:16px;"> Jalan Bogor 123. Bogor Barat. 321 </div><br>
+                <div style="padding-top:1%; font-size:16px;">Bogor 123 Street. Bogor Barat. 321 </div><br>
             </div>
-            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:25%;left:71%;">
-                <img src="/img/icon/360-degree.png" style="width:95px;height:95px;">
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:76%;left:21%;">
+                <img src="/img/icon/360-degree.png" style="width:120px;height:120px;">
             </div>
             <!-- MAIN PICTURE-->
             <iframe
@@ -83,16 +83,16 @@
             <!-- ROW INFO KAMAR TERSEDIA-->
             <div class="rows" >
                 <span style="font-size:16px;">
-                    Kamar tersedia dihari yang anda pilih tersisa sebanyak <span style="color:red">3 Kamar!</span>
+                    Rooms available on the day you choose <span style="color:red">3 Rooms!</span>
                 </span>
                 <span style="padding-left:30%;">
-                    <a href="#pilihkamar"><button style="font-size:16px;"> Pilih Kamar anda </button></a>
+                    <a href="#pilihkamar"><button style="font-size:16px;"> Choose your room </button></a>
                 </span>
                 <br>
             </div>
             <hr>
             <div class="rows" >
-                <span style="font-size:18px;"> <b>Fasilitas Utama</b> </span><br><br>
+                <span style="font-size:18px;"> <b>Main Facility</b> </span><br><br>
             </div>
             <br>
             <div class="rows" style="padding-left:5%:">
@@ -110,11 +110,15 @@
                 </div>
                 <div class="column" align="center"style="font-size:10px;">
                     <img src="img/icon/barbel.png" width="60" height="60"><br><br>
-                    <span style="font-size:14px;">Pusat,Kebugaran</span>
+                    <span style="font-size:14px;">Pusat Kebugaran</span>
                 </div>
                 <div class="column"align="center" >
-                    <img src="img/icon/elevator.png" width="60" height="60"><br><br>
-                    <span style="font-size:14px;">Lift </span>
+                    <img src="img/icon/spa.png" width="60" height="60"><br><br>
+                    <span style="font-size:14px;">Spa</span>
+                </div>
+                <div class="column"align="center" >
+                    <img src="img/icon/meeting.png" width="60" height="60"><br><br>
+                    <span style="font-size:14px;">Meeting Room </span>
                 </div>
             </div>
             <br>
@@ -207,15 +211,15 @@
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Info Kamar </b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 26 sqm<br>
                             </div>
 
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Layanan</b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 26 sqm<br>
                             </div>
                         </div>
                     </div>
@@ -263,15 +267,15 @@
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Info Kamar </b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 26 sqm<br>
                             </div>
 
                             <div class="column" style="font-size:14px;">
                                 <b><p style="font-size:14px">Layanan</b> </p>
                                 <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
-                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
+                                <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 26 sqm<br>
                             </div>
                         </div>
                     </div>
@@ -334,6 +338,9 @@
       <span class="close" id="closed">&times;</span>
       <div class="row">
         <div class="col-sm-8" style="padding:30px;">
+            <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:56%;left:5%;">
+                <img src="/img/icon/360-degree.png" style="width:95px;height:95px;">
+            </div>
             <iframe
             width="100%" style="height:400px;" id="deskModalImage"
             allowfullscreen="allowfullscreen"

@@ -1,7 +1,11 @@
 function gambarGanti1d(){
-    y="/gif/hr/hrlobi1.gif";
-    document.getElementById('myImages').src="";
-    document.getElementById('myImages').src=y;
+    document.getElementById('player').style.display="block";
+    document.getElementById('player2').style.display="none";
+    document.getElementById('player3').style.display="none";
+    document.getElementById('player4').style.display="none";
+    document.getElementById('player5').style.display="none";
+
+
     document.getElementById('imgcol1d').style.opacity = "1";
     document.getElementById('imgcol2d').style.opacity = "0.6";
     document.getElementById('imgcol3d').style.opacity = "0.6";
@@ -10,9 +14,13 @@ function gambarGanti1d(){
 }
 
 function gambarGanti2d(){
-    y="/gif/hr/hrkolamrrenang1.gif";
-    document.getElementById('myImages').src="";
-    document.getElementById('myImages').src=y;
+    document.getElementById('player').style.display="none";
+    document.getElementById('player2').style.display="block";
+    document.getElementById('player3').style.display="none";
+    document.getElementById('player4').style.display="none";
+    document.getElementById('player5').style.display="none";
+
+
     document.getElementById('imgcol1d').style.opacity = "0.6";
     document.getElementById('imgcol2d').style.opacity = "1";
     document.getElementById('imgcol3d').style.opacity = "0.6";
@@ -21,9 +29,13 @@ function gambarGanti2d(){
 }
 
 function gambarGanti3d(){
-    y="gif/hr/kamar.gif";
-    document.getElementById('myImages').src="";
-    document.getElementById('myImages').src=y;
+    document.getElementById('player').style.display="none";
+    document.getElementById('player2').style.display="none";
+    document.getElementById('player3').style.display="block";
+    document.getElementById('player4').style.display="none";
+    document.getElementById('player5').style.display="none";
+
+
     document.getElementById('imgcol1d').style.opacity = "0.6";
     document.getElementById('imgcol2d').style.opacity = "0.6";
     document.getElementById('imgcol3d').style.opacity = "1";
@@ -33,9 +45,13 @@ function gambarGanti3d(){
 }
 
 function gambarGanti4d(){
-    y="gif/hr/restaurant1.gif";
-    document.getElementById('myImages').src="";
-    document.getElementById('myImages').src=y;
+    document.getElementById('player').style.display="none";
+    document.getElementById('player2').style.display="none";
+    document.getElementById('player3').style.display="none";
+    document.getElementById('player4').style.display="block";
+    document.getElementById('player5').style.display="none";
+
+
     document.getElementById('imgcol1d').style.opacity = "0.6";
     document.getElementById('imgcol2d').style.opacity = "0.6";
     document.getElementById('imgcol3d').style.opacity = "0.6";
@@ -44,12 +60,16 @@ function gambarGanti4d(){
 }
 
 function gambarGanti5d(){
-    y="gif/hr/restaurantluar.gif";
-    document.getElementById('myImages').src="";
-    document.getElementById('myImages').src=y;
+    document.getElementById('player').style.display="none";
+    document.getElementById('player2').style.display="none";
+    document.getElementById('player3').style.display="none";
+    document.getElementById('player4').style.display="none";
+    document.getElementById('player5').style.display="block";
+
     document.getElementById('imgcol1d').style.opacity = "0.6";
     document.getElementById('imgcol2d').style.opacity = "0.6";
     document.getElementById('imgcol3d').style.opacity = "0.6";
     document.getElementById('imgcol4d').style.opacity = "0.6";
     document.getElementById('imgcol5d').style.opacity = "1";
 }
+

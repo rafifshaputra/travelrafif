@@ -13,11 +13,11 @@
     <script src="/js/skenario1js/gantiGambarHome.js"></script>
     <script src="/js/skenario1js/gantiGambarModal.js"></script>
 
-    <script src="js/confirmationModal.js"></script>
 
 
+    <script src="/js/skenario1js/confirmationModal1.js"></script>
 
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/360css.css">
 </head>
@@ -41,7 +41,7 @@
             <!--GAMBAR UTAMA-->
 
             <div style="background-color:rgba(0,0,0,0.3);position:absolute;top:46%;left:0%;">
-                <img src="/img/icon/360-degree.png" style="width:150px;height:150px;opacity:0.7">
+                <img src="/img/icon/360-degree.png" style="width:150px;height:150px;opacity:1">
             </div>
             <iframe id="myImage" width="100%"
             allowfullscreen="allowfullscreen"
@@ -112,8 +112,8 @@
 
                     </div>
                     <div class="column"   style="flex:20%;width:20%;" >
-                        <span><img src="img/icon/elevator.png" width="100" height="100"></span><br><br>
-                        <span style="font-size:24px;align-items:center;" >Elevator</span>
+                        <span><img src="img/icon/spa.png" width="100" height="100"></span><br><br>
+                        <span style="font-size:24px;align-items:center;" >Spa</span>
                     </div>
 
                 </div>
@@ -241,7 +241,7 @@
                     <div class="column4" style="font-size:34px;">
                         <b><p style="font-size:36px">Info Kamar </b> </p>
                         <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                        <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                        <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                         <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                     </div>
                     <div class="column4" style="font-size:34px;">
@@ -430,7 +430,7 @@
             <button type="button" class="btn btn-secondary" onclick="closeModal2();" style="float:left;width:120px;" >Kembali</button>
 
 
-            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick=pesan();>Iya, Pesan Hotel</button>
+            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick="pesan2();">Iya, Pesan Hotel</button>
 
 
         </div>

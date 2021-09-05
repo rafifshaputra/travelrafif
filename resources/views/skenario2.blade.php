@@ -5,6 +5,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta content='user-scalable=0' name='viewport' />
 
  <!-- #region Jssor Slider Begin -->
     <!-- Generator: Jssor Slider Composer -->
@@ -14,13 +15,17 @@
     <script src="js/lightboxhome.js"></script>
     <script src="js/confirmationModal.js"></script>
     <script src="js/pemesananKamar.js"></script>
-    <script src="js/skenario2js/previewHome.js"></script>
+
     <script src="js/detailPage.js"></script>
-    <script src="/js/skenario2js/gantiGambarHomeDesktop.js"></script>
     <script type="text/javascript" src="js/skenario2js/slider.js"></script>
     <script src="js/confirmationModal.js"></script>
-    <script src="/js/skenario2js/gantiGambarModalDesktop.js"></script>
     <script src="js/confirmationModalDesk.js"></script>
+
+    <script src="/js/skenario2js/gantiGambarHomeDesktop.js"></script>
+    <script src="js/skenario2js/previewHome.js"></script>
+    <script src="/js/skenario2js/gantiGambarModalDesktop.js"></script>
+    <script src="js/skenario2js/filterPreview.js"></script>
+    <script src="js/skenario2js/previewChangeosdDesktop.js"></script>
 
     <link rel="stylesheet" href="/css/skenario2.css">
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -41,12 +46,13 @@
     <div class="contain" style="padding-top:2%;background-color:white;">
         <!--HEADER HOTEL INFO-->
         <div class="head" style="padding-left:3%;">
+            <div style="float:right;"> <img src="img/icon/luxury.png" width="180" height="50"> </div>
             <div style="font-size:20px"><b> Hotel Arison</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
             <div style="padding-top:1%; font-size:16px;"> Jalan Bogor 123. Bogor Barat. 321 </div><br>
         </div>
 
         <!-- MAIN PICTURE-->
-        <img src="hrlobi1.jpg"
+        <img src="img/hr/hrlobi1.jpg"
         width="100%" style="height:60%"id="myImages"
         >
         <br>
@@ -54,20 +60,20 @@
         <!--INI ROW UNTUK GAMBAR THUMBNAIL"-->
         <div class="rows" style="padding-top:1%;">
             <div class="column">
-                <img id ="imgcol1d"onclick="gambarGanti1d();"src="hrlobi1.jpg" alt="Snow" style="width:100%;height:120px;opacity:1">
+                <img id ="imgcol1d"onclick="gambarGanti1d();"src="img/hr/hrlobi1.jpg" alt="Snow" style="width:100%;height:120px;opacity:1">
             </div>
             <div class="column">
-                <img id ="imgcol2d" onclick="gambarGanti2d();" src="hrkolamrenang1.jpg" alt="Forest" style="width:100%;height:120px;opacity:0.6">
+                <img id ="imgcol2d" onclick="gambarGanti2d();" src="img/hr/hrkolamrenang1r.jpg" alt="Forest" style="width:100%;height:120px;opacity:0.6">
             </div>
             <div class="column">
-                <img id ="imgcol3d" onclick="gambarGanti3d();"  src="hrkamar1.png" alt="Mountains" style="width:100%;height:120px;opacity:0.6">
+                <img id ="imgcol3d" onclick="gambarGanti3d();"  src="img/hr/hrkamar1.png" alt="Mountains" style="width:100%;height:120px;opacity:0.6">
             </div>
             <div class="column">
-                <img id ="imgcol4d" onclick="gambarGanti4d();" src="hrrestaurant1.jpg" alt="Mountains" style="width:100%;height:120px;opacity:0.6">
+                <img id ="imgcol4d" onclick="gambarGanti4d();" src="img/hr/hrrestaurant1.jpg" alt="Mountains" style="width:100%;height:120px;opacity:0.6">
             </div>
-            <div class="column" style=" position: relative;text-align: center;color: white;">
+            <div class="column" onclick="openModalzz();" style=" position: relative;text-align: center;color: white;">
 
-                <img id ="imgcol5d" onclick="gambarGanti5d();" src="hrrestaurant3r.jpg" alt="Mountains" style="width:100%;height:120px;">
+                <img id ="imgcol5d" src="img/hr/hrrestaurant3r.jpg" alt="Mountains" style="width:100%;height:120px;">
                 <div class="centered" style="font-size:16px;"><u>Lihat Semua </u></div>
             </div>
         </div>
@@ -90,29 +96,28 @@
         <br>
         <div class="rows" style="padding-left:5%:">
             <div class="column" align="center"style="font-size:10px;">
-                <img src="food.png" width="60" height="60"><br><br>
+                <img src="img/icon/food.png" width="60" height="60"><br><br>
                 <span  style="font-size:14px;">Restoran </span>
             </div>
             <div class="column" align="center"style="font-size:10px;">
-                <img src="ladder.png" width="60" height="60"><br><br>
+                <img src="img/icon/ladder.png" width="60" height="60"><br><br>
                 <span style="font-size:14px;">Kolam Renang </span>
             </div>
             <div class="column"align="center" style="font-size:10px;">
-                <img src="24-hours.png" width="60" height="60"><br><br>
+                <img src="img/icon/24-hours.png" width="60" height="60"><br><br>
                 <span  style="font-size:14px;">Room Service 24 Jam </span>
             </div>
             <div class="column" align="center"style="font-size:10px;">
-                <img src="barbel.png" width="60" height="60"><br><br>
-                <span style="font-size:14px;">Pusat,Kebugaran</span>
+                <img src="img/icon/barbel.png" width="60" height="60"><br><br>
+                <span style="font-size:14px;">Pusat Kebugaran</span>
             </div>
             <div class="column"align="center" >
-                <img src="elevator.png" width="60" height="60"><br><br>
-                <span style="font-size:14px;">Lift </span>
+                <img src="img/icon/spa.png" width="60" height="60"><br><br>
+                <span style="font-size:14px;">Spa </span>
             </div>
-            <div class="column" align="center">
-                <img src="food.png" width="60" height="60"><br><br>
-                <span  style="font-size:14px;">Lift </span>
-
+            <div class="column"align="center" >
+                <img src="img/icon/meeting.png" width="60" height="60"><br><br>
+                <span style="font-size:14px;">Meeting Room </span>
             </div>
         </div>
         <br>
@@ -154,15 +159,15 @@
             <div class="row">
                 <div class="column">
                     <span style="font-size:13px;">Check-in<br></span>
-                    <span style="color:#4A4A4A;font-size:14px;"><img src="timetable.png" width="20" height="20"> <b style="padding-left:1%">Jum, 16 Okt 2020 </b></span>
+                    <span style="color:#4A4A4A;font-size:14px;"><img src="img/icon/timetable.png" width="20" height="20"> <b style="padding-left:1%">Jum, 16 Okt 2020 </b></span>
                 </div>
                 <div class="column">
-                    <span style="font-size:13px;"> <img src="sleep.png" width="20" height="20">2<br></span>
+                    <span style="font-size:13px;"> <img src="img/icon/sleep.png" width="20" height="20">2<br></span>
                     <span style="color:#4A4A4A;font-size:14px;"><b>Malam</b></span>
                 </div>
                 <div class="column">
                     <span style="font-size:13px;">Check-out<br></span>
-                    <span style="color:#4A4A4A;font-size:14px;"><img src="timetable.png" width="20" height="20"> <b style="padding-left:1%">Min, 18 Okt 2020 </b></span>
+                    <span style="color:#4A4A4A;font-size:14px;"><img src="img/icon/timetable.png" width="20" height="20"> <b style="padding-left:1%">Min, 18 Okt 2020 </b></span>
                 </div>
                 <div class="column">
                     <span style="font-size:13px;">Tamu dan Kamar<br></span>
@@ -187,10 +192,10 @@
                             <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
                         </div>
                         <div class="column">
-                            <img src="hrkamar3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
+                            <img src="img/hr/hrkamar3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
                         </div>
                         <div class="column">
-                            <img src="hrkmrmndi3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
+                            <img src="img/hr/hrkmrmndi3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
                         </div>
                     </div>
                 </div>
@@ -205,14 +210,14 @@
                         <div class="column" style="font-size:14px;">
                             <b><p style="font-size:14px">Info Kamar </b> </p>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
 
                         <div class="column" style="font-size:14px;">
                             <b><p style="font-size:14px">Layanan</b> </p>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
                     </div>
@@ -240,13 +245,13 @@
                             <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModalz()"alt="Snow" style="width:100%;height:60px;">
                         </div>
                         <div class="column">
-                            <img src="hrkamar3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
+                            <img src="img/hr/hrkamar3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
                         </div>
                         <div class="column">
                             <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
                         </div>
                         <div class="column">
-                            <img src="hrkmrmndi3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
+                            <img src="img/hr/hrkmrmndi3.jpg" onclick="openModalz()"alt="Forest" style="width:100%;height:60px;">
                         </div>
                     </div>
                 </div>
@@ -261,14 +266,14 @@
                         <div class="column" style="font-size:14px;">
                             <b><p style="font-size:14px">Info Kamar </b> </p>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
 
                         <div class="column" style="font-size:14px;">
                             <b><p style="font-size:14px">Layanan</b> </p>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
                     </div>
@@ -301,25 +306,25 @@
     </nav>
     <div class="contain" style="background-color:white;">
 
-        <img id="myImage" width="100%" height="700px"src="hrlobi1.jpg">
+        <img id="myImage" width="100%" height="700px"src="/img/hr/hrlobi1.jpg">
         <br>
         <br>
         <!--ROW GAMBAR THUMBNAIL-->
         <div class="rows" >
             <div class="column">
-                <img id="imgcol1"onclick="gambarGanti1()" src="hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
+                <img id="imgcol1"onclick="gambarGanti1()" src="/img/hr/hrlobi1.jpg" alt="Snow" style="width:100%;height:150px;">
             </div>
             <div class="column">
-                <img id="imgcol2" onclick="gambarGanti2();" src="hrkolamrenang1.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol2" onclick="gambarGanti2();" src="/img/hr/hrkolamrenang1.jpg" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div class="column">
-                <img id="imgcol3" onclick="gambarGanti3();"src="hrkamar1.png" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol3" onclick="gambarGanti3();"src="/img/hr/hrkamar1.png" alt="Mountains" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div class="column">
-                <img id="imgcol4" onclick="gambarGanti4();"src="hrrestaurant1.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
+                <img id="imgcol4" onclick="gambarGanti4();"src="/img/hr/hrrestaurant1.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div onclick="openModals()"class="column" style=" position: relative;text-align: center;color: white;">
-                <img id="imgcol5" onclick=""src="hrrestaurant3.png" alt="Forest" style="width:100%;height:150px;">
+                <img id="imgcol5" onclick=""src="/img/hr/hrrestaurant3r.jpg" alt="Forest" style="width:100%;height:150px;">
                 <div class="centered" style="font-size:28px;"><u>Lihat Semua </u></div>
             </div>
         </div>
@@ -327,6 +332,8 @@
     <br>
 
     <div class="head" style="padding-left:3%;">
+        <div style="float:right;padding-right:35px;"> <img src="img/icon/luxury.png" width="300" height="90"> </div>
+
         <div style="font-size:42px"><b>Hotel Arison</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
         <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
             Lokasi</b></span>
@@ -349,27 +356,27 @@
       <p style="padding:15px;font-size:32px;" align="justify">
         <div class="row" style="padding-left:25px;" >
             <div class="column" style="flex:20%;width:16.5%;" >
-                <span><img src="food.png" width="100" height="100"></span><br><br>
+                <span><img src="/img/icon/food.png" width="100" height="100"></span><br><br>
                 <span style="font-size:24px;">Restoran </span>
             </div>
             <div class="column" align="center"  style="flex:20%;width:20%;" >
-                <span><img src="ladder.png" width="100" height="100"></span><br><br>
+                <span><img src="/img/icon/ladder.png" width="100" height="100"></span><br><br>
                 <span style="font-size:24px;align-items:center;" >Kolam Renang</span>
 
             </div>
             <div class="column"   align="center"style="flex:20%;width:20%;">
-                <span><img src="24-hours.png" width="100" height="100"></span><br><br>
-                <span style="font-size:24px;align-items:center;" >Resepsionis 24 Jam</span>
+                <span><img src="/img/icon/meeting.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Meeting Room</span>
 
             </div>
             <div class="column"   style="flex:20%;width:20%;" >
-                <span><img src="barbel.png" width="100" height="100"></span><br><br>
+                <span><img src="/img/icon/barbel.png" width="100" height="100"></span><br><br>
                 <span style="font-size:24px;align-items:center;" >Mini Gym</span>
 
             </div>
             <div class="column"   style="flex:20%;width:20%;" >
-                <span><img src="elevator.png" width="100" height="100"></span><br><br>
-                <span style="font-size:24px;align-items:center;" >Elevator</span>
+                <span><img src="/img/icon/spa.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Spa</span>
             </div>
 
         </div>
@@ -388,10 +395,7 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <hr>
 
     <nav id="navhomebawah"class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
@@ -497,7 +501,7 @@
                 <div class="column4" style="font-size:34px;">
                     <b><p style="font-size:36px">Info Kamar </b> </p>
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                 </div>
                 <div class="column4" style="font-size:34px;">
@@ -537,17 +541,17 @@
                         <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="openModal()" alt="Los Angeles" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkamar3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="img/hr/hrkamar3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
 
                       <div class="carousel-item">
                         <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkmrmndi2.png" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="img/hr/hrkmrmndi2.png" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
                       <div class="carousel-item">
-                        <img src="hrkmrmndi3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
+                        <img src="img/hr/hrkmrmndi3.jpg" onclick="openModal()"alt="Chicago" width="1100" height="680" class="hover-shadow cursor">
                       </div>
 
 
@@ -576,7 +580,7 @@
         <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:360px;">
             <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                 <div style="float:left;">
-                    <img src="img/size.png" width="60px" height="80px">
+                    <img src="img/icon/size.png" width="60px" height="80px">
                 </div>
                 <div style="float:left;padding-left:5%">
                     <span style="font-size:32px;"> <b>Room size </b></span><br>
@@ -586,7 +590,7 @@
             <hr style="border: 1px solid #D3D3D3;">
             <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                 <div style="float:left;">
-                    <img src="img/bed.png" width="50px" height="70px">
+                    <img src="img/icon/bed.png" width="50px" height="70px">
                 </div>
                 <div style="float:left;padding-left:5%">
                     <span style="font-size:32px;"> <b>Bed Type </b></span><br>
@@ -600,7 +604,7 @@
         <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:120px;">
             <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                 <div style="float:left;">
-                    <img src="img/wi-fi.png" width="50px" height="50px">
+                    <img src="img/icon/wi-fi.png" width="50px" height="50px">
                 </div>
                 <div style="float:left;padding-left:5%">
                     <span style="font-size:32px;"> <b>Wifi surcharge</b></span><br>
@@ -664,7 +668,7 @@
     <span  class="close cursor" onclick="closeModal()">&times;</span>
     <div class="modal-content" style="margin-top:5%;">
             <img id="gambarutama"
-                width="100%" style="height:800px;" src="hrkamar1.png">
+                width="100%" style="height:800px;" src="img/hr/hrkamar1.png">
             <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
 
         <div class="caption-container">
@@ -688,10 +692,10 @@
                 <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar3()" >
             </div>
             <div class="column" >
-                <img id="kmrmandi2"class="demo cursor" src="hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
+                <img id="kmrmandi2"class="demo cursor" src="/img/hr/hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
             </div>
             <div class="column" >
-                <img id="kmrmandi3"class="demo cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
+                <img id="kmrmandi3"class="demo cursor" src="/img/hr/hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar5()" >
             </div>
         </div>
     </div>
@@ -703,7 +707,7 @@
         <div class="mySlides2">
 
             <img id="gambarutamas"
-                width="100%" style="height:800px;" src="hrlobi1.jpg">
+                width="100%" style="height:800px;" src="img/hr/hrlobi1.jpg">
         </div>
 
 
@@ -713,16 +717,16 @@
         </div>
         <div class="rows">
             <div class="column">
-                <img id="lobi1"class="demos cursor" src="hrlobi1.jpg" style="width:100%;height:200px;opacity:1;"   onclick="previewHome1()" >
+                <img id="lobi1"class="demos cursor" src="img/hr/hrlobi1.jpg" style="width:100%;height:200px;opacity:1;"   onclick="previewHome1()" >
             </div>
             <div class="column" >
-                <img id="lobi2"class="demos cursor" src="hrlobi2.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome2()" >
+                <img id="lobi2"class="demos cursor" src="img/hr/hrlobi2.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome2()" >
             </div>
             <div class="column" >
-                <img id="lobi3"class="demos cursor" src="hrlobi3.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome3()" >
+                <img id="lobi3"class="demos cursor" src="img/hr/hrlobi3.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome3()" >
             </div>
             <div class="column" >
-                <img id="lobi4"class="demos cursor" src="hrliftlobi.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome4()" >
+                <img id="lobi4"class="demos cursor" src="img/hr/hrliftlobi.jpg"  style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome4()" >
             </div>
         </div>
 
@@ -732,16 +736,16 @@
         </div>
         <div class="rows">
             <div class="column" >
-                <img id="kolamrenang1"class="demos cursor" src="hrkolamrenang1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome5()" >
+                <img id="kolamrenang1"class="demos cursor" src="/img/hr/hrkolamrenang1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome5()" >
             </div>
             <div class="column" >
-                <img id="kolamrenang2"class="demos cursor" src="hrkolamrenang2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome6()" >
+                <img id="kolamrenang2"class="demos cursor" src="/img/hr/hrkolamrenang2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome6()" >
             </div>
             <div class="column" >
-                <img id="kolamrenang3"class="demos cursor" src="hrkolamrenang3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome7()" >
+                <img id="kolamrenang3"class="demos cursor" src="/img/hr/hrkolamrenang3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome7()" >
             </div>
             <div class="column" >
-                <img id="kolamrenang4"class="demos cursor" src="hrkolamrenang4.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome8()" >
+                <img id="kolamrenang4"class="demos cursor" src="/img/hr/hrkolamrenang4.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome8()" >
             </div>
         </div>
 
@@ -751,13 +755,13 @@
         </div>
         <div class="rows">
             <div class="column" >
-                <img id="restaurant1"class="demos cursor" src="hrrestaurant1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome9()" >
+                <img id="restaurant1"class="demos cursor" src="/img/hr/hrrestaurant1.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome9()" >
             </div>
             <div class="column" >
-                <img id="restaurant2"class="demos cursor" src="hrrestaurant2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome10()" >
+                <img id="restaurant2"class="demos cursor" src="/img/hr/hrrestaurant2.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome10()" >
             </div>
             <div class="column" >
-                <img id="restaurant3"class="demos cursor" src="hrrestaurant3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome11()" >
+                <img id="restaurant3"class="demos cursor" src="/img/hr/hrrestaurant3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome11()" >
             </div>
         </div>
         <div class="caption-container">
@@ -766,13 +770,13 @@
         </div>
         <div class="rows">
             <div class="column" >
-                <img id="kamar1"class="demos cursor" src="hrkamar1.png" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome12()" >
+                <img id="kamar1"class="demos cursor" src="/img/hr/hrkamar1.png" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome12()" >
             </div>
             <div class="column" >
-                <img id="kamar2"class="demos cursor" src="hrkamar3.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome13()" >
+                <img id="kamar2"class="demos cursor" src="/img/hr/hrkamar3.jpg" style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome13()" >
             </div>
             <div class="column" >
-                <img id="kamar3"class="demos cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome14()" >
+                <img id="kamar3"class="demos cursor" src="/img/hr/hrkmrmndi3.jpg"style="width:100%;height:200px;opacity:0.6;"  onclick="previewHome14()" >
             </div>
         </div>
     </div>
@@ -822,7 +826,7 @@
       <span class="close" id="closed">&times;</span>
       <div class="row">
         <div class="col-sm-8" style="padding:30px;">
-            <img src="hrkamar1.png"
+            <img src="img/hr/hrkamar1.png"
             width="100%" style="height:400px;" id="deskModalImage">
             <div class="rows" style="padding-top:2%;">
                 <br>
@@ -831,10 +835,10 @@
                     <img id="kmrmodal" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="border-style:solid;width:100%;height:100px;" onclick="gambarModal();" >
                 </div>
                 <div class="column" >
-                    <img id="kmrmodal2"src="hrkamar3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal2();"  >
+                    <img id="kmrmodal2"src="/img/hr/hrkamar3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal2();"  >
                 </div>
                 <div class="column" >
-                    <img id="kmrmodal3"src="hrkamar4.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal3();"  >
+                    <img id="kmrmodal3"src="/img/hr/hrkamar4.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal3();"  >
                 </div>
             </div>
             <div class="rows" style="padding-top:2%;">
@@ -844,10 +848,10 @@
                     <img id="kmrmandimodal" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:100px;opacity:0.4;" onclick="gambarModal4();" >
                 </div>
                 <div class="column" >
-                    <img id="kmrmandimodal2"src="hrkmrmndi2.png" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal5();"  >
+                    <img id="kmrmandimodal2"src="/img/hr/hrkmrmndi2.png" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal5();"  >
                 </div>
                 <div class="column" >
-                    <img id="kmrmandimodal3"src="hrkmrmndi3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal6();"  >
+                    <img id="kmrmandimodal3"src="/img/hr/hrkmrmndi3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="gambarModal6();"  >
                 </div>
 
             </div>
@@ -911,6 +915,99 @@
     </div>
 
   </div>
+
+  <div id="myModal4" class="modalss">
+
+    <!-- Modal content -->
+    <div class="modalss-content">
+      <span class="close" id="closedd">&times;</span>
+    <div style="padding-left:100px;padding-right:100px;padding-top:10px;padding-bottom:10px;">
+        <img id="gambarutamasd"src="/img/hr/hrlobi1.jpg" style="width:100%;height:450px;">
+            <br>
+            <div >
+                <br>
+                <span style="color:white;background-color:#3A7765" id="tulislobi"><a href="#" style="color:white"onclick="filterPreview();">Lobi</a> </span>
+                <span style="color:white" id="tuliskolamrenang"><a href="#" style="color:white"onclick="filterPreview2();">Kolam Renang </a></span>
+                <span style="color:white" id="tulisrestoran"><a href="#" style="color:white"onclick="filterPreview3();">Restoran </a></span>
+                <span style="color:white" id="tuliskamartidur"><a href="#" style="color:white"onclick="filterPreview4();">Kamar Tidur</a></span>
+
+            </div>
+            <br>
+            <div class="rows" id ="lobid" style="padding-top:1%;">
+
+                <div class="column">
+                    <img id="lobid1" src="/img/hr/hrlobi1.jpg" style="border-style:solid;width:100%;height:100px;" onclick="previewHomed1();" >
+                </div>
+                <div class="column" >
+                    <img id="lobid2"src="/img/hr/hrlobi2.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed2();"  >
+                </div>
+                <div class="column" >
+                    <img id="lobid3"src="/img/hr/hrlobi3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed3();"  >
+                </div>
+                <div class="column" >
+                    <img id="lobid4"src="/img/hr/hrliftlobi.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed4();"  >
+                </div>
+            </div>
+
+            <div class="rows" id ="kolamrenangd"style="padding-top:1%;display:none;">
+
+                <div class="column">
+                    <img id="kolamrenangd1" src="/img/hr/hrkolamrenang1r.jpg" style="border-style:solid;width:100%;height:100px;" onclick="previewHomed5();" >
+                </div>
+                <div class="column" >
+                    <img id="kolamrenangd2"src="/img/hr/hrkolamrenang2.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed6();"  >
+                </div>
+                <div class="column" >
+                    <img id="kolamrenangd3"src="/img/hr/hrkolamrenang3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed7();"  >
+                </div>
+                <div class="column" >
+                    <img id="kolamrenangd4"src="/img/hr/hrkolamrenang4.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed8();"  >
+                </div>
+            </div>
+
+            <div class="rows" id ="restorand"style="padding-top:1%;display:none;">
+
+                <div class="column">
+                    <img id="restorand1" src="img/hr/hrrestaurant1r.jpg" style="border-style:solid;width:100%;height:100px;" onclick="previewHomed9();" >
+                </div>
+                <div class="column" >
+                    <img id="restorand2"src="img/hr/hrrestaurant2r.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed10();"  >
+                </div>
+                <div class="column" >
+                    <img id="restorand3"src="img/hr/hrrestaurant3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed11();"  >
+                </div>
+            </div>
+
+            <div class="rows" id="kamartidurd"style="padding-top:1%;display:none;">
+
+                <div class="column">
+                    <img id="kamartidurd1" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="border-style:solid;width:100%;height:100px;" onclick="previewHomed12();" >
+                </div>
+                <div class="column" >
+                    <img id="kamartidurd2"src="/img/hr/hrkamar3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed13();"  >
+                </div>
+                <div class="column" >
+                    <img id="kamartidurd3"src="/img/hr/hrkmrmndi3.jpg" style="opacity:0.4;width:100%;height:100px;"onclick="previewHomed14();"  >
+                </div>
+
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+
+
+
+    </div>
+</div>
+
+  </div>
+  <script>
+    $(document).ready(function(){
+        alert("Mohon Untuk kembali ke halaman survei google form sebelumnya setelah melihat-lihat halaman website ini. Terima kasih atas partisipasinya, semoga hari Anda menyenangkan!");
+    });
+</script>
 <script src="/js/skenario2js/gantiGambarPreview.js"></script>
 <script src="/js/skenario2js/gantiGambarHome.js"></script>
 <script src="js/accordion.js"></script>

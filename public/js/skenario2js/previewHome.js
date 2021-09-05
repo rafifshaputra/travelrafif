@@ -1,5 +1,5 @@
 function previewHome1(){
-    y="hrlobi1.jpg";
+    y="/img/hr/hrlobi1.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "1";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -21,7 +21,7 @@ function previewHome1(){
 }
 
 function previewHome2(){
-    y="hrlobi2.jpg";
+    y="/img/hr/hrlobi2.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "1";
@@ -43,7 +43,7 @@ function previewHome2(){
 }
 
 function previewHome3(){
-    y="hrlobi3.jpg";
+    y="/img/hr/hrlobi3.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -65,7 +65,7 @@ function previewHome3(){
 }
 
 function previewHome4(){
-    y="hrliftlobi.jpg";
+    y="/img/hr/hrliftlobi.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -87,7 +87,7 @@ function previewHome4(){
 }
 
 function previewHome5(){
-    y="hrkolamrenang1.jpg";
+    y="/img/hr/hrkolamrenang1.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -109,7 +109,7 @@ function previewHome5(){
 }
 
 function previewHome6(){
-    y="hrkolamrenang2.jpg";
+    y="/img/hr/hrkolamrenang2.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -131,7 +131,7 @@ function previewHome6(){
 }
 
 function previewHome7(){
-    y="hrkolamrenang3.jpg";
+    y="/img/hr/hrkolamrenang3.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -153,7 +153,7 @@ function previewHome7(){
 }
 
 function previewHome8(){
-    y="hrkolamrenang4.jpg";
+    y="/img/hr/hrkolamrenang4.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -176,7 +176,7 @@ function previewHome8(){
 
 
 function previewHome9(){
-    y="hrrestaurant1.jpg";
+    y="/img/hr/hrrestaurant1.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -198,7 +198,7 @@ function previewHome9(){
 }
 
 function previewHome10(){
-    y="hrrestaurant2.jpg";
+    y="/img/hr/hrrestaurant2.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -220,7 +220,7 @@ function previewHome10(){
 }
 
 function previewHome11(){
-    y="hrrestaurant3.jpg";
+    y="/img/hr/hrrestaurant3.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -242,7 +242,7 @@ function previewHome11(){
 }
 
 function previewHome12(){
-    y="hrkamar1.png";
+    y="/img/hr/hrkamar1.png";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -264,7 +264,7 @@ function previewHome12(){
 }
 
 function previewHome13(){
-    y="hrkamar3.jpg";
+    y="/img/hr/hrkamar3.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";
@@ -286,7 +286,7 @@ function previewHome13(){
 }
 
 function previewHome14(){
-    y="hrkmrmndi3.jpg";
+    y="/img/hr/hrkmrmndi3.jpg";
     document.getElementById('gambarutamas').src=y;
     document.getElementById('lobi1').style.opacity = "0.6";
     document.getElementById('lobi2').style.opacity = "0.6";

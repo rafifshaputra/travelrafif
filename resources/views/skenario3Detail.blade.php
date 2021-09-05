@@ -65,13 +65,13 @@
 
 
               <div style="background-color:#4a4a4a;padding-top:10px;padding-bottom:10px;">
-                <span id="zoom-in" ><img src="zoom-in.png"  width="40" height="40"></span>
-                <span id="zoom-out" ><img src="zoom-out.png"  width="40" height="40"> </span>
-                <span id="home" ><img src="homes.png"  width="40" height="40"> </span>
-                <span id="previous" ><img src="backk.png"  width="40" height="40"> </span>
-                <span id="next" ><img src="next.png"  width="40" height="40"> </span>
+                <span id="zoom-in" ><img src="/img/icon/zoom-in.png"  width="40" height="40"></span>
+                <span id="zoom-out" ><img src="/img/icon/zoom-out.png"  width="40" height="40"> </span>
+                <span id="home" ><img src="/img/icon/homes.png"  width="40" height="40"> </span>
+                <span id="previous" ><img src="/img/icon/backk.png"  width="40" height="40"> </span>
+                <span id="next" ><img src="/img/icon/next.png"  width="40" height="40"> </span>
 
-                <span id="expand" onclick="openModal();"style="float:right;" ><img src="fullscreen.png"  width="40" height="40" > </span>
+                <span id="expand" onclick="openModal();"style="float:right;" ><img src="/img/icon/fullscreen.png"  width="40" height="40" > </span>
               </div>
 
         </div>
@@ -89,7 +89,7 @@
     <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:360px;">
         <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
             <div style="float:left;">
-                <img src="img/size.png" width="60px" height="80px">
+                <img src="img/icon/size.png" width="60px" height="80px">
             </div>
             <div style="float:left;padding-left:5%">
                 <span style="font-size:32px;"> <b>Room size </b></span><br>
@@ -99,7 +99,7 @@
         <hr style="border: 1px solid #D3D3D3;">
         <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
             <div style="float:left;">
-                <img src="img/bed.png" width="50px" height="70px">
+                <img src="img/icon/bed.png" width="50px" height="70px">
             </div>
             <div style="float:left;padding-left:5%">
                 <span style="font-size:32px;"> <b>Bed Type </b></span><br>
@@ -113,7 +113,7 @@
     <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:120px;">
         <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
             <div style="float:left;">
-                <img src="img/wi-fi.png" width="50px" height="50px">
+                <img src="img/icon/wi-fi.png" width="50px" height="50px">
             </div>
             <div style="float:left;padding-left:5%">
                 <span style="font-size:32px;"> <b>Wifi surcharge</b></span><br>
@@ -195,10 +195,10 @@
                 <img id="kmrbiasa"class="demo cursor" src="https://i.ibb.co/Pchrm5P/gambar4.png" style="width:100%;height:200px;opacity:1;"   onclick="gantiGambar()" >
             </div>
             <div class="column" >
-                <img id="kmrbiasa2"class="demo cursor" src="hrkamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
+                <img id="kmrbiasa2"class="demo cursor" src="/img/hr/hrkamar3.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar2()" >
             </div>
             <div class="column" >
-                <img id="kmrbiasa3"class="demo cursor" src="hrkamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar3()" >
+                <img id="kmrbiasa3"class="demo cursor" src="/img/hr/hrkamar4.jpg"  style="width:100%;height:200px;"  onclick="gantiGambar3()" >
             </div>
 
         </div>
@@ -207,10 +207,10 @@
                 <img id="kmrmandi"class="demo cursor" src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" style="width:100%;height:200px;"  onclick="gantiGambar4()" >
             </div>
             <div class="column" >
-                <img id="kmrmandi2"class="demo cursor" src="hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar5()" >
+                <img id="kmrmandi2"class="demo cursor" src="/img/hr/hrkmrmndi2.png" style="width:100%;height:200px;"  onclick="gantiGambar5()" >
             </div>
             <div class="column" >
-                <img id="kmrmandi3"class="demo cursor" src="hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar6()" >
+                <img id="kmrmandi3"class="demo cursor" src="/img/hr/hrkmrmndi3.jpg"style="width:100%;height:200px;"  onclick="gantiGambar6()" >
             </div>
         </div>
     </div>

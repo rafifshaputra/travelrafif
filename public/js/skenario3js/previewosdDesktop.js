@@ -10,7 +10,7 @@ var viewerz = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrlobi1.jpg',
+      url : '/img/hr/hrlobi1.jpg',
       buildPyramid: false
   }
 
@@ -32,7 +32,7 @@ var viewerz2 = OpenSeadragon({
       Overlap: "2",
   TileSize: "256",
       type : 'image',
-      url : '/hrlobi2.jpg',
+      url : '/img/hr/hrlobi2.jpg',
 
   }
 
@@ -50,7 +50,7 @@ var viewerz3 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrlobi3.jpg',
+      url : '/img/hr/hrlobi3.jpg',
       buildPyramid: false
   }
 
@@ -68,7 +68,7 @@ var viewerz4 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrliftlobi.jpg',
+      url : '/img/hr/hrliftlobi.jpg',
       buildPyramid: false
   }
 
@@ -86,7 +86,7 @@ var viewerz5 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrkolamrenang1.jpg',
+      url : '/img/hr/hrkolamrenang1.jpg',
       buildPyramid: false
   }
 
@@ -103,7 +103,7 @@ var viewerz6 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrkolamrenang2.jpg',
+      url : '/img/hr/hrkolamrenang2.jpg',
       buildPyramid: false
   }
 
@@ -120,7 +120,7 @@ var viewerz7 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrkolamrenang3.jpg',
+      url : '/img/hr/hrkolamrenang3.jpg',
       buildPyramid: false
   }
 
@@ -137,7 +137,7 @@ var viewerz8 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrkolamrenang4.jpg',
+      url : '/img/hr/hrkolamrenang4.jpg',
       buildPyramid: false
   }
 
@@ -155,7 +155,7 @@ var viewerz9 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrrestaurant1.jpg',
+      url : '/img/hr/hrrestaurant1.jpg',
       buildPyramid: false
   }
 
@@ -173,7 +173,7 @@ var viewerz10 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrrestaurant2.jpg',
+      url : '/img/hr/hrrestaurant2.jpg',
       buildPyramid: false
   }
 
@@ -191,7 +191,7 @@ var viewerz11 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrrestaurant3.jpg',
+      url : '/img/hr/hrrestaurant3.jpg',
       buildPyramid: false
   }
 
@@ -209,7 +209,7 @@ var viewerz12 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrkamar1.png',
+      url : '/img/hr/hrkamar1.png',
       buildPyramid: false
   }
 
@@ -226,7 +226,7 @@ var viewerz13 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrkamar3.jpg',
+      url : '/img/hr/hrkamar3.jpg',
       buildPyramid: false
   }
 
@@ -244,7 +244,7 @@ var viewerz14 = OpenSeadragon({
   prefixUrl:     '/img/imagesd/',
   tileSources:   {
       type : 'image',
-      url : '/hrkmrmndi3.jpg',
+      url : '/img/hr/hrkmrmndi3.jpg',
       buildPyramid: false
   }
 

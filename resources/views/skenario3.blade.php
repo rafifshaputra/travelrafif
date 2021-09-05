@@ -5,7 +5,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
+    <meta content='user-scalable=0' name='viewport' />
  <!-- #region Jssor Slider Begin -->
     <!-- Generator: Jssor Slider Composer -->
     <!-- Source: https://www.jssor.com/rafifshaputra/image-gallery.slider/=edit -->
@@ -79,7 +79,7 @@
                 <img id="imgcol4" onclick="gambarGanti4();"src="https://i.ibb.co/X72Dj0X/hrrestaurant1r.jpg" alt="Forest" style="width:100%;height:150px;opacity:0.6">
             </div>
             <div onclick="openModals();"class="column" style=" position: relative;text-align: center;color: white;">
-                <img id="imgcol5" onclick=""src="hrrestaurant3r.jpg" alt="Forest" style="width:100%;height:150px;">
+                <img id="imgcol5" onclick=""src="/img/hr/hrrestaurant3r.jpg" alt="Forest" style="width:100%;height:150px;">
                 <div class="centered" style="font-size:28px;"><u>Lihat Semua </u></div>
             </div>
         </div>
@@ -87,6 +87,8 @@
     <br>
 
     <div class="head" style="padding-left:3%;">
+        <div style="float:right;padding-right:35px;"> <img src="img/icon/luxury.png" width="300" height="90"> </div>
+
         <div style="font-size:42px"><b>Hotel Arison</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
         <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
             Lokasi</b></span>
@@ -109,27 +111,28 @@
       <p style="padding:15px;font-size:32px;" align="justify">
         <div class="row" style="padding-left:25px;" >
             <div class="column" style="flex:20%;width:16.5%;" >
-                <span><img src="food.png" width="100" height="100"></span><br><br>
+                <span><img src="/img/icon/food.png" width="100" height="100"></span><br><br>
                 <span style="font-size:24px;">Restoran </span>
             </div>
             <div class="column" align="center"  style="flex:20%;width:20%;" >
-                <span><img src="ladder.png" width="100" height="100"></span><br><br>
+                <span><img src="/img/icon/ladder.png" width="100" height="100"></span><br><br>
                 <span style="font-size:24px;align-items:center;" >Kolam Renang</span>
 
             </div>
             <div class="column"   align="center"style="flex:20%;width:20%;">
-                <span><img src="24-hours.png" width="100" height="100"></span><br><br>
+                <span><img src="/img/icon/24-hours.png" width="100" height="100"></span><br><br>
                 <span style="font-size:24px;align-items:center;" >Resepsionis 24 Jam</span>
 
             </div>
             <div class="column"   style="flex:20%;width:20%;" >
-                <span><img src="barbel.png" width="100" height="100"></span><br><br>
+                <span><img src="/img/icon/barbel.png" width="100" height="100"></span><br><br>
                 <span style="font-size:24px;align-items:center;" >Mini Gym</span>
 
             </div>
+
             <div class="column"   style="flex:20%;width:20%;" >
-                <span><img src="elevator.png" width="100" height="100"></span><br><br>
-                <span style="font-size:24px;align-items:center;" >Elevator</span>
+                <span><img src="/img/icon/spa.png" width="100" height="100"></span><br><br>
+                <span style="font-size:24px;align-items:center;" >Spa</span>
             </div>
 
         </div>
@@ -224,11 +227,11 @@
                 <!-- The slideshow -->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="https://i.ibb.co/Pchrm5P/gambar4.png" onclick="seeDetail();" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor">
+                    <a href="/mob-hrsk3d-94314"><img src="https://i.ibb.co/Pchrm5P/gambar4.png" alt="Los Angeles" width="1100" height="500" class="hover-shadow cursor"></a>
                   </div>
 
                   <div class="carousel-item">
-                    <img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" onclick="seeDetail();"alt="Chicago" width="1100" height="500" class="hover-shadow cursor">
+                    <a href="/mob-hrsk3d-94314"><img src="https://i.ibb.co/CzxGHrb/20200308-130411.jpg" alt="Chicago" width="1100" height="500" class="hover-shadow cursor"></a>
                   </div>
                 </div>
 
@@ -253,8 +256,8 @@
                 <div class="column4" style="font-size:34px;">
                     <b><p style="font-size:36px">Info Kamar </b> </p>
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
-                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 26 sqm<br>
                 </div>
                 <div class="column4" style="font-size:34px;">
                     <b><p style="font-size:36px">Layanan</b> </p>
@@ -388,7 +391,17 @@
 </div>
 
 
+<script>
+    $(document).ready(function(){
+        alert("Mohon Untuk kembali ke halaman survei google form sebelumnya setelah melihat-lihat halaman website ini. Terima kasih atas partisipasinya, semoga hari Anda menyenangkan!");
+    });
+   </script>
 
+<script>
+    $(document).ready(function(){
+        alert("*Note: Anda dapat zoom pada gambar.");
+    });
+   </script>
 
 <script src="js/skenario3js/previewChangeImage.js"></script>
 <script src="js/skenario3js/gantiGambarHome.js"></script>

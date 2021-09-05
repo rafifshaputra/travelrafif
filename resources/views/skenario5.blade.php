@@ -12,6 +12,8 @@
     <script src="js/detailPage.js"></script>
     <script src="/js/skenario5js/gantiGambarHome.js"></script>
     <script src="js/confirmationModal.js"></script>
+    <script src="js/skenario5js/nextimages.js"></script>
+
 
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -67,6 +69,8 @@
 
             <!--INFORMASI HOTEL-->
             <div class="head" style="padding-left:3%;">
+                <div style="float:right;padding-right:7%;"> <img src="img/icon/new.png" width="120" height="140"> </div>
+
                 <div style="font-size:42px"><b>Hotel Indah</b><img style="padding-left:1%;"src="img/icon/bintang2.png" width="100px;height:100px;"><br></div><br>
                 <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
                     Lokasi</b></span>
@@ -133,7 +137,7 @@
 
             <!--STICKY BOTTOM NAVBAR-->
             <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-                <a class="navbar-brand" href="#" style="font-size:32px;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span><span style="padding-left:15%;">
+                <a class="navbar-brand" href="#" style="font-size:32px;">Kamar<span style="color:red;">masih tersedia! </span><span style="padding-left:15%;">
                     <button onclick="myFunction();"> Lihat Kamar </button>
                 </span><br></a>
             </nav>
@@ -236,7 +240,7 @@
                     <div class="column4" style="font-size:34px;">
                         <b><p style="font-size:36px">Info Kamar </b> </p>
                         <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
-                        <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> King Bed<br>
+                        <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 1 Double Bed<br>
                         <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 21 sqm<br>
                     </div>
                     <div class="column4" style="font-size:34px;">
@@ -275,6 +279,7 @@
                     src="https://momento360.com/e/u/262ce4718852425cb7ad828fc373353f?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75">
                 </iframe>
                 <br>
+                <span id="notemandi" style="color:red;font-size:32px;display:none;"> *Note: terjadi kesalahan teknis pada gambar. Terdapat pintu antara closet dengan wastafel</span>
                 <p style="font-size:38px;margin-top:3%;padding:20px;"><b>Deluxe Room</b> </span><br>
                     <hr style="border: 1px solid gray;">
                 <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;padding-top:2%;"> <img src="https://imgur.com/K5sza9m.png" height="30px" width="30px"> Tamu 2 orang</span><br>
@@ -301,7 +306,7 @@
                     </div>
                     <div style="float:left;padding-left:5%">
                         <span style="font-size:32px;"> <b>Bed Type </b></span><br>
-                        <span style="font-size:28px;">  1 King Bed</span>
+                        <span style="font-size:28px;">  1 Double Bed</span>
                     </div>
                 </div>
             </div>
@@ -311,7 +316,7 @@
             <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:120px;">
                 <div class="row" style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
                     <div style="float:left;">
-                        <img src="img/wi-fi.png" width="50px" height="50px">
+                        <img src="img/icon/wi-fi.png" width="50px" height="50px">
                     </div>
                     <div style="float:left;padding-left:5%">
                         <span style="font-size:32px;"> <b>Wifi surcharge</b></span><br>
@@ -323,8 +328,6 @@
             <p style="font-size:32px;padding-left:4%;padding-top:1%;padding-bottom:2%;" ><b> Bathroom Aminities</b> </p>
             <div class="contain" style="font-size:28px;background-color:white;word-wrap:break-word;padding:15px;height:470px;">
                 <div  style="padding-left:5%;padding-top:3%;padding-bottom:3%;">
-                    <li style="font-size:32px;padding-bottom:2%;"><b> Hot Water</b> </li>
-                    <hr style="border: 1px solid #D3D3D3;">
                     <li style="font-size:32px;padding-top:4%;"><b> Shower</b> </li><br>
                     <hr style="border: 1px solid #D3D3D3;">
                     <li style="font-size:32px;padding-top:4%;"><b>Toiletries</b> </li><br>
@@ -419,7 +422,7 @@
             <button type="button" class="btn btn-secondary" onclick="closeModal2();" style="float:left;width:120px;" >Kembali</button>
 
 
-            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick=pesan();>Iya, Pesan Hotel</button>
+            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick="pesan2();">Iya, Pesan Hotel</button>
 
 
         </div>
@@ -436,9 +439,18 @@
     </p>
 </div>
 
-<script src="js/nextimage.js"></script>
 <script src="js/accordion.js"></script>
+<script>
+    $(document).ready(function(){
+        alert("Mohon Untuk kembali ke halaman survei google form sebelumnya setelah melihat-lihat halaman website ini. Terima kasih atas partisipasinya, semoga hari Anda menyenangkan!");
+    });
+</script>
 
+<script>
+    $(document).ready(function(){
+        alert("*Note: Anda dapat memutar gambar");
+    });
+</script>
 </body>
 <br><br><br><br><br>
 </html>

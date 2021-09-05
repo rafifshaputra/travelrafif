@@ -28,7 +28,7 @@ var prevd = OpenSeadragon({
     prefixUrl:     '/img/imagesd/',
     tileSources:   {
         type : 'image',
-        url : "hrkamar3.jpg" ,
+        url : "/img/hr/hrkamar3.jpg" ,
         buildPyramid: false
     }
 
@@ -46,7 +46,7 @@ var prevd = OpenSeadragon({
     prefixUrl:     '/img/imagesd/',
     tileSources:   {
         type : 'image',
-        url : "hrkamar4.jpg" ,
+        url : "/img/hr/hrkamar4.jpg" ,
         buildPyramid: false
     }
 
@@ -82,7 +82,7 @@ var prevd = OpenSeadragon({
     prefixUrl:     '/img/imagesd/',
     tileSources:   {
         type : 'image',
-        url : "hrkmrmndi2.png"  ,
+        url : "/img/hr/hrkmrmndi2.png"  ,
         buildPyramid: false
     }
 
@@ -101,7 +101,7 @@ var prevd = OpenSeadragon({
     prefixUrl:     '/img/imagesd/',
     tileSources:   {
         type : 'image',
-        url : "hrkmrmndi3.jpg"  ,
+        url : "/img/hr/hrkmrmndi3.jpg"  ,
         buildPyramid: false
     }
 

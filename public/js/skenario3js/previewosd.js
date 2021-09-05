@@ -86,7 +86,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : 'hrkolamrenang1.jpg',
+        url : '/img/hr/hrkolamrenang1.jpg',
         buildPyramid: false
     }
 
@@ -155,7 +155,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : 'hrrestaurant1.jpg',
+        url : '/img/hr/hrrestaurant1.jpg',
         buildPyramid: false
     }
 
@@ -209,7 +209,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : 'hrkamar1.png',
+        url : '/img/hr/hrkamar1.png',
         buildPyramid: false
     }
 
@@ -244,7 +244,7 @@ var viewerz = OpenSeadragon({
     prefixUrl:     '/img/images/',
     tileSources:   {
         type : 'image',
-        url : 'https://i.ibb.co/Ry7N77J/hrkmrmndi3.jpg',
+        url : '/img/hr/https://i.ibb.co/Ry7N77J/hrkmrmndi3.jpg',
         buildPyramid: false
     }
 
