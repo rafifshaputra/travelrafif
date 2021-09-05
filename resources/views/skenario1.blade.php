@@ -139,7 +139,7 @@
             <!--STICKY BOTTOM NAVBAR-->
             <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
                 <a class="navbar-brand" href="#" style="font-size:32px;">Only <span style="color:red;">3 room left! </span><span style="padding-left:15%;">
-                    <button onclick="myFunction();"> See Room </button>
+                    <button onclick="myFunction();"> See Room Detail</button>
                 </span><br></a>
             </nav>
         </div>
