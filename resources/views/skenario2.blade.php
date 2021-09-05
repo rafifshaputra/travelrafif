@@ -336,7 +336,7 @@
 
         <div style="font-size:42px"><b>Arison Hotel</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
         <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
-            Lokasi</b></span>
+            Location</b></span>
         <div style="padding-top:1%; font-size:32px;"> Bogor 123 Street. Bogor Barat. 321 </div><br>
     </div>
     <hr>
