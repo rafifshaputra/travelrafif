@@ -47,8 +47,8 @@
         <!--HEADER HOTEL INFO-->
         <div class="head" style="padding-left:3%;">
             <div style="float:right;"> <img src="img/icon/luxury.png" width="180" height="50"> </div>
-            <div style="font-size:20px"><b> Hotel Arison</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
-            <div style="padding-top:1%; font-size:16px;"> Jalan Bogor 123. Bogor Barat. 321 </div><br>
+            <div style="font-size:20px"><b> Arison Hotel</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
+            <div style="padding-top:1%; font-size:16px;"> Bogor 123 Steet. Bogor Barat. 321 </div><br>
         </div>
 
         <!-- MAIN PICTURE-->
@@ -74,7 +74,7 @@
             <div class="column" onclick="openModalzz();" style=" position: relative;text-align: center;color: white;">
 
                 <img id ="imgcol5d" src="img/hr/hrrestaurant3r.jpg" alt="Mountains" style="width:100%;height:120px;">
-                <div class="centered" style="font-size:16px;"><u>Lihat Semua </u></div>
+                <div class="centered" style="font-size:16px;"><u>See All </u></div>
             </div>
         </div>
         <br>
@@ -82,34 +82,34 @@
         <!-- ROW INFO KAMAR TERSEDIA-->
         <div class="rows" >
             <span style="font-size:16px;">
-                Kamar tersedia dihari yang anda pilih tersisa sebanyak <span style="color:red">3 Kamar!</span>
+                There are 3 rooms available on the day you choose <span style="color:red">3 rooms!</span>
             </span>
             <span style="padding-left:30%;">
-                <a href="#pilihkamar"><button style="font-size:16px;"> Pilih Kamar anda </button></a>
+                <a href="#pilihkamar"><button style="font-size:16px;"> Choose your room </button></a>
             </span>
             <br>
         </div>
         <hr>
         <div class="rows" >
-            <span style="font-size:18px;"> <b>Fasilitas Utama</b> </span><br><br>
+            <span style="font-size:18px;"> <b>Main Facility</b> </span><br><br>
         </div>
         <br>
         <div class="rows" style="padding-left:5%:">
             <div class="column" align="center"style="font-size:10px;">
                 <img src="img/icon/food.png" width="60" height="60"><br><br>
-                <span  style="font-size:14px;">Restoran </span>
+                <span  style="font-size:14px;">Restaurant </span>
             </div>
             <div class="column" align="center"style="font-size:10px;">
                 <img src="img/icon/ladder.png" width="60" height="60"><br><br>
-                <span style="font-size:14px;">Kolam Renang </span>
+                <span style="font-size:14px;">Swimming Pool </span>
             </div>
             <div class="column"align="center" style="font-size:10px;">
                 <img src="img/icon/24-hours.png" width="60" height="60"><br><br>
-                <span  style="font-size:14px;">Room Service 24 Jam </span>
+                <span  style="font-size:14px;">24 Hour Room Service </span>
             </div>
             <div class="column" align="center"style="font-size:10px;">
                 <img src="img/icon/barbel.png" width="60" height="60"><br><br>
-                <span style="font-size:14px;">Pusat Kebugaran</span>
+                <span style="font-size:14px;">Gym</span>
             </div>
             <div class="column"align="center" >
                 <img src="img/icon/spa.png" width="60" height="60"><br><br>
@@ -129,23 +129,23 @@
     <div class="contain" style="background-color:white;padding:20px;">
         <div class="row">
             <div class="column">
-                <span style="font-size:16px;"><b>Deskripsi Hotel</b></span>
+                <span style="font-size:16px;"><b>Hotel Description</b></span>
                 <p style="padding:15px;font-size:14px;" align="justify">
-                    Hotel Arison merupakan hotel bintang 4. Nuansa klasik dan mewah menjadi ciri khas penginapan ini. <br>
+                    Arison Hotel is a 4-star hotel. Classic and luxurious nuances characterize this inn. <br>
                     <br>
-                    Fasilitas unggulan yang bisa dinikmati adalah Sky Dine and Longe. Selain itu, terdapat kamar-kamar dengan fasilitas mumpuni, kolam renang,
-                    fasilitas khusus penyandang disabilitas, dan lainnya.<br>
+                    Excellent facilities that can be enjoyed are Sky Dine and Longe. In addition, there are rooms with qualified facilities, swimming pools,
+                    special facilities for persons with disabilities, and others.<br>
                     <br>
-                    Para tamu Arison Hotel yang menginginkan ketenangan, dapat memesan kamar kedap suara. Kamar ini juga cocok untuk Anda yang membawa bayi dan enggan terganggu kenyamanannya.
+                    Arison Hotel guests who want peace, can book a soundproofed room. This room is also suitable for those of you who bring a baby and don't want to be disturbed by their comfort.
                 </p>
             </div>
             <div class="column">
-                <span style="font-size:16px;"><b>Kebijakan Hotel</b></span>
+                <span style="font-size:16px;"><b>Hotel Privacy</b></span>
                 <br>
                 <ul style="padding-top:2%" class="a">
-                    <li  style="padding:5px;font-size:14px;"> Check-in mulai dari jam 14.00</li>
-                    <li  style="padding:5px;font-size:14px;"> Check-out maksimal jam 12.00</li>
-                    <li  style="padding:5px;font-size:14px;"> Membawa identitas </li>
+                    <li  style="padding:5px;font-size:14px;"> Check-in start from 14.00</li>
+                    <li  style="padding:5px;font-size:14px;"> Last Check-out at 12.00</li>
+                    <li  style="padding:5px;font-size:14px;"> Prepare Identity </li>
                     <li  style="padding:5px;font-size:14px;"> Deposit Rp100.000</li>
                 </ul>
             </div>
@@ -159,23 +159,23 @@
             <div class="row">
                 <div class="column">
                     <span style="font-size:13px;">Check-in<br></span>
-                    <span style="color:#4A4A4A;font-size:14px;"><img src="img/icon/timetable.png" width="20" height="20"> <b style="padding-left:1%">Jum, 16 Okt 2020 </b></span>
+                    <span style="color:#4A4A4A;font-size:14px;"><img src="img/icon/timetable.png" width="20" height="20"> <b style="padding-left:1%">Fri, 16 Oct 2020 </b></span>
                 </div>
                 <div class="column">
                     <span style="font-size:13px;"> <img src="img/icon/sleep.png" width="20" height="20">2<br></span>
-                    <span style="color:#4A4A4A;font-size:14px;"><b>Malam</b></span>
+                    <span style="color:#4A4A4A;font-size:14px;"><b>Night</b></span>
                 </div>
                 <div class="column">
                     <span style="font-size:13px;">Check-out<br></span>
-                    <span style="color:#4A4A4A;font-size:14px;"><img src="img/icon/timetable.png" width="20" height="20"> <b style="padding-left:1%">Min, 18 Okt 2020 </b></span>
+                    <span style="color:#4A4A4A;font-size:14px;"><img src="img/icon/timetable.png" width="20" height="20"> <b style="padding-left:1%">Fri, 18 Oct 2020 </b></span>
                 </div>
                 <div class="column">
-                    <span style="font-size:13px;">Tamu dan Kamar<br></span>
-                    <span style="color:#4A4A4A;font-size:14px;"><b >2 Tamu 1 Kamar</b></span>
+                    <span style="font-size:13px;">Guest and Room<br></span>
+                    <span style="color:#4A4A4A;font-size:14px;"><b >2 Guest 1 Room</b></span>
                 </div>
             </div>
             <hr>
-            <span style="font-size:18px;"><b>Kamar di Hotel Arison</b> </span>
+            <span style="font-size:18px;"><b>Room at Arison Hotel</b> </span>
         </div>
         <br>
         <div class="contain" style="border-style: solid;
@@ -208,15 +208,15 @@
                     <!--ROW UNTUK INFORMASI KAMAR DAN LAYANAN-->
                     <div class="rows" style="width:100%" >
                         <div class="column" style="font-size:14px;">
-                            <b><p style="font-size:14px">Info Kamar </b> </p>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
+                            <b><p style="font-size:14px">Room Info </b> </p>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Guest<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
 
                         <div class="column" style="font-size:14px;">
-                            <b><p style="font-size:14px">Layanan</b> </p>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
+                            <b><p style="font-size:14px">Services</b> </p>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Guest <br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
@@ -225,9 +225,9 @@
 
                 <!--KOLOM KETIGA UNTUK KAMAR TERSISA DAN BUTTON PESAN-->
                 <div class="column" style="padding-left:10%;padding-top:10%;font-size:12px;">
-                    <span style="color:red;font-size:14px;">Tersisa 3 kamar lagi! </span><br>
+                    <span style="color:red;font-size:14px;">3 Rooms left! </span><br>
                     <span >
-                        <button style="width:200px;" onclick="openModalz()"> <span style="font-size:14px;">Lihat Detail</span></button>
+                        <button style="width:200px;" onclick="openModalz()"> <span style="font-size:14px;">See Detail</span></button>
                     </span>
                 </div>
 
@@ -264,15 +264,15 @@
                     <!--ROW UNTUK INFORMASI KAMAR DAN LAYANAN-->
                     <div class="rows" style="width:100%" >
                         <div class="column" style="font-size:14px;">
-                            <b><p style="font-size:14px">Info Kamar </b> </p>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
+                            <b><p style="font-size:14px">Room Info </b> </p>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Guest <br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
 
                         <div class="column" style="font-size:14px;">
-                            <b><p style="font-size:14px">Layanan</b> </p>
-                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
+                            <b><p style="font-size:14px">Services</b> </p>
+                            <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Guest<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                             <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                         </div>
@@ -281,9 +281,9 @@
 
                 <!--KOLOM KETIGA UNTUK KAMAR TERSISA DAN BUTTON PESAN-->
                 <div class="column" style="padding-left:10%;padding-top:10%;font-size:12px;">
-                    <span style="color:red;font-size:14px;">Tersisa 3 kamar lagi! </span><br>
+                    <span style="color:red;font-size:14px;">3 rooms left! </span><br>
                     <span >
-                        <button style="width:200px;" onclick="openModalz()"> <span style="font-size:14px;">Lihat Detail</span></button>
+                        <button style="width:200px;" onclick="openModalz()"> <span style="font-size:14px;">See Detail</span></button>
                     </span>
                 </div>
 
@@ -325,7 +325,7 @@
             </div>
             <div onclick="openModals()"class="column" style=" position: relative;text-align: center;color: white;">
                 <img id="imgcol5" onclick=""src="/img/hr/hrrestaurant3r.jpg" alt="Forest" style="width:100%;height:150px;">
-                <div class="centered" style="font-size:28px;"><u>Lihat Semua </u></div>
+                <div class="centered" style="font-size:28px;"><u>See All </u></div>
             </div>
         </div>
         <br>
@@ -334,34 +334,34 @@
     <div class="head" style="padding-left:3%;">
         <div style="float:right;padding-right:35px;"> <img src="img/icon/luxury.png" width="300" height="90"> </div>
 
-        <div style="font-size:42px"><b>Hotel Arison</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
+        <div style="font-size:42px"><b>Arison Hotel</b><img style="padding-left:1%;"src="https://i.ibb.co/FWsH4nf/Group-1-1.png" width="150px;"><br></div><br>
         <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
             Lokasi</b></span>
-        <div style="padding-top:1%; font-size:32px;"> Jalan Bogor 123. Bogor Barat. 321 </div><br>
+        <div style="padding-top:1%; font-size:32px;"> Bogor 123 Street. Bogor Barat. 321 </div><br>
     </div>
     <hr>
     <br>
-    <b><span style="font-size:36px">Deskripsi </span><br></b>
+    <b><span style="font-size:36px">Description</span><br></b>
       <p style="padding:15px;font-size:32px;" align="justify">
-        Hotel Arison merupakan hotel bintang 4. Nuansa klasik dan mewah menjadi ciri khas penginapan ini. <br>
+        Arison Hotel is a 4-star hotel. Classic and luxurious nuances characterize this inn. <br>
         <br>
-        Fasilitas unggulan yang bisa dinikmati adalah Sky Dine and Longe. Selain itu, terdapat kamar-kamar dengan fasilitas mumpuni, kolam renang,
-        fasilitas khusus penyandang disabilitas, dan lainnya.<br>
+        Excellent facilities that can be enjoyed are Sky Dine and Longe. In addition, there are rooms with qualified facilities, swimming pools,
+        special facilities for persons with disabilities, and others.<br>
         <br>
-        Para tamu Arison Hotel yang menginginkan ketenangan, dapat memesan kamar kedap suara. Kamar ini juga cocok untuk Anda yang membawa bayi dan enggan terganggu kenyamanannya.
+        Arison Hotel guests who want peace, can book a soundproofed room. This room is also suitable for those of you who bring a baby and don't want to be disturbed by their comfort.
       </p>
     <hr>
     <br>
-    <b><span style="font-size:36px">Fasilitas Umum</span><br></b>
+    <b><span style="font-size:36px">Main Facility</span><br></b>
       <p style="padding:15px;font-size:32px;" align="justify">
         <div class="row" style="padding-left:25px;" >
             <div class="column" style="flex:20%;width:16.5%;" >
                 <span><img src="/img/icon/food.png" width="100" height="100"></span><br><br>
-                <span style="font-size:24px;">Restoran </span>
+                <span style="font-size:24px;">Restaurant </span>
             </div>
             <div class="column" align="center"  style="flex:20%;width:20%;" >
                 <span><img src="/img/icon/ladder.png" width="100" height="100"></span><br><br>
-                <span style="font-size:24px;align-items:center;" >Kolam Renang</span>
+                <span style="font-size:24px;align-items:center;" >Swimming Pool</span>
 
             </div>
             <div class="column"   align="center"style="flex:20%;width:20%;">
@@ -383,12 +383,12 @@
       </p>
     <hr>
     <br>
-    <b><span style="font-size:36px">Kebijakan Hotel</span><br></b>
+    <b><span style="font-size:36px">Hotel Policy</span><br></b>
     <br>
     <ul class="a">
-        <li  style="padding:5px;font-size:32px;"> Check-in mulai dari jam 14.00</li>
-        <li  style="padding:5px;font-size:32px;"> Check-out maksimal jam 12.00</li>
-        <li  style="padding:5px;font-size:32px;"> Membawa identitas </li>
+        <li  style="padding:5px;font-size:32px;"> Check-in start from 14.00</li>
+        <li  style="padding:5px;font-size:32px;"> Last Check-out 12.00</li>
+        <li  style="padding:5px;font-size:32px;"> Prepare Identity</li>
         <li  style="padding:5px;font-size:32px;"> Deposit Rp100.000</li>
     </ul>
     <br>
@@ -399,8 +399,8 @@
     <hr>
 
     <nav id="navhomebawah"class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-        <a class="navbar-brand" href="#" style="font-size:32px;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span><span style="padding-left:15%;">
-            <button onclick="myFunction();"> Lihat Kamar </button>
+        <a class="navbar-brand" href="#" style="font-size:32px;">Only <span style="color:red;">3 room left! </span><span style="padding-left:15%;">
+            <button onclick="myFunction();"> See Detail Room</button>
         </span><br></a>
       </nav>
 </div>
@@ -421,7 +421,7 @@
                     </div>
                     <div id="headerdetail"class="col-sm-10" style="padding:5px;">
 
-                            <span style="color:white;font-size:38px;"><b>Hotel Arison</b></span><br>
+                            <span style="color:white;font-size:38px;"><b>Arison Hotel</b></span><br>
                             <span style="font-size:32px;color:white;">Bogor, Jawa Barat</span>
 
                     </div>
@@ -449,12 +449,12 @@
                 <span style="color:#3A7765;">{{  now()->toDateString('Y-m-d') }}</span>
             </div>
             <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
-                <span><b>Durasi:</b><br></span>
-                <span style="color:#3A7765;">2 Malam</span>
+                <span><b>Duration:</b><br></span>
+                <span style="color:#3A7765;">2 Night</span>
             </div>
             <div style="width:300px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding-bottom:15px;" class="column3">
-                <span><b>Jumlah Tamu:</b><br></span>
-                <span style="color:#3A7765;">2 Tamu</span>
+                <span><b>Number of Guest:</b><br></span>
+                <span style="color:#3A7765;">2 Guest</span>
             </div>
         </div>
     </div>
@@ -500,7 +500,7 @@
             <div class="rows" style="width:100%;padding-left:4%;"  >
                 <div class="column4" style="font-size:34px;">
                     <b><p style="font-size:36px">Info Kamar </b> </p>
-                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Guest <br>
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 2 Single Bed<br>
                     <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
                 </div>
@@ -513,9 +513,9 @@
             </div>
             <br>
             <br>
-            <span class="navbar-brand" href="#" style="font-size:32px;padding-left:4%;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span></span>
+            <span class="navbar-brand" href="#" style="font-size:32px;padding-left:4%;">Only<span style="color:red;">3 room left! </span></span>
             <br><br><br>
-                    <button class="but" style="width:80%;margin-left:10%"onclick="seeDetail();"> Lihat Detail</button>
+                    <button class="but" style="width:80%;margin-left:10%"onclick="seeDetail();"> See Detail</button>
             <br><br><br>
         </div>
         <br>
@@ -570,10 +570,10 @@
             <br>
             <p style="font-size:38px;margin-top:3%;padding:20px;"><b>Deluxe Room</b> </span><br>
                 <hr style="border: 1px solid gray;">
-            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;padding-top:2%;"> <img src="https://imgur.com/K5sza9m.png" height="30px" width="30px"> Tamu 2 orang</span><br>
-            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;"><span style="color:red;">Belum </span>termasuk sarapan!</span><br>
+            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;padding-top:2%;"> <img src="https://imgur.com/K5sza9m.png" height="30px" width="30px"> 2 Guest</span><br>
+            <span class="navbar-brand" href="#" style="font-size:28px;padding-left:2%;"><span style="color:red;">Without </span>breakfast!</span><br>
             <hr style="border: 1px solid gray;">
-            <span style="font-size:28px;padding-left:2%;margin-top:20%;padding-bottom:2%"><img src="https://i.ibb.co/zhwNWVp/money-2.png" height="30px" width="30px"> Pesan sekarang dan dapatkan sebanyak <span style="color:#3A7765">103 poin </span></span>
+            <span style="font-size:28px;padding-left:2%;margin-top:20%;padding-bottom:2%"><img src="https://i.ibb.co/zhwNWVp/money-2.png" height="30px" width="30px"> Book now and get <span style="color:#3A7765">103 poin </span></span>
             <br><br>
         </div>
         <p style="font-size:32px;padding-left:4%;padding-top:4%;padding-bottom:2%;" ><b> Room Overview </b> </p>
@@ -655,7 +655,7 @@
         <br>
         <!--STICKY BOTTOM NAVBAR-->
         <nav id="navdetailbawah" class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-                <button style="width:100%;" onclick="openModal2()"> Pesan Kamar ini</button>
+                <button style="width:100%;" onclick="openModal2()"> Book this room</button>
             </span><br></a>
         </nav>
     </div>
@@ -672,7 +672,7 @@
             <div id="textnums"class="numbertext" style="font-size:24px;">1 / 4</div>
 
         <div class="caption-container">
-            <p id="caption" style="color:white;font-size:24px;">Kamar Tidur</p>
+            <p id="caption" style="color:white;font-size:24px;">Bedroom</p>
         </div>
 
         <div class="rows">
@@ -713,7 +713,7 @@
 
         <div class="caption-container">
             <br>
-            <p id="caption" style="color:white;font-size:24px;">Lobi Hotel</p>
+            <p id="caption" style="color:white;font-size:24px;">Hotel Lobby</p>
         </div>
         <div class="rows">
             <div class="column">
@@ -732,7 +732,7 @@
 
         <div class="caption-container">
             <br>
-            <p id="caption" style="color:white;font-size:24px;">Kolam Renang</p>
+            <p id="caption" style="color:white;font-size:24px;">Swimming Pool</p>
         </div>
         <div class="rows">
             <div class="column" >
@@ -766,7 +766,7 @@
         </div>
         <div class="caption-container">
             <br>
-            <p id="caption" style="color:white;font-size:24px;">Kamar</p>
+            <p id="caption" style="color:white;font-size:24px;">Bedroom</p>
         </div>
         <div class="rows">
             <div class="column" >
@@ -789,21 +789,21 @@
     <div class="modal-dialog modal-lg"  role="document">
         <div class="modal-content" style="width:100%">
         <div class="modal-header">
-            <h2 class="modal-title">Konfirmasi Pemesanan</h5>
+            <h2 class="modal-title">Book confirmation</h5>
 
             </button>
         </div>
         <div class="modal-body" >
             <br>
-            <p style="font-size:28px;">Apakah anda telah selesai melihat-melihat detail seperti foto atau lainnya dan ingin melanjutkan memesan hotel ini?</p>
+            <p style="font-size:28px;">Have you finished looking through details such as photos or other and want to continue booking this hotel?</p>
         </div>
         <div class="modal-footer">
 
 
-            <button type="button" class="btn btn-secondary" onclick="closeModal2();" style="float:left;width:120px;" >Kembali</button>
+            <button type="button" class="btn btn-secondary" onclick="closeModal2();" style="float:left;width:120px;" >Back</button>
 
 
-            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick=pesan();>Iya, Pesan Hotel</button>
+            <button type="button" class="btn btn-primary" style="float:right;width:200px;" onclick=pesan();>Yes, Book Hotel</button>
 
 
         </div>
@@ -813,10 +813,10 @@
 
 
 <div class="contain" id="backto" style="padding:15px;background-color:white;display:none;">
-    <p style="font-size:36px;" align="center">Pada titik ini, anda diasumsikan sudah melakukan pemesanan hotel. <br><br>
-        Tahap selanjutnya, anda <b><span style="color:blue ;">dapat  kembali </span> ke <span style="color:blue ;">survei google form</span></b> yang sedang anda isinya sebelumnya
-        untuk <b> menyelesaikan beberapa pertanyaan kembali. </b>
-        <br><br> Terima kasih atas partisipasinya!.
+    <p style="font-size:36px;" align="center">At this point, you are assumed to have made a hotel reservation. <br><br>
+        The next stage, you <b><span style="color:blue ;">can come back</span> to <span style="color:blue ;">google form survey</span></b> that you fill before
+        to <b> finish remaining questions. </b>
+        <br><br> Thank you for your participation!
     </p>
 </div>
 <div id="myModal3" class="modals">
@@ -866,10 +866,10 @@
         <div class="col-sm-4" style="height:675px;background-color: white;width:10px;padding:15px;">
            <span style="font-size:14px;"> <b> Room Information </b> </span><br>
            <div style="font-size:12px;padding-left:2%;padding-top:3%;padding-right:2%;"><img src="img/size.png" width="14px" height="20px"> 26.0 sqm</div>
-           <div style="font-size:12px;padding-left:2%;padding-top:2%;padding-right:2%;"><img src="https://imgur.com/K5sza9m.png" width="15px" height="15px"> 2 Tamu</div>
+           <div style="font-size:12px;padding-left:2%;padding-top:2%;padding-right:2%;"><img src="https://imgur.com/K5sza9m.png" width="15px" height="15px"> 2 Guest</div>
 
            <hr>
-           <span style="font-size:14px;"> <b> Fasilitas Kamar</b> </span><br>
+           <span style="font-size:14px;"> <b> Room Facility</b> </span><br>
            <div class="row">
                 <div class="column" style="padding-top:2%">
                     <li style="font-size:12px;padding-bottom:2%;"> Air Conditioning</li>
@@ -900,15 +900,15 @@
             </div>
          </div>
          <hr>
-           <span style="font-size:14px;"> <b> Deskripsi Kamar</b> </span><br>
-           <div style="font-size:12px;padding-top:2%">  Kamar Deluxe termasuk sarapan pagi 2 orang dan tersedia welcome drink. Jika melakukan
-        Check-out lebih dari jam 1 akan dikenakan charge tiap jamnya.<br><br>
-        Anda akan menerima welcome drink pada saat check-in dihotel.</div>
+           <span style="font-size:14px;"> <b> Room Description</b> </span><br>
+           <div style="font-size:12px;padding-top:2%">  Deluxe room includes breakfast for 2 people and welcome drink is available. If you do
+            Check-out after 1 o'clock will be charged every hour.<br><br>
+            You will receive a welcome drink upon check-in at the hotel.</div>
          <br>
          <br>
          <br>
 
-            <button style="width:100%;font-size:16px;" onclick="openModal3();"> Pesan Kamar ini</button>
+            <button style="width:100%;font-size:16px;" onclick="openModal3();"> Book this room</button>
 
         </div>
       </div>
@@ -926,10 +926,10 @@
             <br>
             <div >
                 <br>
-                <span style="color:white;background-color:#3A7765" id="tulislobi"><a href="#" style="color:white"onclick="filterPreview();">Lobi</a> </span>
-                <span style="color:white" id="tuliskolamrenang"><a href="#" style="color:white"onclick="filterPreview2();">Kolam Renang </a></span>
-                <span style="color:white" id="tulisrestoran"><a href="#" style="color:white"onclick="filterPreview3();">Restoran </a></span>
-                <span style="color:white" id="tuliskamartidur"><a href="#" style="color:white"onclick="filterPreview4();">Kamar Tidur</a></span>
+                <span style="color:white;background-color:#3A7765" id="tulislobi"><a href="#" style="color:white"onclick="filterPreview();">Lobby</a> </span>
+                <span style="color:white" id="tuliskolamrenang"><a href="#" style="color:white"onclick="filterPreview2();">Swimming Pool</a></span>
+                <span style="color:white" id="tulisrestoran"><a href="#" style="color:white"onclick="filterPreview3();">Restaurant </a></span>
+                <span style="color:white" id="tuliskamartidur"><a href="#" style="color:white"onclick="filterPreview4();">Bedroom</a></span>
 
             </div>
             <br>
@@ -1005,7 +1005,7 @@
   </div>
   <script>
     $(document).ready(function(){
-        alert("Mohon Untuk kembali ke halaman survei google form sebelumnya setelah melihat-lihat halaman website ini. Terima kasih atas partisipasinya, semoga hari Anda menyenangkan!");
+        alert("Please return to the previous google form survey page after browsing this website. Thank you for participating, have a nice day!");
     });
 </script>
 <script src="/js/skenario2js/gantiGambarPreview.js"></script>
