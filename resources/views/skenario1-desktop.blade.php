@@ -98,19 +98,19 @@
             <div class="rows" style="padding-left:5%:">
                 <div class="column" align="center"style="font-size:10px;">
                     <img src="img/icon/food.png" width="60" height="60"><br><br>
-                    <span  style="font-size:14px;">Restoran </span>
+                    <span  style="font-size:14px;">Restaurant </span>
                 </div>
                 <div class="column" align="center"style="font-size:10px;">
                     <img src="img/icon/ladder.png" width="60" height="60"><br><br>
-                    <span style="font-size:14px;">Kolam Renang </span>
+                    <span style="font-size:14px;">Swimming Pool</span>
                 </div>
                 <div class="column"align="center" style="font-size:10px;">
                     <img src="img/icon/24-hours.png" width="60" height="60"><br><br>
-                    <span  style="font-size:14px;">Room Service 24 Jam </span>
+                    <span  style="font-size:14px;">Room Service 24 Hour </span>
                 </div>
                 <div class="column" align="center"style="font-size:10px;">
                     <img src="img/icon/barbel.png" width="60" height="60"><br><br>
-                    <span style="font-size:14px;">Pusat Kebugaran</span>
+                    <span style="font-size:14px;">Gym</span>
                 </div>
                 <div class="column"align="center" >
                     <img src="img/icon/spa.png" width="60" height="60"><br><br>
@@ -130,7 +130,7 @@
         <div class="contain" style="background-color:white;padding:20px;">
             <div class="row">
                 <div class="column">
-            <span style="font-size:16px;"><b>Deskripsi Hotel</b></span>
+            <span style="font-size:16px;"><b>Hotel Description</b></span>
             <p style="padding:15px;font-size:14px;" align="justify">
                 Hotel Arison merupakan hotel bintang 4. Nuansa klasik dan mewah menjadi ciri khas penginapan ini. <br>
                 <br>
